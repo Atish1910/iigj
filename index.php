@@ -184,25 +184,25 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-3 ">IIGJ’S COURSES</h3>
+                        <h3 class="text-center fw-bold text-golden pb-3 ">CERTIFICATE COURSES</h3>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row justify-content-center">
                     <?php
-                        $a = array("1","2","3","4");
-                        $b_01 = array("mt-5 mt-md-0","mt-5 ","mt-5 mt-md-0","mt-5");
-                        $c = array("","box-002","","box-002");
-                        $e = array( "DEGREE PROGRAMMES", "POST GRADUATE DIPLOMA PROGRAMMES", "DIPLOMA PROGRAMMES", "CERTIFICATE COURSES");
-                        $f = array("These intensive 3- and 4-Year programmes teach everything you need to know in modern jewellery design, production, gemmology and retailing (merchandising). Theory and practical knowledge from faculty who are industry experts in their own fields train you for careers in the gem & jewellery industry, as professionals and entrepreneurs. Internship, in the final year, is an important part of the training. Placements in leading jewellery companies, are assured. IIGJ offers two Degree programmes.","IIGJ's Post Graduate Diploma programme curriculum is designed to empower a graduate in any stream to pursue an interesting and lucrative career, or become an entrepreneur, in the fast-growing and dynamic gem and jewellery industry. This programme is also particularly useful for those who want to manage a family jewellery business. The student learns processes in manual and CAD jewellery designing, manufacturing, gemmology and merchandising along with management concepts. Opportunities for placement are offered by the Institute.","Diploma programmes are for those who have passed 12th Class (Undergraduates) and are looking for medium duration programmes in a specific field of jewellery. These programmes in Manual Jewellery Design, CAD, Manufacturing and Gemmology aim to give a solid foundation in any of the subjects chosen.","IIGJ's Certificate Courses are offered in a variety of gem and jewellery topics to suit different requirements. These are of short duration and are useful for all who wish to learn something new in jewellery or to upgrade existing skills.");
-                        $g = array("<li>B.Des In Jewellery Design (4 Years) - Jaipur</li> <li>B.A. In Gem & Jewellery Design (3 Years) - Mumbai</li>","<li>PG Diploma in Jewellery Management - Mumbai</li>","<li>Design - Manual</li> <li>Design - CAD (Rhinoceros & Matrix)</li> <li>Manufacturing</li> <li>Gemmology</li>","<li>Delhi</li> <li>Jaipur</li> <li>Mumbai</li> <li>Udupi</li> <li>Varanasi</li>");
+                        $a = array("1","2","3","4","5");
+                        $b_01 = array("mt-5 mt-md-0","mt-5 ","mt-5 mt-md-0","mt-5","mt-5");
+                        $c = array("box-002","","box-002","","box-002");;
+                        include 'city_course.php';
+                        $e = array(  "Delhi", "Jaipur", "Mumbai", "Udupi", "Varanasi",);
                         for ($i=0; $i < count($a); $i++) {
                             ?>
-                    <div class="col-md-3 position-relative bg_height <?= $b_01[$i];?>"
+                    <div class="col-md-4 position-relative bg_height <?= $b_01[$i];?>"
                         data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.jpg">
 
                         <div class="box-001 <?= $c[$i];?>">
-                                <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter"  alt="">
-                            <h4 class="text-white"><?= $e[$i];?></h4>
+                            <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter" alt="">
+                            <h4 class="text-white mt-2"><?= $e[$i];?></h4>
+                            <p>IIGJ's Certificate Courses are offered in a variety of gem and jewellery topics to suit different requirements. These are of short duration and are useful for all who wish to learn something new in jewellery or to upgrade existing skills.</p>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn c_btn" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal<?= $a[$i];?>"> Read More </button>
@@ -210,17 +210,19 @@
                             <!-- Modal -->
                             <div class="modal fade" id="exampleModal<?= $a[$i];?>" tabindex="-1"
                                 aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
+                                <div class="modal-dialog modal-xl">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title text-golden fw-bold" id="exampleModalLabel">
-                                                <?= $e[$i];?></h5>
+                                            <h5 class="modal-title text-golden fw-bold" id="exampleModalLabel"><?= $e[$i];?></h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-dark">
-                                            <p><?= $f[$i];?></p>
-                                            <ul class="fw-bold"><?= $g[$i];?></ul>
+
+                                            <div class="table-responsive center_tagline">
+                                                
+                                                <?= $g[$i];?>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -264,8 +266,8 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
-                                                    <select class="form-control form_servi" placeholder="graduation"
-                                                        name="n_graduation">
+                                                    <select class="form-control dept_01 form_servi"
+                                                        placeholder="graduation" name="n_graduation">
                                                         <option selected disabled>Select Discipline</option>
                                                         <option value="degree">DEGREE PROGRAMMES</option>
                                                         <option value="post-diploma">POST GRADUATE DIPLOMA PROGRAMMES
@@ -281,11 +283,12 @@
                                                         <option selected value disabled="">Select Programme</option>
                                                         <?php 
                                                             foreach ($b as $k => $v) {
-                                                                // print_r($k1);
+                                                                // print_r($k);
                                                                 ?>
                                                         <optgroup label="<?= $k;?>" class="d-none">
                                                             <?php 
                                                             foreach ($v as $k1 => $v1) {
+                                                                // print_r($k1);
 
                                                             ?>
                                                             <option data-course="<?= $k;?>" value="<?= $k1;?>">
@@ -300,48 +303,40 @@
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12 text-center  nav_01 d-grid table_css">
+                                            <div class="col-md-12 text-center   nav_01 d-grid table_css">
                                                 <!-- Button trigger modal -->
                                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModal_form">View Program</button>
+                                                    data-bs-target="#exampleModal">View Program</button>
                                                 <!-- Modal -->
-                                                <div class="modal fade " id="exampleModal_form" tabindex="-1"
-                                                    aria-labelledby="exampleModalLabel_form" aria-hidden="true">
-                                                    <?php 
-                                                        $i =0;
-                                                        foreach ($v as $k1 => $v1) {
-                                                            // print_r($k1)
-                                                    ?>
 
-                                                    <div class="modal-dialog course_data d-none modal-lg"
-                                                        label="<?= $k1;?>" data-course="<?= $k1;?>">
+
+                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <?php 
+                                                            foreach ($b as $k => $v) {
+                                                            foreach ($v as $k1 => $v1) {
+                                                                // print_r($k1);
+                                                        ?>
+                                                    <div class="modal-dialog course_data d-none modal-lg "
+                                                        label="<?= $k1;?>">
                                                         <div class="modal-content">
                                                             <div class="modal-header bg-golden text-start">
                                                                 <h1 class="modal-title fs-5 text-uppercase  text-white"
-                                                                    id="exampleModalLabel_form"><?= $k;?></h1>
+                                                                    id="exampleModalLabel_form"><?= $k1;?></h1>
                                                                 <button type="button" class="btn-close"
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body text-start">
-                                                                <h3 class="">B.Des in Jewellery Design</h3>
+                                                                <h3 class=""><?= $v1['head']; ?></h3>
                                                                 <div class="">
-                                                                    <p><b>Course Location :</b> Jaipur</p>
-                                                                    <p><b>Course Duration :</b> 1year</p>
-                                                                    <p><b>Eligibility :</b> 12th Pass</p>
+                                                                    <p><b>Course Location :</b> <?= $v1['location']; ?>
+                                                                    </p>
+                                                                    <p><b>Course Duration :</b> <?= $v1['duration']; ?>
+                                                                    </p>
+                                                                    <p><b>Eligibility :</b> <?= $v1['elebligity']; ?>
+                                                                    </p>
                                                                     <p><b>Course Overview & Career Options
-                                                                            :<br></b>Bachelor’s in Design – Jewellery
-                                                                        Design programme looks for spirited, focused,
-                                                                        and career oriented students who are keen to
-                                                                        carve a niche for themselves in this ever
-                                                                        evolving and vibrant Gems and Jewellery
-                                                                        industry. The industry has shown tremendous
-                                                                        growth potential and welcomes aspiring
-                                                                        professionals who values innovation and
-                                                                        originality. This course is well suited for
-                                                                        those who are dedicated and wants to work in
-                                                                        this industry to make a serious career and is
-                                                                        also keen to develop a wide range of skills and
-                                                                        willing to grow with the industry.</p>
+                                                                            :<br></b><?= $v1['overview']; ?></p>
                                                                 </div>
                                                                 <div class="text-center">
                                                                     <a href="#form_01" type="button"
@@ -352,11 +347,8 @@
 
                                                             </div>
                                                         </div>
-
                                                     </div>
-                                                    <?php 
-                                                    $i++;}
-                                                ?>
+                                                    <?php }}; ?>
                                                 </div>
                                             </div>
                                         </div>
@@ -418,6 +410,8 @@
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
+
+
         <!---our top ranked patanered end--->
         <section class="py-5 bg-grey">
             <div class="container wow fadeInUp" data-wow-delay="0.1s">
@@ -430,20 +424,41 @@
                     </div>
                     <div class="col-md-8 owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                         <?php
-                    $a = array("Mr. Hritik Munde","Mr. Patil Prabodh Uttam ","Mr. Hritik Munde ","Sakshi Kunal Shejwal","Mr. Rushikesh shelke ");
-                    $b = array("Don't feel bad if others are getting placed because you'll also but sometimes it takes time so keep trying Says, “Hritik Munde” who has been placed with Blue Conch Technologies.","Getting placed with Accenture is a dream come true, and it would not have been possible without the guidance and support that I received from MITAOE and it’s Placement cell","Rushikesh Bharat Sonar from the CSE branch got placed with Delloite with an annual package of 7.6 LPA. He believes MIT’s placement cell efficiently guided him through with a Quality aptitude practice test from tech guru and many others which helped to crack the first round of many companies.","The Placement cell has helped me recognise several internships and job offers while my department has been very supportive and helpful. It was all these support and practices that led me to bag a package of 5 LPA at Celebal Technologies.","The AMCAT test conducted at the institute level helped me crack many companies aptitude tests. Overall the support of the CR team and professional skills taught at all the levels of my college life helped me get placed with Robert Bosch Engineering.");;
+                    $a = array( "Disha Jain", "Shivam Deshmukh", "Ankita Tulsiani", "KINNARI AJMERA", "Jheel Kapadia", "Chirag Soni", "Rishik Agrawal", "Mukesh Patel", "Amrish Srivastav");
+                    $b = array( "Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Varanasi","Student, IIGJ Varanasi","Student, IIGJ Varanasi",);
+                    $c = array("I enrolled at IIGJ to get a basic know-how of jewellery designing but by the end of the        course, I acquired an advanced understanding - starting from scratch to the end of the product. Today, I am        thoroughly equipped with knowledge and skill-sets to make for a great start in the industry.", "IIGJ Jaipur is not only an institute but a platform, which helped me from                holding a pencil to design to the actual manufacturing of jewellery. IIGJ Jaipur gave a whole lot of                practical knowledge with the support of great teachers. It is one of the leading institutes with all                facilities for jewellery designing and manufacturing.", "An essential aspect of a creative designer is not being afraid to fail” and                this is exactly what is taught at IIGJ. Studying here was an exuberant experience as it gave an ideal                combination of both practical and theoretical skills, thus setting the right ground for a successful                career. Now I can say: ‘Design is not just about how it looks but how it works’", "IIGJ Mumbai is a treasure for abundance practical knowledge & in enhancing ones                creativity. During these 3 years, It's always been to learn & explore something interesting every single                day. The faculty creates such a creative vibe, that it ensures you come up with good result. It also                conducts Industrial Visits, where you can directly interact with Industry Professionals & also gives you                an opportunity to work with reputed companies. So If your aim is to be a Gem, then IIGJ is a perfect                Guide to your Success.", "This is the best place to learn everything about Jewellery. They teach you the                from the basic of jewellery and turn you to the professional jewellery maker so that you are ready to                enter the industry. The faculty are also very supportive and patient to teach you the same thing till                you donâ€™t learn They also have 3years B.A Degree course in jewellery. And also provide internship in a                well know firm and also help you with your placements for permanent job.", "It was an incredible experience, I learned the various aspect of Jewellery right                from Jewellery Designing, CAD, Diamond Grading, Gemmology and many more. This helped me a lot to learn                Jewellery Design in Absolute Detail and start my own business I must say IIGJ Mumbai is fantastic                platform for those who would like to enter the Jewellery industry or start their own business. I would                like to extend my gratitude to all faculty member for immense support and guidance.", "It was a great experience studying at IIGJ Varanasi, a memory to cherish for                lifetime. My experience at IIGJ was full of learning and grooming. I am thankful to all the faculties,                mentors and entire department for providing us with quality education. I am also thankful to IIGJ to                provide me help to setup new manufacturing unit.", "I always wanted to learn about jewellery-making, the whole procedure of learning                and making. I now have a better understanding on the techniques/materials . Now I have better knowledge                of Jewellery manufacturing process and I can utilize this knowledge to expand my business.", "IIGJ Varanasi is one of the best Institute in UP for providing Jewellery manufacturing training . I really enjoyed 1 year of my training in Diploma course. I learned a lot and now I am able to increase my efficiency in manufacturing.");;
                     for ($i=0; $i < count($a); $i++) { 
                 ?>
                         <div class="row align-items-stretch">
                             <div class="testimonial-item rounded align-items-stretch p-4 p-lg-5 mb-5">
-                                <img class="mb-4" src="<?= LINK; ?>images/placement/<?= $i+1; ?>.jpg" alt="">
+                                <img class="mb-4" src="<?= LINK; ?>images/iigj/students/<?= $i+1; ?>.jpg" alt="">
                                 <p class="mb-4"><?= $b[$i]; ?></p>
                                 <h5><?= $a[$i]; ?></h5>
-                                <span class="text-dark">Campus Placement</span>
+                                <span class="text-dark"><?= $c[$i]; ?></span>
                             </div>
                         </div>
                         <?php } ?>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- ---------------------------------------------------------------------------- -->
+        
+        <section>
+            <div class="container py-5 ">
+                <div class="row justify-content-center company-carousel owl-carousel">
+                    <?php
+                    for ($i=1; $i < 36; $i++) {
+                ?>
+                    <div class="col-md-12 company_01">
+                        <img src="images/iigj/placement/logo<?= $i+1;?>.jpg" alt="">
+                    </div>
+
+                    <?php
+                    } 
+                ?>
                 </div>
             </div>
         </section>
@@ -636,25 +651,6 @@
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
-
-        <section>
-            <div class="container py-5 ">
-                <div class="row justify-content-center company-carousel owl-carousel">
-                    <?php
-                    for ($i=1; $i < 17; $i++) {
-                ?>
-                    <div class="col-md-12 company_01">
-                        <img src="images/iigj/company/<?= $i+1;?>.webp" alt="">
-                    </div>
-
-                    <?php
-                    } 
-                ?>
-                </div>
-            </div>
-        </section>
-        <!-- ---------------------------------------------------------------------------- -->
-        <!-- ---------------------------------------------------------------------------- -->
 
 
         <!-- ------------------------------------------------------------------------------------------------------------------ -->

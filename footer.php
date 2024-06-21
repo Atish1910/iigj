@@ -7,11 +7,11 @@
                     <h4 class="text-yellow mb-3 fw-bold">Our Institute</h5>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bagmal Laxmichand Campus, 111/2, Road
                             No. 13, M.I.D.C. Andheri (E), Mumbai 93.</p>
-                        <p class="mb-2"><a href="tel:+91-88790 26633"><i class="fa fa-phone-alt me-3"></i>+91 22 4290
+                        <!-- <p class="mb-2"><a href="tel:+91-88790 26633"><i class="fa fa-phone-alt me-3"></i>+91 22 4290
                                 6666,
                                 +91-88790 26633.</a></p>
                         <p class="mb-2"><a href="mailto:admissions@iigj.ac.in"><i
-                                    class="fa fa-envelope me-3"></i>admissions@iigj.ac.in</a></p>
+                                    class="fa fa-envelope me-3"></i>admissions@iigj.ac.in</a></p> -->
                 </div>
             </div>
             <div class="col-md-8 py-5">
@@ -24,16 +24,16 @@
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <ul><small><b>POST GRADUATE DIPLOMA PROGRAMMES</b></small>
-                                <li><small>PG Diploma in Jewellery Management - Mumbai</small></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
                             <ul><small><b>DIPLOMA PROGRAMMES</b></small>
                                 <li><small>Design - Manual</small></li>
                                 <li><small>Design - CAD (Rhinoceros & Matrix)</small></li>
                                 <li><small>Manufacturing</small></li>
                                 <li><small>Gemmology</small></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul><small><b>POST GRADUATE DIPLOMA PROGRAMMES</b></small>
+                                <li><small>PG Diploma in Jewellery Management - Mumbai</small></li>
                             </ul>
                         </div>
                     </div>

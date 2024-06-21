@@ -33,13 +33,20 @@
         $('.form_deptart optgroup').addClass('d-none')
         $('.form_deptart optgroup[label="' + a + '"]').removeClass('d-none')
     })
+
+
+    $('.dept_01').on('change', function () {
+        let a = $(this).val()
+        $('.programm_01 optgroup').addClass('d-none')
+        $('.programm_01 optgroup[label_02="' + a + '"]').removeClass('d-none')
+    })
     
     
     
-    // $('.course_01').on('change', function () {
+    // $('.dept_01').on('change', function () {
     //     let a = $(this).val()
-    //     $('.course_data').addClass('d-none')
-    //     $('.course_data').removeClass('d-none')
+    //     $('.programm_01').addClass('d-none')
+    //     $('.programm_01').removeClass('d-none')
     // })
 
     $('.course_01').on('change', function () {

@@ -1948,3 +1948,8 @@ iframe .widget_container {
 }
 
 }
+.center_tagline th {
+    color: white;
+    background-color: var(--golden) !important;
+    text-transform: capitalize !important;
+}
