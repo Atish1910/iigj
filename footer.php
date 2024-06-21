@@ -1,99 +1,81 @@
     <!-- Footer Start -->
-    <div class="container-fluid bg-black footer wow fadeIn text-white" data-wow-delay="0.1s" id="n_contact">
+    <div class="container bg-gray footer wow fadeIn" data-wow-delay="0.1s" id="n_contact">
         <!-- <div class="container"> -->
-        <div class="row justify-content-center py-5">
-            <div class="col-lg-2 wow slideInUp footer_01">
+        <div class="row ">
+            <div class="col-md-4 wow slideInUp py-5 footer_01">
                 <div class="p-3 p-md-0">
-                    <h4 class="text-light-blue mb-3 fw-bold">INFORMATION</h5>
-                        <p>Registration Start Date <br> Registration End Date <br> Exam Last Date CUCET-I</p>
-                </div>
-                <img src="images/chandigarh-uni/footer/1.webp" height="60px" alt="">
-            </div>
-            <div class="col-md-2">
-                <div class="p-3 p-md-0">
-                    <h4 class="text-light-blue mb-3 fw-bold">DATES</h5>
-                        <p>20 Oct 2023 <br>
-                            20 June 2024 <br> 20 Oct 2023 to 21 June 2024</p>
-                </div>
-                <img src="images/chandigarh-uni/footer/2.webp" height="60px" alt="">
-            </div>
-            <div class="col-md-2">
-                <div class="p-3 p-md-0">
-                    <h4 class="text-light-blue mb-3 fw-bold">ABOUT CUCET</h5>
-                        <div class="footer_02">
-                            <div class=""><a href="#1" class="">CUCET</a></div>
-                            <div class=""><a href="#2" class="">Eligibility</a></div>
-                            <div class=""><a href="#3" class="">Application Process</a></div>
-                            <div class=""><a href="#4" class="">Syllabus</a></div>
-                        </div>
+                    <h4 class="text-yellow mb-3 fw-bold">Our Institute</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bagmal Laxmichand Campus, 111/2, Road
+                            No. 13, M.I.D.C. Andheri (E), Mumbai 93.</p>
+                        <p class="mb-2"><a href="tel:+91-88790 26633"><i class="fa fa-phone-alt me-3"></i>+91 22 4290
+                                6666,
+                                +91-88790 26633.</a></p>
+                        <p class="mb-2"><a href="mailto:admissions@iigj.ac.in"><i
+                                    class="fa fa-envelope me-3"></i>admissions@iigj.ac.in</a></p>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="p-3 p-md-0">
-                    <h4 class="text-light-blue mb-3 fw-bold">SUPPORT</h5>
-                        <div class="footer_02">
-                            <div class=""><a href="#1" class="">FAQ</a></div>
+            <div class="col-md-8 py-5">
+                <h4 class="text-yellow mb-3 fw-bold">IIGJ’S Courses</h5>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul><small><b>DEGREE PROGRAMMES</b></small>
+                                <li><small>B.Des In Jewellery Design (4 Years) - Jaipur</small></li>
+                                <li><small>B.A. In Gem & Jewellery Design (3 Years) - Mumbai</small></li>
+                            </ul>
                         </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="p-3 p-md-0">
-                    <h4 class="text-light-blue mb-3 fw-bold">GET IN TOUCH</h5>
-                        <p>Chandigarh University NH-05 Chandigarh-Ludhiana Highway, Mohali, Punjab (INDIA)</p>
-                        <p class="mb-0">General Helpline No:</p>
-                        <div class="footer_02">
-                            <div class=""><a href="#1" class="">+91-160-3051003</a></div>
+                        <div class="col-md-6">
+                            <ul><small><b>POST GRADUATE DIPLOMA PROGRAMMES</b></small>
+                                <li><small>PG Diploma in Jewellery Management - Mumbai</small></li>
+                            </ul>
                         </div>
-                        <p class="mb-0">Toll Free:</p>
-                        <div class="footer_02">
-                            <div class=""><a href="" class="">1800 1212 88800</a></div>
-                            <div class=""><a href="" class="">8146948000 (General Enquiry)</a></div>
-                            <div class=""><a href="" class="">8146947000 (Technical Support)</a></div>
-                        </div>
-                        
-                        <p class="mb-0">Whatsapp:</p>
-                        <div class="footer_02">
-                            <div class=""><a href="" class="">9611092092</a></div>
-                        </div>
-                        
-                        <p class="mb-0">Email:</p>
-                        <div class="footer_02">
-                            <div class=""><a href="" class="">cucet@cumail.in</a></div>
-                        </div>
-                </div>
-            </div>
-            <!-- Footer End -->
-
-
-            <!-- Copyright Start -->
-            <div class="container-fluid copyright py-4">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 mb-3 mb-md-0">
-                        <div class="d-flex">
-                        <a class="btn btn-square btn-light rounded-circle me-2" target="_blank"
-                            href=""><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" target="_blank"
-                            href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" target="_blank"
-                            href=""><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" target="_blank"
-                            href=""><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-square btn-light rounded-circle me-2" target="_blank"
-                            href=""><i
-                                class="fab fa-twitter"></i></a>
-                    </div>
-                        </div>
-                        <div class="col-md-6 text-center mb-3 mb-md-0">
-                            &copy; <?= date('Y'); ?> <a class="fw-bold text-light" href="#">  Chandigarh University </a>, All Right Reserved.
+                        <div class="col-md-6">
+                            <ul><small><b>DIPLOMA PROGRAMMES</b></small>
+                                <li><small>Design - Manual</small></li>
+                                <li><small>Design - CAD (Rhinoceros & Matrix)</small></li>
+                                <li><small>Manufacturing</small></li>
+                                <li><small>Gemmology</small></li>
+                            </ul>
                         </div>
                     </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3 mb-md-0">
+                    &copy; <?= date('Y'); ?> <a class="fw-bold text-light" href="#">IIGJ</a>, All Right
+                    Reserved.
                 </div>
             </div>
-            <!-- Copyright End -->
+        </div>
+    </div>
+    <!-- Copyright End -->
 
 
-            <!-- Back to Top -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg bg-dark text-white btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+    <button type="button" class="btn c_btn rounded-pill px-4 right_button " data-bs-toggle="modal"
+        data-bs-target="#exampleModal">Apply Now</button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-golden">
+                <div class="modal-header">
+                    <h5 class="modal-title pratafon text-white" id="exampleModalLabel">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <?php 
+                        include 'form_01.php'; 
+                    ?>
+                </div>
+            </div>
+        </div>
+    </div>

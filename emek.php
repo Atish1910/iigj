@@ -342,7 +342,7 @@
             <tr style="border-collapse:collapse">
               <td align="center" style="padding:0;Margin:0">
                 <table class="es-content-body" cellspacing="0" cellpadding="0" align="center"
-                  style=" background-image: url(images/chandigarh-uni/banners/1.jpg);border-collapse:collapse;border-spacing:0px; background-size: cover; height: 465px; background-position: center; ">
+                  style=" background-image: url(images/iigj/banners/1.jpg);border-collapse:collapse;border-spacing:0px; background-size: cover; height: 465px; background-position: center; ">
                   <tr style="border-collapse:collapse">
                     <td align="left"
                       style="Margin:0;padding-bottom:10px;padding-top:15px;padding-left:20px;padding-right:20px">

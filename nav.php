@@ -19,7 +19,7 @@
      <div class="container">
          <nav class="navbar navbar-expand-lg  navbar-light p-lg-0">
              <a href="<?= LINK; ?>" class="navbar-brand">
-                 <img src="images/logo.png" alt="">
+                 <img src="images/iigj/logo/1.jpg" alt="">
              </a>
              <div class=""></div>
              <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -32,14 +32,14 @@
                  </div> -->
                  <div class="navbar-nav">
                      <a href="<?= LINK; ?>" class="nav-item nav-link"><i class="fas fa-home fs-5 me-1"></i></a>
-                     <a href="#about-us" class="nav-item nav-link">WHY CUCET</a>
+                     <a href="#about-us" class="nav-item nav-link">About Us</a>
                      <a href="#Programme-2024-25" class="nav-item nav-link">Programme</a>
-                     <a href="#admission-details" class="nav-item nav-link">How To Apply</a>
-                     <a href="#n_contact" class="nav-item nav-link">FAQ</a>
+                     <a href="#admission-details" class="nav-item nav-link">Placements</a>
+                     <a href="#n_contact" class="nav-item nav-link">LOcation</a>
                      <a href="#n_contact" class="nav-item nav-link">Contact Us</a>
                      <div class="d-lg-block">
-                         <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 text-white"
-                             data-bs-toggle="modal" data-bs-target="#exampleModal">Start Your Test</a>
+                         <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 "
+                             data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
                      </div>
                  </div>
              </div>

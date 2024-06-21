@@ -1,0 +1,57 @@
+{
+  "degree": {
+
+    "b-des": {
+      "head": "B.Des In Jewellery Design (4 Years) - Jaipur",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    },
+    "ba-in-gem": {
+      "head": "B.A. In Gem & Jewellery Design (3 Years) - Mumbai",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    }
+
+  },
+  "post-diploma": {
+
+    "pg-diploma": {
+      "head": "PG Diploma in Jewellery Management - Mumbai",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    }
+
+  },
+  "diploma": {
+
+    "design-manual": {
+      "head": "Design - Manual",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    },
+    "Design-cad": {
+      "head": "Design - CAD (Rhinoceros & Matrix)",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    },
+    "manufacturing": {
+      "head": "Manufacturing",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    },
+    "Gemmology": {
+      "head": "Gemmology",
+      "elebligity": "Three year Diploma with at least 50% marks in relevant branch of Engineering / Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC,with at least 50% marks and passed 10+2 examination with Physics as a subject. Provided all Basic Science and Program Core Courses in first year curriculum are covered in the Diploma / BSc degree. In case of deficient prerequisites, bridge courses need to be completed as specified by the equivalence committee",
+      "fees": "102650/- INR",
+      "content_p": "The idea of luxury often conjures images of opulent mansions, lavish decor, and extravagant price tags. However, achieving a luxurious ambiance doesn't ....."
+    }
+
+  }
+
+}

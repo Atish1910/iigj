@@ -79,7 +79,7 @@
         loop: true,
         center: false,
         dots: false,
-        nav: false,
+        nav: true,
         navText: [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
@@ -95,7 +95,7 @@
                 items: 2
             },
             992: {
-                items: 3
+                items: 2
             }
         }
     });

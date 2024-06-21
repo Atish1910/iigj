@@ -3,24 +3,24 @@
         <li class="col-md-3 d-flex justify-content-center pe-0 px-3  nav-item" role="presentation">
             <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
                 type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                <img src="images/chandigarh-uni/testi/1.jpg" alt=""></button>
+                <img src="images/iigj/testi/1.jpg" alt=""></button>
         </li>
         <li class="col-md-3 d-flex justify-content-center px-0 nav-item" role="presentation">
             <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
                 type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                <img src="images/chandigarh-uni/testi/2.jpg" alt="">
+                <img src="images/iigj/testi/2.jpg" alt="">
             </button>
         </li>
         <li class="col-md-3 d-flex justify-content-center ps-0 nav-item" role="presentation">
             <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
                 type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
-                <img src="images/chandigarh-uni/testi/3.jpg" alt="">
+                <img src="images/iigj/testi/3.jpg" alt="">
             </button>
         </li>
         <li class="col-md-3 d-flex justify-content-center ps-0 nav-item" role="presentation">
             <button class="nav-link" id="pills-career-tab" data-bs-toggle="pill" data-bs-target="#pills-career"
                 type="button" role="tab" aria-controls="pills-career" aria-selected="false">
-                <img src="images/chandigarh-uni/testi/4.jpg" alt="">
+                <img src="images/iigj/testi/4.jpg" alt="">
             </button>
         </li>
 
@@ -95,7 +95,7 @@
                             ?>
                 <div class="col-md-2 position-relative">
                     <div class="border_img">
-                        <img src="images/chandigarh-uni/testi/abet.webp" width="80px" alt="">
+                        <img src="images/iigj/testi/abet.webp" width="80px" alt="">
                         <p><?= $a[$i];?><br><b><?= $b[$i];?></b></p>
                     </div>
                 </div>
