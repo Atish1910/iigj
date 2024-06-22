@@ -78,11 +78,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-4 pt-3 pt-md-0 h_abform" id="form_01">
-                                    <div class="mb-3">
-                                        <h3 class="text-white">CUCET APPLICATION FORM 2024</h2>
-                                            <h6 class="text-white">APPLY FOR CUCET 2024 (PHASE-I)</h6>
+                                    <div class="rounded-3 over_hidden pt-3 bg-white">
+                                        <div class="">
+                                            <h3 class=""> Admission Open 2024</h2>
+                                            <h6 class="">Enquire Now</h6>
+                                        </div>
+                                        <?php include 'form_01.php';?>
                                     </div>
-                                    <?php include 'form_01.php';?>
                                 </div>
                             </div>
                         </div>
@@ -257,20 +259,17 @@
                                                                 </div>
                                                                 <div class="text-center overlap_modal">
 
-                                                                    <a href="<?= LINK; ?>"
-                                                                        class="btn c_btn py-2 px-3 ms-2 mt-3 "
-                                                                        data-bs-toggle="modal"
-                                                                        data-bs-target="#exampleModal_004">Know More</a>
+                                                                    <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 " data-bs-toggle="modal" data-bs-target="#exampleModal_<?= $k1;?>">Know More</a>
 
-                                                                    <div class="modal fade" id="exampleModal_004"
+                                                                    <div class="modal fade" id="exampleModal_<?= $k1;?>"
                                                                         tabindex="-1"
-                                                                        aria-labelledby="exampleModalLabel_04"
+                                                                        aria-labelledby="exampleModalLabel_<?= $k1;?>"
                                                                         aria-hidden="true">
                                                                         <div class="modal-dialog">
                                                                             <div class="modal-content bg-white">
                                                                                 <div class="modal-header">
                                                                                     <h5 class="modal-title pratafon text-golden"
-                                                                                        id="exampleModalLabel_04">
+                                                                                        id="exampleModalLabel_<?= $k1;?>">
                                                                                         Enquire
                                                                                         Now</h5>
                                                                                     <button type="button"

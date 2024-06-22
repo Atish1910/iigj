@@ -128,151 +128,7 @@
         }
     });
 
-    $(".city-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: false,
-        dots: false,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 2
-            },
-            992: {
-                items: 4
-            }
-        }
-    });
     
-    $(".facilities-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: false,
-        dots: false,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
-    });
-
-    
-    // Project and Testimonial carousel
-    $(".students-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: false,
-        dots: true,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 1
-            }
-        }
-    });
-
-    
-    
-    // Project and Testimonial carousel
-    $(".infra-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: false,
-        dots: true,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 1
-            },
-            992: {
-                items: 1
-            }
-        }
-    });
-
-    $(".h_our").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        margin: 25,
-        loop: true,
-        center: false,
-        dots: true,
-        nav: false,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 2.1
-            }
-        }
-    });
-    // $('.h_our').data('owl.carousel').difference = function(first, second) {
-    //     return {
-    //         x: first.x - second.x + (first.y - second.y),
-    //         y: first.y - second.y
-    //     };
-    // };
-
     let lglink = window.location.href;
     $('.navbar-nav a[href="' + lglink + '"]').addClass('active');
 
@@ -298,16 +154,8 @@
     $('[data-bgimg]').each(function () {
         $(this).css('background-image', 'url(' + $(this).data('bgimg') + ')')
     })
-    // $("a.nav-link").on('click', function (e) {
-    //     e.preventDefault();
-    //     var target = $(this).attr('href');
-    //     $('html, body').animate({
-    //         scrollTop: ($(target).offset().top - 80)
-    //     }, 5);
-    //     setTimeout(function () {
-    //         $('.navbar-toggler').click()
-    //     }, 1000);
-    // });
+
+    
     $('.counter-value').each(function () {
         $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
@@ -320,65 +168,6 @@
         });
     });
 
-    $(document).ready(function () {
-        $('.enqui_form_ai').on('submit', function () {
-            var nform = $(this);
-            // let url = $(this).find(".ngaction").data("nsform");
-            let url = 'sen_mail.php';
-            var btn = true;
-
-            nform.find('input, textarea,select').each(function () {
-                var n = $(this).val();
-                if ($.trim(n) == "") {
-                    $(this).css("border", "1px solid red");
-                    btn = false;
-                } else {
-                    $(this).css("border", "1px solid #ccc");
-                }
-            });
-            if (btn == true) {
-                var mbtn = nform.find('button');
-                mbtn.html('Please Wait...');
-                mbtn.attr('disabled', true);
-                mbtn.css("cursor", "not-allowed");
-                $.ajax({
-                    type: 'POST',
-                    url: url,
-                    data: nform.find(":input").serializeArray(),
-                    success: function (data) {
-                        if (data == "y") {
-                            nform.find('.success1').html('Thankyou For Your Enquiry');
-                            setTimeout(function () {
-                                mbtn.attr('disabled', false);
-                                mbtn.css("cursor", "pointer");
-                                window.location.href = 'thankyou';
-                            }, 2000)
-                        } else {
-                            nform.find('.error1').html(data);
-                            setTimeout(function () {
-                                nform.find(".error1").html("")
-                                mbtn.html('Submit');
-                            }, 4000)
-                            mbtn.attr('disabled', false);
-                            mbtn.css("cursor", "pointer");
-                        }
-                    }
-                });
-            }
-            console.log(btn);
-            return false;
-        })
-        $(".dropdown-submenu > a").on("click", function (e) {
-            // Prevent the default behavior of the link
-            e.preventDefault();
-            // Toggle the display of the sub-sub dropdown menu
-            var subsubmenu = $(this).next();
-            subsubmenu.toggle();
-            // Stop the event propagation to the parent elements
-            e.stopPropagation();
-        });
-
-    });
 
     $(function () {
         var dtToday = Date();

@@ -40,11 +40,9 @@
     <div class="container-fluid copyright py-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-start  text-center mb-3 mb-md-0">
-                    &copy; <?= date('Y'); ?> <a class="fw-bold text-light" href="#">IIGJ</a>, All Right
-                    Reserved.
-                </div>
-                <div class="col-md-6 text-end  text-center mb-3 mb-md-0">Design & Developed By <a class="fw-bold text-light" href="https://github.com/">gladowl pvt ltd</a>
+                <div class="col-md-12 text-start  text-center mb-3 mb-md-0">
+
+                    <p class="mb-0">© Copyright  <?= date('Y'); ?>  IIGJ. Designed and developed by <img src="images/iigj/logo/3.png" width="70px" alt=""></p>
                 </div>
             </div>
         </div>
@@ -53,10 +51,10 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg bg-dark text-white btn-lg-square rounded-circle back-to-top"><i
+    <a href="#" class="btn btn-lg bg-golden mb-3 mb-md-5 text-white btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
 
-    <button type="button" class="btn c_btn rounded-pill px-4 right_button " data-bs-toggle="modal"
+    <button type="button" class="btn c_btn rounded-pill px-4 right_button py-2" data-bs-toggle="modal"
         data-bs-target="#exampleModal">Apply Now</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
