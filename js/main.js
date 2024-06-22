@@ -21,10 +21,12 @@
         if ($(this).scrollTop() > 300) {
             $('.sticky-top').addClass('shadow').css('top', '0px');
         } else {
-            $('.sticky-top').removeClass('shadow').css('top', '-100px');
+            $('.sticky-top').removeClass('shadow').css('top', '0px');
         }
     });
 
+
+    
 
 
 
@@ -42,12 +44,6 @@
     })
     
     
-    
-    // $('.dept_01').on('change', function () {
-    //     let a = $(this).val()
-    //     $('.programm_01').addClass('d-none')
-    //     $('.programm_01').removeClass('d-none')
-    // })
 
     $('.course_01').on('change', function () {
         let a = $(this).val()
@@ -60,7 +56,7 @@
     $(window).scroll(function () {
         let b = $(window).scrollTop()
         if (q == 0) {
-            if (b > 3000) {
+            if (b > 5000) {
                 $('.count').each(function () {
                     $(this).prop('Counter', 0).animate({
                         Counter: $(this).text()

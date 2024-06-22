@@ -77,15 +77,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 pt-5 pb-3  pt-md-0  h_abform" id="form_01">
-                                    <div class="">
+                                <div class="col-md-4 pt-3 pt-md-0 h_abform" id="form_01">
+                                    <div class="mb-3">
                                         <h3 class="text-white">CUCET APPLICATION FORM 2024</h2>
                                             <h6 class="text-white">APPLY FOR CUCET 2024 (PHASE-I)</h6>
-                                            <span class="bg-red_01">REGISTRATION END DATE: 20 JUNE 2024</span>
                                     </div>
-                                    <?php 
-                                            include 'form_01.php'; 
-                                        ?>
+                                    <?php include 'form_01.php';?>
                                 </div>
                             </div>
                         </div>
@@ -96,95 +93,12 @@
         <!-- Carousel End -->
 
 
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section>
-            <div class="container py-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-3 ">About Us</h3>
-                    </div>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h5 class="fw-bold ">GJEPC's Foray into Academics & Lab Testing Services</h5>
-                        <p>Since its inception in 1966, GJEPC has represented India’s gem and jewellery industry on
-                            numerous international platforms. It works with the Ministry of Commerce & Industries, Govt.
-                            of India, to formulate policies supporting the industry’s growth while organising numerous
-                            programmes to promote exports, such as the prestigious annual India International Jewellery
-                            Shows (IIJS) as well as other image-building exercises and trade meets. In its mission “To
-                            enable every individual associated with the Indian gems and jewellery industry to achieve
-                            their full potential” GJEPC is always engaged in activities and programmes that will further
-                            strengthen India’s base in jewellery design and manufacturing capabilities</p>
-                    </div>
-                    <div class="col-md-6">
-                        <iframe width="100%" height="315" class="rounded-3 "
-                            src="https://www.youtube.com/embed/s8YA-yFK7t0?si=cnaJeUE8TJu8lujx"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="bg-light py-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-3 ">Message from Chairman, GJEPC</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4  infra  p-0">
-                        <div class="row justify-content-center position-relative">
-                            <div class="d-flex align-items-stretch">
-                                <div class="">
-                                    <div class="col-md-12 text-center">
-                                        <img src="images/iigj/chairman/1.jpg" class="student_02 rounded-3 over_hidden"
-                                            alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 ps-md-4">
-                        <p>Indian Institute of Gems & Jewellery (IIGJ) and IIGJ Research & Laboratories Center (RLC) are
-                            two important initiatives of GJEPC for the sustainable development of the Indian gem &
-                            jewellery industry. <br><br> IIGJ, with its new curriculum and courses as per the latest
-                            requirement of the industry, aims to fulfil the widening gap between demand and availability
-                            of skilled professionals for the gem & jewellery industry. Our endeavour is to harness the
-                            full potential of any deserving and ambitious candidate by providing the latest,
-                            industry-relevant and comprehensive curriculum. Our efforts in the past 30 years have
-                            transformed the lives of thousands of students, who have been absorbed by the industry
-                            doyens. <br><br> Our laboratory services through IIGJ RLC boost the confidence of buyers and
-                            sellers from both domestic and overseas gem & jewellery markets. Well-established processes
-                            over the last 49 years, the latest and state-of-the-art machines, and trained & experienced
-                            technical staff provide accurate and unbiased reports to discerning buyers and sellers. Our
-                            research findings over the years are a treasure trove for any keen entrant into this
-                            exciting field. <br><br> On behalf of GJEPC, I invite each aspirant to reap rich benefits by
-                            associating with IIGJ and IIGJ RLC. <br><br> Best wishes!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-
         <!-- ------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5">
+        <section class="py-5 bg-grey" id="n_courses">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-3 ">CERTIFICATE COURSES</h3>
+                        <h3 class="text-center fw-bold text-golden pb-md-3 pb-0 ">CERTIFICATE COURSES</h3>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -202,7 +116,9 @@
                         <div class="box-001 <?= $c[$i];?>">
                             <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter" alt="">
                             <h4 class="text-white mt-2"><?= $e[$i];?></h4>
-                            <p>IIGJ's Certificate Courses are offered in a variety of gem and jewellery topics to suit different requirements. These are of short duration and are useful for all who wish to learn something new in jewellery or to upgrade existing skills.</p>
+                            <p>IIGJ's Certificate Courses are offered in a variety of gem and jewellery topics to suit
+                                different requirements. These are of short duration and are useful for all who wish to
+                                learn something new in jewellery or to upgrade existing skills.</p>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn c_btn" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal<?= $a[$i];?>"> Read More </button>
@@ -213,14 +129,15 @@
                                 <div class="modal-dialog modal-xl">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h5 class="modal-title text-golden fw-bold" id="exampleModalLabel"><?= $e[$i];?></h5>
+                                            <h5 class="modal-title text-golden fw-bold" id="exampleModalLabel">
+                                                <?= $e[$i];?></h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-dark">
 
                                             <div class="table-responsive center_tagline">
-                                                
+
                                                 <?= $g[$i];?>
                                             </div>
                                         </div>
@@ -266,7 +183,7 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
-                                                    <select class="form-control dept_01 form_servi"
+                                                    <select class="form-select dept_01 form_servi"
                                                         placeholder="graduation" name="n_graduation">
                                                         <option selected disabled>Select Discipline</option>
                                                         <option value="degree">DEGREE PROGRAMMES</option>
@@ -305,12 +222,12 @@
                                             </div>
                                             <div class="col-md-12 text-center   nav_01 d-grid table_css">
                                                 <!-- Button trigger modal -->
-                                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModal">View Program</button>
+                                                <button type="button" class="btn c_btn rounded-3" data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal_01">View Program</button>
                                                 <!-- Modal -->
 
 
-                                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                                <div class="modal fade" id="exampleModal_01" tabindex="-1"
                                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                                     <?php 
                                                             foreach ($b as $k => $v) {
@@ -338,10 +255,35 @@
                                                                     <p><b>Course Overview & Career Options
                                                                             :<br></b><?= $v1['overview']; ?></p>
                                                                 </div>
-                                                                <div class="text-center">
-                                                                    <a href="#form_01" type="button"
-                                                                        class="btn c_btn rounded-pill px-4 ">Know More
-                                                                    </a>
+                                                                <div class="text-center overlap_modal">
+
+                                                                    <a href="<?= LINK; ?>"
+                                                                        class="btn c_btn py-2 px-3 ms-2 mt-3 "
+                                                                        data-bs-toggle="modal"
+                                                                        data-bs-target="#exampleModal_004">Know More</a>
+
+                                                                    <div class="modal fade" id="exampleModal_004"
+                                                                        tabindex="-1"
+                                                                        aria-labelledby="exampleModalLabel_04"
+                                                                        aria-hidden="true">
+                                                                        <div class="modal-dialog">
+                                                                            <div class="modal-content bg-white">
+                                                                                <div class="modal-header">
+                                                                                    <h5 class="modal-title pratafon text-golden"
+                                                                                        id="exampleModalLabel_04">
+                                                                                        Enquire
+                                                                                        Now</h5>
+                                                                                    <button type="button"
+                                                                                        class="btn-close"
+                                                                                        data-bs-dismiss="modal"
+                                                                                        aria-label="Close"></button>
+                                                                                </div>
+                                                                                <div class="modal-body">
+                                                                                    <?php include 'form_01.php'; ?>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
 
 
@@ -411,9 +353,129 @@
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
 
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <section  id="n_about">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h3 class="text-center fw-bold text-golden pb-3 ">ABOUT US</h3>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h5 class="fw-bold ">GJEPC's Foray into Academics & Lab Testing Services</h5>
+                        <p>Since its inception in 1966, GJEPC has represented India’s gem and jewellery industry on
+                            numerous international platforms. It works with the Ministry of Commerce & Industries, Govt.
+                            of India, to formulate policies supporting the industry’s growth while organising numerous
+                            programmes to promote exports, such as the prestigious annual India International Jewellery
+                            Shows (IIJS) as well as other image-building exercises and trade meets. In its mission “To
+                            enable every individual associated with the Indian gems and jewellery industry to achieve
+                            their full potential” GJEPC is always engaged in activities and programmes that will further
+                            strengthen India’s base in jewellery design and manufacturing capabilities</p>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe width="100%" height="315" class="rounded-3 "
+                            src="https://www.youtube.com/embed/s8YA-yFK7t0?si=cnaJeUE8TJu8lujx"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <section class="bg-blue">
+            <div class="container py-5">
+                <div class="row mb-5">
+                    <h3 class="text-center text-white fw-bold ">PLACEMENT HIGHLIGHTS 2023-24</h3>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <?php
+                    $a = array( "22000", "37", "100");
+                    $d = array( "+", "+", "%");
+                    $b = array( "Alumni Offers", "Years Of Legacy", "Placement Assistance");
+                    $c = array( " border-end mb-4 mb-md-0", " border-end  mb-4 mb-md-0","");
+                    for ($i=0; $i < count($a); $i++) {
+                ?>
+                    <div class="col-md-3 col-6 <?= $c[$i];?>">
+                        <img src="images/iigj/scholership/icons/4.png" class="filter" width="50px" alt="">
+                        <div class=" pb-3">
+                            <p class="text-white fs-4"><span
+                                    class="display-4 mb-0 fw-bold text-white count"><?= $a[$i];?></span><?= $d[$i];?>
+                            </p>
+                            <small class="text-white"><?= $b[$i];?></small>
+                        </div>
+                    </div>
+                    <?php
+                } 
+                ?>
+                    <div class="text-center pt-3 pb-0">
+                        <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h3 class="text-center fw-bold text-golden pb-3 ">MESSAGE FROM CHAIRMAN, GJEPC</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4  infra  p-md-0">
+                        <div class="row justify-content-center position-relative">
+                            <div class="d-flex align-items-stretch  justify-content-center ">
+                                <div class="">
+                                    <div class="col-md-12 text-center pb-md-0 pb-4 ">
+                                        <img src="images/iigj/chairman/1.jpg" class="student_02 rounded-3 over_hidden"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 ps-md-4">
+                        <p>Indian Institute of Gems & Jewellery (IIGJ) and IIGJ Research & Laboratories Center (RLC) are
+                            two important initiatives of GJEPC for the sustainable development of the Indian gem &
+                            jewellery industry. <br><br> IIGJ, with its new curriculum and courses as per the latest
+                            requirement of the industry, aims to fulfil the widening gap between demand and availability
+                            of skilled professionals for the gem & jewellery industry. Our endeavour is to harness the
+                            full potential of any deserving and ambitious candidate by providing the latest,
+                            industry-relevant and comprehensive curriculum. Our efforts in the past 30 years have
+                            transformed the lives of thousands of students, who have been absorbed by the industry
+                            doyens. <br><br> Our laboratory services through IIGJ RLC boost the confidence of buyers and
+                            sellers from both domestic and overseas gem & jewellery markets. Well-established processes
+                            over the last 49 years, the latest and state-of-the-art machines, and trained & experienced
+                            technical staff provide accurate and unbiased reports to discerning buyers and sellers. Our
+                            research findings over the years are a treasure trove for any keen entrant into this
+                            exciting field. <br><br> On behalf of GJEPC, I invite each aspirant to reap rich benefits by
+                            associating with IIGJ and IIGJ RLC. <br><br> Best wishes!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+
 
         <!---our top ranked patanered end--->
-        <section class="py-5 bg-grey">
+        <section class="py-5 bg-grey" id="n_placement">
             <div class="container wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row">
                     <div class="col-md-4">
@@ -428,10 +490,10 @@
                     $b = array( "Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Varanasi","Student, IIGJ Varanasi","Student, IIGJ Varanasi",);
                     $c = array("I enrolled at IIGJ to get a basic know-how of jewellery designing but by the end of the        course, I acquired an advanced understanding - starting from scratch to the end of the product. Today, I am        thoroughly equipped with knowledge and skill-sets to make for a great start in the industry.", "IIGJ Jaipur is not only an institute but a platform, which helped me from                holding a pencil to design to the actual manufacturing of jewellery. IIGJ Jaipur gave a whole lot of                practical knowledge with the support of great teachers. It is one of the leading institutes with all                facilities for jewellery designing and manufacturing.", "An essential aspect of a creative designer is not being afraid to fail” and                this is exactly what is taught at IIGJ. Studying here was an exuberant experience as it gave an ideal                combination of both practical and theoretical skills, thus setting the right ground for a successful                career. Now I can say: ‘Design is not just about how it looks but how it works’", "IIGJ Mumbai is a treasure for abundance practical knowledge & in enhancing ones                creativity. During these 3 years, It's always been to learn & explore something interesting every single                day. The faculty creates such a creative vibe, that it ensures you come up with good result. It also                conducts Industrial Visits, where you can directly interact with Industry Professionals & also gives you                an opportunity to work with reputed companies. So If your aim is to be a Gem, then IIGJ is a perfect                Guide to your Success.", "This is the best place to learn everything about Jewellery. They teach you the                from the basic of jewellery and turn you to the professional jewellery maker so that you are ready to                enter the industry. The faculty are also very supportive and patient to teach you the same thing till                you donâ€™t learn They also have 3years B.A Degree course in jewellery. And also provide internship in a                well know firm and also help you with your placements for permanent job.", "It was an incredible experience, I learned the various aspect of Jewellery right                from Jewellery Designing, CAD, Diamond Grading, Gemmology and many more. This helped me a lot to learn                Jewellery Design in Absolute Detail and start my own business I must say IIGJ Mumbai is fantastic                platform for those who would like to enter the Jewellery industry or start their own business. I would                like to extend my gratitude to all faculty member for immense support and guidance.", "It was a great experience studying at IIGJ Varanasi, a memory to cherish for                lifetime. My experience at IIGJ was full of learning and grooming. I am thankful to all the faculties,                mentors and entire department for providing us with quality education. I am also thankful to IIGJ to                provide me help to setup new manufacturing unit.", "I always wanted to learn about jewellery-making, the whole procedure of learning                and making. I now have a better understanding on the techniques/materials . Now I have better knowledge                of Jewellery manufacturing process and I can utilize this knowledge to expand my business.", "IIGJ Varanasi is one of the best Institute in UP for providing Jewellery manufacturing training . I really enjoyed 1 year of my training in Diploma course. I learned a lot and now I am able to increase my efficiency in manufacturing.");;
                     for ($i=0; $i < count($a); $i++) { 
-                ?>
+                    ?>
                         <div class="row align-items-stretch">
                             <div class="testimonial-item rounded align-items-stretch p-4 p-lg-5 mb-5">
-                                <img class="mb-4" src="<?= LINK; ?>images/iigj/students/<?= $i+1; ?>.jpg" alt="">
+                                <img class="mb-4" src="<?= LINK; ?>images/iigj/students/0<?= $i+1; ?>.jpg" alt="">
                                 <p class="mb-4"><?= $b[$i]; ?></p>
                                 <h5><?= $a[$i]; ?></h5>
                                 <span class="text-dark"><?= $c[$i]; ?></span>
@@ -440,18 +502,10 @@
                         <?php } ?>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- ---------------------------------------------------------------------------- -->
-        <!-- ---------------------------------------------------------------------------- -->
-        
-        <section>
-            <div class="container py-5 ">
-                <div class="row justify-content-center company-carousel owl-carousel">
+                <div class="row pt-5 pt-md-0 justify-content-center company-carousel owl-carousel">
                     <?php
                     for ($i=1; $i < 36; $i++) {
-                ?>
+                    ?>
                     <div class="col-md-12 company_01">
                         <img src="images/iigj/placement/logo<?= $i+1;?>.jpg" alt="">
                     </div>
@@ -466,103 +520,34 @@
         <!-- ---------------------------------------------------------------------------- -->
         <!-- ---------------------------------------------------------------------------- -->
 
-        <!-- ------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5">
+        <section class="bg-light py-5" id="n_corporate">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center ">
-                        <h4 class="fw-bold mb-0">CHANDIGARH UNIVERSITY</h4>
-                        <h2>COMMON ENTRANCE TEST (CUCET)</h2>
-                        <small>Chandigarh University Common Entrance Test (CUCET 2024) is a national-level entrance exam
-                            and scholarship test mandatory for admission. CUCET exam forms the basis of eligibility that
-                            is mandatory for admission in Engineering, MBA, Pharmacy, LLM, and Integrated Law programs.
-                            The amount of the scholarship depends on the fee of the program, the date of admission, and
-                            the performance of the student in CUCET 2024.</small>
-                    </div>
-                </div>
-                <div class="row pt-5 px-3 px-md-0">
-                    <div class="col-md-4 position-relative bg_height_01 mb-5 mb-md-0"
-                        data-bgimg="<?= LINK; ?>images/iigj/test/1.jpg">
-                        <div class="box-003">
-                            <h2 class="text-white"><span class="text-golden">SEIZE <br> YOUR GOLDEN <br> CHANCE
-                                    <br></span>TO EARN <br>SCHOLARSHIPS <br> WORTH </h2>
-                            <div class="bg-contain position-relative head_text_02"
-                                data-bgimg="<?= LINK; ?>images/iigj/test/2.jpg">
-                                <p class="text-white ps-3 mb-0"><sup>$</sup> <span class="display-2">170</span><br><sub>
-                                        CRORES</sub></p>
-                            </div>
-                        </div>
-                        <img src="<?= LINK; ?>images/iigj/test/3.webp" class="test-img" alt="">
-                    </div>
-                    <div class="col-md-4 box_02  mb-5 mb-md-0">
-                        <div class="">
-                            <h5 class="mb-0">CUCET Phase-I</h5>
-                            <p>October 2023 - June 2024</p>
-                        </div>
 
-
-                        <div>
-                            <?php
-                            $a = array("90.01 to 100 Marks:", "80 to 90 Marks:", "70 to 79.99 Marks:", "60 to 69.99 Marks:", "50 to 59.99 Marks:", "40 to 49.99 Marks:", "30 to 39.99 Marks:");
-                            $b = array( "100% Scholarship", "50% Scholarship", "40% Scholarship", "30% Scholarship", "25% Scholarship", "15% Scholarship", "Eligible");
-                            for ($i=0; $i < count($a); $i++) {
-                            ?>
-                            <p class="fs-5 "><?= $a[$i];?><br><span class="fs-6  fw-bold"><?= $b[$i];?></span></p>
-
-                            <?php
-                            } 
-                        ?>
-                            <div class="d-grid">
-                                <button class="btn btn-primary">Apply Now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 box_03">
-                        <div class=" text-white">
-                            <h5 class="mb-0 text-white">CUCET Phase-I</h5>
-                            <p>October 2023 - June 2024</p>
-                        </div>
-
-
-                        <div>
-                            <?php
-                            $a = array("90.01 to 100 Marks:", "80 to 90 Marks:", "70 to 79.99 Marks:", "60 to 69.99 Marks:", "50 to 59.99 Marks:", "40 to 49.99 Marks:", "30 to 39.99 Marks:");
-                            $b = array( "100% Scholarship", "50% Scholarship", "40% Scholarship", "30% Scholarship", "25% Scholarship", "15% Scholarship", "Eligible");
-                            for ($i=0; $i < count($a); $i++) {
-                            ?>
-                            <p class="fs-5 text-white"><?= $a[$i];?><br><span class="fs-6  fw-bold"><?= $b[$i];?></span>
-                            </p>
-
-                            <?php
-                            } 
-                            ?>
-                            <div class="d-grid">
-                                <button class="btn btn-primary " disabled>Comming Soon</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="bg-light py-5">
-            <div class="container">
-                <div class="row">
                     <div class="col-md-6">
-                        <h3>PROGRAMS FOR WHICH CUCET <br>
-                            IS COMPULSORY:</h3>
+                        <h3>Corporate Training</h3>
+                        <p>IIGJ offers outcome-focused training programmes for the gem & jewellery industry that are
+                            relevant to business needs, for improved performance/productivity of the organisation. <br>
+                            These programmes, such as Retail Sales Associate & Gold Appraisal Training, are essentially
+                            outlined to offer a diverse spectrum of training solutions to gem & jewellery businesses
+                            through existing sets of readily available as well as customised programmes. <br>Based on
+                            IIGJ’s dialogues with gem & jewellery businesses of different strengths and sizes, there has
+                            emerged a compelling and ever-growing requirement for trained jewellery professionals in
+                            various departments.</p>
+
+                    </div>
+                    <div class="col-md-6">
                         <div class="row benefits">
+                            <h4>Three types of Corporate Training are available:</h4>
                             <?php
-                            $a = array("Bachelor of Engineering", "Bachelor of Pharmacy", "Pharm D.", "Master of Pharmacy", "Master of Pharmacy", "Master of Pharmacy", "Integrated Law programs", "Master of Business Administration (MBA) and Specialized MBA Programs", "Master of Pharmacy", "Master of Law");
-                            $b = array( "(B.E.)", "(B. Pharmacy)","", "(Industrial Pharmacy)", "(Pharmaceutics)", "(Pharmacology)", "(BA+LLB, BBA+LLB, B. Com + LLB)","", "(Pharmaceutical Chemistry)", "(LLM)");
+                            $a = array("Off-the Shelf (Retail Sales Associate and Gold Appraisal)", "Customised (As per customer’s specific requirements)", "Hire-Train-Depute");
                             for ($i=0; $i < count($a); $i++) {
                             ?>
-                            <div class="col-md-6 img_01 pb-2">
+                            <div class="col-md-12 img_01 pb-2">
                                 <div class="d-flex align-items-center">
                                     <img src="images/iigj/benefits/arrow.jpg" width="18px" height="18px" alt="">
                                     <div class="ps-md-3">
-                                        <p class="mb-0"><b><?= $a[$i];?></b><br><?= $b[$i];?></p>
+                                        <p class="mb-0"><b><?= $a[$i];?></b></p>
                                     </div>
                                 </div>
                             </div>
@@ -571,20 +556,13 @@
                             ?>
 
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>ONE EXAM MULTIPLE BENEFITS</h3>
-                        <p>At Chandigarh University, it is our aim to ensure that every deserving student gets the
-                            opportunity to achieve success and fulfill their dreams. With CU's CUCET scholarships
-                            support program, we are investing in our collective future and ensuring that students can
-                            maximize their success by:</p>
                         <div class="row benefits">
                             <?php
-                            $a = array("Access To Quality Education", "Assures Career Advantage", "Bridging Financial Gap", "Special Privileges For 100% Scholarship Students");
-                            $b = array(  "Fulfill your dream to study at a prestigious university by receiving a merit-based scholarship.", "Earning a scholarship is prestigious. Stand out in comparison to others during your job search by earning a scholarship.", "Pursue your dreams and ambitions with CUCET scholarships. Financial constraints will not pause your academic journey.", "Students with a 100% scholarship in the CUCET 2024 will receive special privileges, such as a chance to be a part of the Board of Studies at CU.");
+                            $a = array("Retail Sales Associate", "Gold Appraisal Training");
+                            $b = array(  "This 150-hour programme empowers the sales team in a jewellery company with required selling skills and product knowledge to strengthen customer management skills leading to improved sales performance.","This is a 2-day programme for corporates, such as banks, or groups of small business owners that covers modern techniques of appraising the value of gold jewellery for loans. Training sessions can be conducted in any location in India or at the Institute.");
                             for ($i=0; $i < count($a); $i++) {
                             ?>
-                            <div class="col-md-6 img_01 pb-3">
+                            <div class="col-md-12 img_01 pb-3">
                                 <div class="d-flex align-items-center">
                                     <img src="images/iigj/benefits/star.jpg" width="18px" height="18px" alt="">
                                     <div class="ps-md-3">
@@ -597,6 +575,7 @@
                             ?>
 
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -605,80 +584,28 @@
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
 
+
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section>
+        <section id="n_location">
             <div class="container py-5">
-                <div class="row">
-                    <h3 class="text-center fw-bold ">OUR INCREDIBLE ACHIEVEMENTS</h3>
-                </div>
-                <div class="row px-3 px-md-0">
-                    <?php include "admission-details.php";?>
-                </div>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="bg-blue pb-5">
-            <div class="container py-5  mb-md-5">
-                <div class="row mb-5">
-                    <h3 class="text-center text-white fw-bold ">PLACEMENT HIGHLIGHTS 2023-24</h3>
-                </div>
-                <div class="row pb-5 mb-5">
-                    <?php
-                    $a = array( "9000+", "900+", "1.7CR", "54.75LPA", "20LPA", "15LPA", "10LPA", "5LPA");
-                    $b = array( "Placement <br> Offers", "Company <br> Visits", "Highest International <br>Package Offered", "Highest National <br> Package Offered", "Package Offered by <br>30+ Companies", "Package Offered by <br> 50+ Companies", "Package Offered by <br> 100+ Companies", "Package Offered by <br> 400+ Companies");
-                    $c = array( " border-end border-bottom", " border-end border-bottom", " border-end border-bottom", " border-bottom", " border-end", "border-end", "border-end", "");
-                    for ($i=0; $i < count($a); $i++) {
-                ?>
-                    <div class="col-md-3 col-6 <?= $c[$i];?>">
-                        <div class=" pb-3">
-                            <h6 class="display-4 mb-0 fw-bold text-white"><?= $a[$i];?></h6>
-                            <small class="text-white"><?= $b[$i];?></small>
-                        </div>
-                    </div>
-                    <?php
-                } 
-                ?>
-                    <div class="text-center pt-3 pb-5 pb-md-0">
-                        <button class="btn btn-primary">Apply Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section>
-            <div class="container py-5 mb-5">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold ">VENTURE INTO ENTREPRENEURSHIP</h3>
-                        <p class="">Nurturing leaders of tomorrow, by building the foundation for their dreams and
-                            equipping them with global exposure and industry support.</p>
+                        <h3 class="text-center fw-bold text-golden pb-3 ">OUR CAMPUSES</h3>
                     </div>
                 </div>
-                <div class="row  align-items-stretch ">
+                <div class="row  align-items-stretch justify-content-center ">
                     <?php
-                    $a = array( "1", "2", "3");
-                    $b = array( "150", "7", "50");
-                    $c = array( "Start-ups running successfully", "Start-ups Recognised by Start-up India", "Companies with more than 50 Lakh Turnover");
+                    $a = array( "1", "2", "3","4","5");
+                    $b = array(  "DELHI", "MUMBAI", "JAIPUR", "VARANASI", "UDUPI");
                     for ($i=0; $i < count($a); $i++) {
                 ?>
-                    <div class="col-md-4 venture_01 position-relative  bg_height_03"
-                        data-bgimg="<?= LINK; ?>images/iigj/venture/<?= $a[$i];?>.webp">
-                        <div class="text-white  ">
+                    <div class="col-md-4 mb-4">
+                        <div class="text-white venture_01 position-relative  bg_height_03"
+                            data-bgimg="<?= LINK; ?>images/iigj/campus/<?= $a[$i];?>.jpg">
                             <div class="head-text_03 ">
-                                <span class="display-2 text-yellow">
-                                    <?= $b[$i];?>+
-                                    <sub class="fs-5"></sub></span>
-                                <p><?= $c[$i];?></p>
+                                <span class="h4 text-white fw-bold">
+                                    <?= $b[$i];?>
                             </div>
                         </div>
                     </div>
@@ -693,275 +620,6 @@
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
-
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="bg-golden">
-            <div class="container placements_01  students-carousel owl-carousel">
-                <?php
-                   $a = array( "1", "2", "3", "4", "5");
-                   $b = array( "Dinesh Potla", " Vandana Vandana", "Abhishek Dimri", "Ameya Ohri", "Shanya Trehan");
-                   $c = array( "IBM CSE Cloud Computing Student", "CSE Student", "IBM CSE Cloud Computing Student", "CSE General  Student", "CSE General Student");
-                   $d = array( "52.11", "54.75", "44", "52.11", "51");
-                   for ($i=0; $i < count($a); $i++) {
-                ?>
-                <div class="row justify-content-center position-relative">
-                    <div class="col-md-6 text-center">
-                        <img src="images/iigj/placements/<?= $a[$i];?>.webp" class="student_02" alt="">
-                    </div>
-                    <div class="col-md-6  py-5  text-white">
-                        <h3 class="text-white">Countless Opportunities at One Place</h3>
-                        <p>There is nothing wrong in saying that Chandigarh University is a placement workshop for CSE
-                            engineering. If you want to be a CSE engineer, choose Chandigarh University as it offers
-                            100% placement in this sector. Thank you Chandigarh University for getting me placed in
-                            Deloitte. </p>
-                        <div class="">
-                            <h4 class="text-white"><?= $b[$i];?></h4>
-                            <span>- <?= $c[$i];?> <br> (Batch 2017-2021)</span>
-                            <div class="bg-white company_01">
-                                <img src="images/iigj/placements/0<?= $a[$i];?>.webp" class="" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <?php
-                    } 
-                ?>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="feature " data-bgimg="<?= LINK; ?>images/iigj/feature/bg_01.webp">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-2 bg-blue py-2 text-center logo_01 rounded-3">
-                        <img src="<?= LINK; ?>images/iigj/feature/1.webp" width="150px" alt="">
-                    </div>
-                </div>
-                <div class="row position-relative z_index_01">
-                    <div class="col-md-5 text-white">
-                        <h2 class="text-white">Space Science &amp; Technology Research Center</h2>
-                        <p>Kalpana Chawla Centre for Research in Space Science and Technology is paving the way for
-                            advancement in space technology with discovery, research, and education. The Centre is
-                            providing satellite design training to students from 21 nations and communicating with 28
-                            countries that are part of the Satellite Networked Open Ground Station (SatNOGS). Hon’ble
-                            Defence Minister of India, Shri Rajnath SIngh inaugurated the KCCRSST at Chandigarh
-                            University.</p>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="">
-                            <h2 class="text-white">DISTINCTIVE FEATURE <br>OF THE GROUND STATION</h2>
-                        </div>
-                        <div class="row">
-                            <?php
-                            $a = array(  "Can communicate with SatNOGS networked ground stations across the globe", "Research on 3D Printed Aluminum / Plastic structures that can be used in SPACE explorations", "Thermal study of materials in vacuum", "Star gazing centre", "Experimental studies on compact structures of satellite for LEO", "Experimental materials for antennae and deployment methods", "Unmanned aerial vehicle design", "Model rocketry lab");
-                            for ($i=0; $i < count($a); $i++) {
-                        ?>
-                            <div class="col-md-6 position-relative ps-5">
-                                <small class="star text-white"><?= $a[$i];?></small>
-                            </div>
-                            <?php
-                            } 
-                        ?>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5 bg-light">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 ">
-                        <iframe width="100%" height="315"
-                            src="https://www.youtube.com/embed/nMJV4MbwEYI?si=setnjzDV0NQEPya8"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-8 text-center pt-5">
-                        <h2>GAIN GLOBAL EXPOSURE THROUGH EXTENSIVE INTERNATIONAL NETWORK</h2>
-                    </div>
-
-                </div>
-
-                <div class="row  justify-content-center">
-                    <?php
-                            $a = array("490","1700","340");
-                            $b = array("Collaborations","Students","Internships");
-                            $c = array("with Top Ranked Foreign Universities in 95+ countries","Traveled Abroad for Semester, Summer & Cultural Exchange Programs","in Walt Disney, USA (Highest in the Region)");
-                            for ($i=0; $i < count($a); $i++) {
-                        ?>
-                    <div class="col-md-4 text-center p-md-5">
-                        <h2 class="display-3 text-golden fw-bold mb-0"><?= $a[$i];?>+</h2>
-                        <h4 class="fw-bold"><?= $b[$i];?></h4>
-                        <p><?= $c[$i];?></p>
-                    </div>
-                    <?php
-                        } 
-                    ?>
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5">
-            <div class="container position-relative z_index_01 mb_30">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 text-center pb-3">
-                        <h2>OUR OFFICE OF INTERNATIONAL RELATIONS</h2>
-                        <p>offers exclusive opportunities to explore the world</p>
-                    </div>
-
-                </div>
-
-                <div class="row  justify-content-center">
-                    <?php
-                        $a = array( "INTERNATIONAL SUMMER/WINTER PROGRAMS", "SEMESTER ABROAD/EXCHANGE PROGRAMS", "HIGHER EDUCATION PROGRAMS", "GLOBAL IMMERSION PROGRAMS", "INTERNATIONAL PLACEMENTS", "SEMESTER ABROAD/EXCHANGE PROGRAMS");
-                        $b = array(  "Short duration programs of 2-4 weeks are perfect way for students to balance their desire for international exposure with the academic life", "An opportunity to complete your semester abroad which further add to your international experience and let you grow your network both on personal & professional level.", "An opportunity to visit international universities for certificate programs or to pursue master's degree in decided field.", "An opportunity to be professionally attached to multinational companies and start-ups. It aims to provide CU students the experience of studying and working abroad.", "Fortune 500 Global & National Companies such as Microsoft, Google, Amazon and others have been consistently among the Top Recruiters at Chandigarh University Placement Drives.", "Fortune 500 Global & National Companies such as Microsoft, Google, Amazon and others have been consistently among the Top Recruiters at Chandigarh University Placement Drives.");
-                        $c = array( "1", "2", "3", "4", "5","3");
-                        for ($i=0; $i < count($a); $i++) {
-                    ?>
-                    <div class="col-md-4 mb-4 d-flex align-items-stretch">
-                        <div class="bg-blue rounded-3 p-4 inter text-white">
-                            <h4 class="text-white fw-bold"><?= $a[$i];?></h4>
-                            <small><?= $b[$i];?></small>
-                            <div class="pt-3">
-                                <img src="images/iigj/inter/<?= $c[$i];?>.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                    } 
-                ?>
-
-                </div>
-
-            </div>
-        </section>
-
-        <section class="d-md-block d-none">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/iigj/slider/1.webp" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/iigj/slider/2.webp" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/iigj/slider/3.webp" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section>
-            <div class="container py-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-12 text-center">
-                        <h3 class="text-center fw-bold ">STATE-OF-THE ART RESEARCH FACILITIES</h3>
-                        <p class="">With cutting-edge laboratories and industry sponsored Centres of Excellence for
-                            research, CU provides an ideal environment for engineering education.</p>
-                    </div>
-                </div>
-                <div class="row   pt-5 facilities-carousel owl-carousel">
-                    <?php
-                            $a = array("1","2","3","4","5");
-                            $b = array("XRD Lab","Artificial Intelligence Lab","Mol-Biology Lb","FMS Lab","3D Painting Lab");
-                            for ($i=0; $i < count($a); $i++) {
-                        ?>
-                    <div class="col-md-12 d-flex align-items-stretch justify-content-center  city">
-                        <div class="rounded-3 over_hidden">
-                            <img src="images/iigj/facilities/<?= $a[$i];?>.webp" class="" alt="">
-                            <div class="d-flex align-items-center p-3  justify-content-between bg-blue">
-                                <h5 class="fw-bold mb-0 text-white"><?= $b[$i];?></h5>
-                                <p class="mb-0"><a href="">Read More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <?php
-                        } 
-                    ?>
-                </div>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
-
-        <!-- ------------------------------------------------------------------------------------------------------------ -->
-        <section class="  position-relative bg_height_02 pt_90 rounded-0"
-            data-bgimg="<?= LINK; ?>images/iigj/city/bg_01.webp">
-            <div class="container">
-                <div class="row ">
-                    <div class="col-md-6">
-                        <h2 class="display-3  text-white">CHANDIGARH, THE CITY BEAUTIFUL</h2>
-                        <h5 class="text-white">Chandigarh has been ranked Best among States & Union Territories in the
-                            field of education.- HRD Report</h5>
-                    </div>
-                </div>
-                <div class="row   pt-5 city-carousel owl-carousel">
-                    <?php
-                            $a = array("Explore ","Well-Connected","Travel","Business");
-                            $b = array("You can engulf yourself in the rare epitome of modernization and architectural wonder at Chandigarh. From the World Heritage site in Capitol complex to the world renowned Rock Garden there is so much to explore in this wonderful city.","Chandigarh is well connected via road, rail and recently built International airport connects the city to the world. Wide, well maintained roads and parking spaces all over the city ease local transport.","Chandigarh is in the foothills of the Shivalik Range, which means you can visit quiet and mesmerizing hill stations such as Shimla, Kasauli and Solan. Perfect for a weekend getaway to rejuvenate yourself.","Chandigarh University has become North India's central university for the IT and Service Industry. Numerous opportunities are available for young professionals such as plug and play facilities in state-of-the-art environment friendly buildings.");
-                            $c = array("","","","");
-                            $d = array("1","2","3","4");
-                            for ($i=0; $i < count($a); $i++) {
-                        ?>
-                    <div class="col-md-12 d-flex align-items-stretch justify-content-center h_300 city">
-                        <div class="">
-                            <div class="d-flex align-items-center  justify-content-center  py-3">
-                                <h2 class="fw-bold text-white mb-0 "><?= $a[$i];?></h2>
-                                <i class="fab fa-instagram text-yellow ps-3 fs-2"></i>
-                            </div>
-                            <p class="text-white"><?= $b[$i];?></p>
-                            <img src="images/iigj/city/<?= $d[$i];?>.webp" class="" alt="">
-                        </div>
-                    </div>
-                    <?php
-                        } 
-                    ?>
-                </div>
-            </div>
-        </section>
-
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
 
         <?php include "footer.php"; ?>
 
