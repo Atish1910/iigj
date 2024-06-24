@@ -20,8 +20,8 @@
                 ?>
                 <div class="col-md-2 wow slideInUp">
                     <div class="p-3 p-md-0">
-                        <h5 class="text-yellow mb-3 fw-bold"><?= $a[$i];?> Campus</h5>
-                            <p class="text-white fs_01"><span class="fw-bold fs-6 ">Indian Institute of Gems & Jewellery </span><br>
+                        <h5 class="text-yellow mb-3 h6 fw-bold"><?= $a[$i];?> Campus</h5>
+                            <p class="text-white fs_01"><span class="fw-bold ">Indian Institute of Gems & Jewellery </span><br>
                             <?= $b[$i];?>
                         </p>
                     </div>

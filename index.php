@@ -1,8 +1,5 @@
 <?php
   include 'link.php';
-//   ob_start('ob_gzhandler');
-//   date_default_timezone_set('Asia/Kolkata');
-//   setcookie("utm_medium", isset($_GET['utm_medium']) ? $_GET['utm_medium'] : 'Direct', strtotime(date('Y-m-d H:i:s'))+1200);
   
   $a = file_get_contents('program.json');
   $b = json_decode($a, true);
@@ -13,7 +10,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Study Jewellery Design</title>
+    <title>IIGJ Admission Open 2024</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,31 +47,28 @@
                     <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/1.jpg" alt="Image">
                     <div class="carousel-caption">
                         <div class="container position-relative">
-                            <div class="row align-items-center mb-90">
+                            <div class="row align-items-center">
                                 <div class="col-md-5 text-start">
-                                    <span class="text-white fw-normal lh-base pt-4 pt-md-0 pb-3">FUELING FUTURES,
-                                        EMPOWERING DREAMS</span>
 
-                                    <h1 class="text-white head-text_02 "><span class="text-golden">INDIA’S
-                                            NO.1</span><br>PRIVATE <br> UNIVERSITY</h1>
-                                    <p class="">Chandigarh University Common Entrance Test (CUCET) opens the doors to
-                                        global opportunities and exceptional careers, recognizing academic excellence
-                                        and providing remarkable support through</p>
-                                    <div class="head-text_01 ">
-                                        <h6 class="mb-0 h4 text-white ">Scholarships worth</h6>
-                                        <span class="display-2  position-relative  ps-5"><sup class="fs-5">$</sup>170
-                                            <sub class="fs-5">CR</sub></span>
-                                    </div>
+                                    <h1 class="text-white head-text_02 "><span class="text-golden">PIONEERS IN
+                                        </span><br>JEWELLERY <br> EDUCATION</h1>
+                                    <p class=""> Indian Institute of Gems & Jewellery, an initiative of the Gem &
+                                        Jewellery Export Promotion Council (GJEPC), was established under the aegis of
+                                        the Ministry of Commerce & Industries in 2003 to create the next generation of
+                                        jewellery professionals.</p>
+                                    <!-- <div class="head-text_01 ">
+                                        <span class="display-2  position-relative  ps-5"><sup class="fs-5"></sup>37
+                                            <sub class="fs-3">+</sub></span>
+                                        <h6 class="mb-0 h4 text-white ">Yers Of Legacy</h6>
+                                    </div> -->
                                 </div>
                                 <div class="col-md-3 pe-md-3  border-end ">
                                     <div class="hrad-img">
-                                        <img src="<?= LINK; ?>images/iigj/2.jpg" alt="">
-                                        <div class="box text-start ">
-                                            <h4 class="text-white">EART UPTO <br> <span
-                                                    class="display-2 fw-bold text-golden">100%</span><br><span
-                                                    class="fs-5">to unlock your scholarly potential and pave the way for
-                                                    your bright future.</span></h4>
+                                        <img src="<?= LINK; ?>images/iigj/1.png" alt="">
+                                        <div class="box text-center ">
+                                            <span class="h5 text-white fw-bold">DELHI | JAIPUR <br> MUMBAI | VARANASI</span>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="col-md-4 d-none d-md-block pt-3 pt-md-0 h_abform" id="form_01">
@@ -126,7 +120,7 @@
                         for ($i=0; $i < count($a); $i++) {
                             ?>
                     <div class="col-md-4 position-relative bg_height <?= $b_01[$i];?>"
-                        data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.jpg">
+                        data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.png">
 
                         <div class="box-001 <?= $c[$i];?>">
                             <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter" alt="">
@@ -150,11 +144,37 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-dark">
-
                                             <div class="table-responsive center_tagline">
-
                                                 <?= $g[$i];?>
                                             </div>
+                                            <div class="text-center overlap_modal">
+
+                                                <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 "
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#exampleModal_<?= $a[$i];?>">Know
+                                                    More</a>
+
+                                                <div class="modal fade" id="exampleModal_<?= $a[$i];?>" tabindex="-1"
+                                                    aria-labelledby="exampleModalLabel_<?= $a[$i];?>"
+                                                    aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content bg-white">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title pratafon text-golden"
+                                                                    id="exampleModalLabel_<?= $a[$i];?>">
+                                                                    Enquire
+                                                                    Now</h5>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <?php include 'form_01.php'; ?>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -178,19 +198,14 @@
         <section class="">
             <div class="container">
                 <div class="row py-5 position-relative bg_height_02 px-3 px-md-0"
-                    data-bgimg="<?= LINK; ?>images/iigj/course/bg_01.jpg">
-                    <div class="col-md-5">
+                    data-bgimg="<?= LINK; ?>images/iigj/course/bg_02.jpg">
+                    <div class="col-md-6">
                         <div class=" text-white">
                             <h3 class="mb-0 text-white fw-bold">FIND YOUR COURSE <br><br></h3>
                             <p>Pursue the Futuristic course of your choice. Select your Discipline and Program from the
                                 list below:</p>
                         </div>
                         <div class="">
-                            <?php 
-                                foreach ($b as $k => $v)
-                                    // print_r($k);
-                                    // die;
-                            ?>
                             <div class="form_01 my-md-3 w-100 ">
                                 <form class="enqui_form_ai" action="" method="post">
                                     <div class="">
@@ -200,7 +215,7 @@
                                                 <div class="form-group">
                                                     <select class="form-select dept_01 form_servi"
                                                         placeholder="graduation" name="n_graduation">
-                                                        <option selected disabled>Select Discipline</option>
+                                                        <option selected disabled>Select Programmes</option>
                                                         <option value="degree">DEGREE PROGRAMMES</option>
                                                         <option value="post-diploma">POST GRADUATE DIPLOMA PROGRAMMES
                                                         </option>
@@ -212,7 +227,7 @@
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <select class="form-select course_01  form_deptart" name="n_dept">
-                                                        <option selected value disabled="">Select Programme</option>
+                                                        <option selected value disabled="">Select Specialization</option>
                                                         <?php 
                                                             foreach ($b as $k => $v) {
                                                                 // print_r($k);
@@ -313,54 +328,21 @@
                                     </div>
                                 </form>
                             </div>
-                            <?php 
-                                
-                            ?>
                         </div>
 
                     </div>
-                    <div class="col-md-4 text-white border-end pt-4 pt-md-0">
-                        <p>Following AIT MBA Specialized Programs are having different Scholarship slabs. <br><br>Please
-                            visit the program webpage by clicking the links below for more information.</p>
-                        <ul class="h_list_num list-unstyled course_01 lh-lg mb-3">
-                            <li class="1"><a href="https://www.cuchd.in/bfe/" target="_blank"><i
-                                        class="fa fa-link pe-3"></i>MBA Banking & Financial Engineering
-                                    with SBI & Tally</a></li>
-                            <li class="1"><a href="https://www.cuchd.in/management/mba-strategic-hr.php"
-                                    target="_blank"><i class="fa fa-link pe-3"></i>MBA Strategic HR with AON
-                                    Consulting</a></li>
-                            <li class="1"><a href="https://www.cuchd.in/management/mba-fintech.php" target="_blank"><i
-                                        class="fa fa-link pe-3"></i>MBA Fintech with NSE Academy</a>
-                            </li>
-                            <li class="1"><a href="https://www.cuchd.in/management/mba-strategic-hr.php"
-                                    target="_blank"><i class="fa fa-link pe-3"></i>MBA - Strategic Human Resources
-                                    (ITP)</a></li>
-                            <li class="1"><a href="https://www.cuchd.in/finance-and-accounting/mba-applied-finance.php"
-                                    target="_blank"><i class="fa fa-link pe-3"></i>MBA (Applied Finance)</a></li>
+                    <div class="col-md-6 text-white border-end pt-4 pt-md-0">
+                        <p>Indian Institute of Gems & Jewellery offers a variety of programmes/courses of varying
+                            durations from its 5 centres. Click on the type of programme/course that interests you and
+                            follow the links to explore the details</p>
+                        <ul class=" course_01 text-white fw-bold lh-lg mb-3">
+                            <li>DEGREE PROGRAMMES</li>
+                            <li>POST GRADUATE DIPLOMA PROGRAMMES</li>
+                            <li>DIPLOMA PROGRAMMES</li>
+                            <li>CERTIFICATE COURSES</li>
                         </ul>
-                        <p class="h4 fw-bold text-white">NOTE: <br><span class="h6 text-white fw-normal">The average
-                                outflow of scholarship will be 10%. </span></p>
                     </div>
-                    <div class="col-md-3">
-                        <div class=" text-white">
-                            <h3 class="mb-0 text-white fw-bold">AIT MBA Specialized <br> Programs Slabs:</h3>
-                        </div>
 
-
-                        <div>
-                            <?php
-                            $a = array("90.01 to 100 Marks:", "80 to 89.89 Marks:", "70 to 79.99 Marks:", "60 to 69.99 Marks:", "50 to 59.99 Marks:", "40 to 49.99 Marks:");
-                            $b = array( "40% Scholarship", "40% Scholarship", "30% Scholarship", "20% Scholarship", "15% Scholarship", "10% Scholarship");
-                            for ($i=0; $i < count($a); $i++) {
-                            ?>
-                            <p class="fs-5 text-white"><?= $a[$i];?><br><span class="fs-6  fw-bold"><?= $b[$i];?></span>
-                            </p>
-
-                            <?php
-                            } 
-                            ?>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -413,13 +395,14 @@
                 <div class="row justify-content-center text-center">
                     <?php
                     $a = array( "22000", "37", "100");
-                    $d = array( "+", "+", "%");
                     $b = array( "Alumni Offers", "Years Of Legacy", "Placement Assistance");
                     $c = array( " border-end mb-4 mb-md-0", " border-end  mb-4 mb-md-0","");
+                    $d = array( "+", "+", "%");
+                    $e = array( "1", "2", "3");
                     for ($i=0; $i < count($a); $i++) {
                 ?>
                     <div class="col-md-3 col-6 <?= $c[$i];?>">
-                        <img src="images/iigj/scholership/icons/4.png" class="filter" width="50px" alt="">
+                        <img src="images/iigj/highlights/<?= $e[$i];?>.png" class="filter" width="50px" alt="">
                         <div class=" pb-3">
                             <p class="text-white fs-4"><span
                                     class="display-4 mb-0 fw-bold text-white count"><?= $a[$i];?></span><?= $d[$i];?>
@@ -459,6 +442,8 @@
                                     <div class="col-md-12 text-center pb-md-0 pb-4 ">
                                         <img src="images/iigj/chairman/1.jpg" class="student_02 rounded-3 over_hidden"
                                             alt="">
+                                        <p class="text-center  pt-4"><b class="text-golden fs-4">Vipul Shah</b><br><small>Chairman, GJEPC</small>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -502,11 +487,11 @@
                     </div>
                     <div class="col-md-8 owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                         <?php
-                    $a = array( "Disha Jain", "Shivam Deshmukh", "Ankita Tulsiani", "KINNARI AJMERA", "Jheel Kapadia", "Chirag Soni", "Rishik Agrawal", "Mukesh Patel", "Amrish Srivastav");
-                    $b = array( "Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Varanasi","Student, IIGJ Varanasi","Student, IIGJ Varanasi",);
-                    $c = array("I enrolled at IIGJ to get a basic know-how of jewellery designing but by the end of the        course, I acquired an advanced understanding - starting from scratch to the end of the product. Today, I am        thoroughly equipped with knowledge and skill-sets to make for a great start in the industry.", "IIGJ Jaipur is not only an institute but a platform, which helped me from                holding a pencil to design to the actual manufacturing of jewellery. IIGJ Jaipur gave a whole lot of                practical knowledge with the support of great teachers. It is one of the leading institutes with all                facilities for jewellery designing and manufacturing.", "An essential aspect of a creative designer is not being afraid to fail” and                this is exactly what is taught at IIGJ. Studying here was an exuberant experience as it gave an ideal                combination of both practical and theoretical skills, thus setting the right ground for a successful                career. Now I can say: ‘Design is not just about how it looks but how it works’", "IIGJ Mumbai is a treasure for abundance practical knowledge & in enhancing ones                creativity. During these 3 years, It's always been to learn & explore something interesting every single                day. The faculty creates such a creative vibe, that it ensures you come up with good result. It also                conducts Industrial Visits, where you can directly interact with Industry Professionals & also gives you                an opportunity to work with reputed companies. So If your aim is to be a Gem, then IIGJ is a perfect                Guide to your Success.", "This is the best place to learn everything about Jewellery. They teach you the                from the basic of jewellery and turn you to the professional jewellery maker so that you are ready to                enter the industry. The faculty are also very supportive and patient to teach you the same thing till                you donâ€™t learn They also have 3years B.A Degree course in jewellery. And also provide internship in a                well know firm and also help you with your placements for permanent job.", "It was an incredible experience, I learned the various aspect of Jewellery right                from Jewellery Designing, CAD, Diamond Grading, Gemmology and many more. This helped me a lot to learn                Jewellery Design in Absolute Detail and start my own business I must say IIGJ Mumbai is fantastic                platform for those who would like to enter the Jewellery industry or start their own business. I would                like to extend my gratitude to all faculty member for immense support and guidance.", "It was a great experience studying at IIGJ Varanasi, a memory to cherish for                lifetime. My experience at IIGJ was full of learning and grooming. I am thankful to all the faculties,                mentors and entire department for providing us with quality education. I am also thankful to IIGJ to                provide me help to setup new manufacturing unit.", "I always wanted to learn about jewellery-making, the whole procedure of learning                and making. I now have a better understanding on the techniques/materials . Now I have better knowledge                of Jewellery manufacturing process and I can utilize this knowledge to expand my business.", "IIGJ Varanasi is one of the best Institute in UP for providing Jewellery manufacturing training . I really enjoyed 1 year of my training in Diploma course. I learned a lot and now I am able to increase my efficiency in manufacturing.");;
-                    for ($i=0; $i < count($a); $i++) { 
-                    ?>
+                            $a = array( "Disha Jain", "Shivam Deshmukh", "Ankita Tulsiani", "KINNARI AJMERA", "Jheel Kapadia", "Chirag Soni", "Rishik Agrawal", "Mukesh Patel", "Amrish Srivastav");
+                            $b = array( "Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Jaipur","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Mumbai","Student, IIGJ Varanasi","Student, IIGJ Varanasi","Student, IIGJ Varanasi",);
+                            $c = array("I enrolled at IIGJ to get a basic know-how of jewellery designing but by the end of the        course, I acquired an advanced understanding - starting from scratch to the end of the product. Today, I am        thoroughly equipped with knowledge and skill-sets to make for a great start in the industry.", "IIGJ Jaipur is not only an institute but a platform, which helped me from                holding a pencil to design to the actual manufacturing of jewellery. IIGJ Jaipur gave a whole lot of                practical knowledge with the support of great teachers. It is one of the leading institutes with all                facilities for jewellery designing and manufacturing.", "An essential aspect of a creative designer is not being afraid to fail” and                this is exactly what is taught at IIGJ. Studying here was an exuberant experience as it gave an ideal                combination of both practical and theoretical skills, thus setting the right ground for a successful                career. Now I can say: ‘Design is not just about how it looks but how it works’", "IIGJ Mumbai is a treasure for abundance practical knowledge & in enhancing ones                creativity. During these 3 years, It's always been to learn & explore something interesting every single                day. The faculty creates such a creative vibe, that it ensures you come up with good result. It also                conducts Industrial Visits, where you can directly interact with Industry Professionals & also gives you                an opportunity to work with reputed companies. So If your aim is to be a Gem, then IIGJ is a perfect                Guide to your Success.", "This is the best place to learn everything about Jewellery. They teach you the                from the basic of jewellery and turn you to the professional jewellery maker so that you are ready to                enter the industry. The faculty are also very supportive and patient to teach you the same thing till                you donâ€™t learn They also have 3years B.A Degree course in jewellery. And also provide internship in a                well know firm and also help you with your placements for permanent job.", "It was an incredible experience, I learned the various aspect of Jewellery right                from Jewellery Designing, CAD, Diamond Grading, Gemmology and many more. This helped me a lot to learn                Jewellery Design in Absolute Detail and start my own business I must say IIGJ Mumbai is fantastic                platform for those who would like to enter the Jewellery industry or start their own business. I would                like to extend my gratitude to all faculty member for immense support and guidance.", "It was a great experience studying at IIGJ Varanasi, a memory to cherish for                lifetime. My experience at IIGJ was full of learning and grooming. I am thankful to all the faculties,                mentors and entire department for providing us with quality education. I am also thankful to IIGJ to                provide me help to setup new manufacturing unit.", "I always wanted to learn about jewellery-making, the whole procedure of learning                and making. I now have a better understanding on the techniques/materials . Now I have better knowledge                of Jewellery manufacturing process and I can utilize this knowledge to expand my business.", "IIGJ Varanasi is one of the best Institute in UP for providing Jewellery manufacturing training . I really enjoyed 1 year of my training in Diploma course. I learned a lot and now I am able to increase my efficiency in manufacturing.");
+                            for ($i=0; $i < count($a); $i++) { 
+                        ?>
                         <div class="row align-items-stretch">
                             <div class="testimonial-item rounded align-items-stretch p-4 p-lg-5 mb-5">
                                 <img class="mb-4" src="<?= LINK; ?>images/iigj/students/0<?= $i+1; ?>.jpg" alt="">
@@ -518,17 +503,34 @@
                         <?php } ?>
                     </div>
                 </div>
-                <div class="row pt-5 pt-md-0 justify-content-center company-carousel owl-carousel">
-                    <?php
-                    for ($i=1; $i < 36; $i++) {
-                    ?>
-                    <div class="col-md-12 company_01">
-                        <img src="images/iigj/placement/logo<?= $i+1;?>.jpg" alt="">
-                    </div>
+            </div>
+        </section>
 
-                    <?php
-                    } 
-                ?>
+        <!-- ---------------------------------------------------------------------------- -->
+        <!-- ---------------------------------------------------------------------------- -->
+        <section class="py-5 bg-white">
+            <div class="container wow fadeInUp" data-wow-delay="0.1s">
+                
+            <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h3 class="text-center fw-bold text-golden pb-3 ">OUR RECRUTERS</h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center company">
+                    <div class="col-md-10 shadow py-5">
+                        <div class="row pb-5 pb-md-0 justify-content-center text-center company_001 company-carousel owl-carousel">
+                            <?php
+                            for ($i=1; $i < 28; $i++) {
+                            ?>
+                            <div class="col-md-10 company_01">
+                                <img src="images/iigj/placement/logo<?= $i+1;?>.jpg" alt="">
+                            </div>
+
+                            <?php
+                            } 
+                            ?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

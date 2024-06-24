@@ -37,15 +37,10 @@
                      <a href="#n_about" class="nav-item nav-link">About </a>
                      <a href="#n_corporate" class="nav-item nav-link">Corporate Training </a>
                      <a href="#n_location" class="nav-item nav-link">Location</a>
-                     <div class="d-lg-block">
-                         <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 "
-                             data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
-                     </div>
+                     <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3" data-bs-toggle="modal"
+                         data-bs-target="#exampleModal">Apply Now</a>
                  </div>
              </div>
-             <!-- <div class="ms-auto d-none d-lg-block">
-                        <a href="<?= LINK; ?>" class="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a>
-                    </div> -->
          </nav>
      </div>
  </div>
