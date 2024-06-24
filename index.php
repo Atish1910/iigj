@@ -77,11 +77,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 pt-3 pt-md-0 h_abform" id="form_01">
+                                <div class="col-md-4 d-none d-md-block pt-3 pt-md-0 h_abform" id="form_01">
                                     <div class="rounded-3 over_hidden pt-3 bg-white">
                                         <div class="">
                                             <h3 class=""> Admission Open 2024</h2>
-                                            <h6 class="">Enquire Now</h6>
+                                                <h6 class="">Enquire Now</h6>
                                         </div>
                                         <?php include 'form_01.php';?>
                                     </div>
@@ -92,6 +92,19 @@
                 </div>
             </div>
         </div>
+        <section>
+            <div class="container">
+                <div class="row  d-block d-md-none pt-3 pt-md-0 h_abform" id="form_01">
+                    <div class="rounded-3 over_hidden pt-3 bg-white">
+                        <div class="text-center">
+                            <h3 class=""> Admission Open 2024</h2>
+                                <h6 class="">Enquire Now</h6>
+                        </div>
+                        <?php include 'form_01.php';?>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Carousel End -->
 
 
@@ -259,7 +272,11 @@
                                                                 </div>
                                                                 <div class="text-center overlap_modal">
 
-                                                                    <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 " data-bs-toggle="modal" data-bs-target="#exampleModal_<?= $k1;?>">Know More</a>
+                                                                    <a href="<?= LINK; ?>"
+                                                                        class="btn c_btn py-2 px-3 ms-2 mt-3 "
+                                                                        data-bs-toggle="modal"
+                                                                        data-bs-target="#exampleModal_<?= $k1;?>">Know
+                                                                        More</a>
 
                                                                     <div class="modal fade" id="exampleModal_<?= $k1;?>"
                                                                         tabindex="-1"
@@ -354,7 +371,7 @@
 
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section  id="n_about">
+        <section id="n_about">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">

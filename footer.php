@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-md-12 text-start  text-center mb-3 mb-md-0">
 
-                    <p class="mb-0">© Copyright  <?= date('Y'); ?>  IIGJ. Designed and developed by <img src="images/iigj/logo/3.png" width="70px" alt=""></p>
+                    <p class="mb-0">© Copyright  2024  IIGJ. Designed and developed by <img src="images/iigj/logo/3.png" width="70px" alt=""></p>
                 </div>
             </div>
         </div>

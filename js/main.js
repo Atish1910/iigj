@@ -128,34 +128,10 @@
         }
     });
 
-    
-    let lglink = window.location.href;
-    $('.navbar-nav a[href="' + lglink + '"]').addClass('active');
 
-    function getCookie(cname) {
-        let name = cname + "=";
-        let ca = document.cookie.split(';');
-        for (let i = 0; i < ca.length; i++) {
-            let c = ca[i];
-            while (c.charAt(0) == ' ') {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0) {
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
-
-    $('.h_cour_rer .dropdown-menu a').on('click', function (e) {
-        let nams = $(this).data('cours');
-        document.cookie = "nams=" + nams
-    })
     $('[data-bgimg]').each(function () {
         $(this).css('background-image', 'url(' + $(this).data('bgimg') + ')')
     })
-
-    
     $('.counter-value').each(function () {
         $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
@@ -169,18 +145,6 @@
     });
 
 
-    $(function () {
-        var dtToday = Date();
-        var month = dtToday.getMonth() + 1;
-        var day = dtToday.getDate();
-        var year = dtToday.getFullYear();
-        if (month < 10)
-            month = '0' + month.toString();
-        if (day < 10)
-            day = '0' + day.toString();
-        var maxDate = year + '-' + month + '-' + day;
-        $('#inputdate').attr('min', maxDate);
-    });
 
 
 })(jQuery);

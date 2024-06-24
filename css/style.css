@@ -1430,10 +1430,6 @@ iframe .widget_container {
     background-color: #e4363d;
 }
 
-.mb-90 {
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-}
 
 .box_02 {
     background: #f1f9fa;
@@ -1962,6 +1958,10 @@ iframe .widget_container {
 
     .head_text_02 sub {
         bottom: 13px;
+    }
+    .mb-90 {
+        margin-top: 3rem;
+        margin-bottom: 10rem;
     }
 
 }
