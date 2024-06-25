@@ -9,7 +9,7 @@
                         <h3 class="text-md-center text-start fw-bold text-white pb-3 ">REACH US</h3>
                     </div>
                 </div>
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <div class="col-md-2">
                     <img src="images/iigj/logo/2.png" width="150px" alt="">
                 </div>

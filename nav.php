@@ -31,7 +31,7 @@
                      <img src="images/logo.png" alt="">
                  </div> -->
                  <div class="navbar-nav">
-                     <a href="<?= LINK; ?>" class="nav-item nav-link"><i class="fas fa-home fs-5 me-1"></i></a>
+                     <a href="<?= LINK; ?>" class="nav-item nav-link">Home</a>
                      <a href="#n_courses" class="nav-item nav-link">Courses </a>
                      <a href="#n_placement" class="nav-item nav-link">Placement</a>
                      <a href="#n_about" class="nav-item nav-link">About </a>

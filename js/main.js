@@ -1,57 +1,36 @@
 (function ($) {
     "use strict";
-
-    // Spinner
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
+                $('#spinner').removeClass('show')
             }
-        }, 1);
+        }, 1)
     };
     spinner();
-
-
-    // Initiate the wowjs
     new WOW().init();
-
-
-    // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('shadow').css('top', '0px');
+            $('.sticky-top').addClass('shadow').css('top', '0px')
         } else {
-            $('.sticky-top').removeClass('shadow').css('top', '0px');
+            $('.sticky-top').removeClass('shadow').css('top', '0px')
         }
     });
-
-
-    
-
-
-
     $('.form_servi').on('change', function () {
         let a = $(this).val()
         $('.form_deptart optgroup').addClass('d-none')
         $('.form_deptart optgroup[label="' + a + '"]').removeClass('d-none')
     })
-
-
     $('.dept_01').on('change', function () {
         let a = $(this).val()
         $('.programm_01 optgroup').addClass('d-none')
         $('.programm_01 optgroup[label_02="' + a + '"]').removeClass('d-none')
     })
-    
-    
-
     $('.course_01').on('change', function () {
         let a = $(this).val()
         $('.course_data').addClass('d-none')
         $('.course_data[label="' + a + '"]').removeClass('d-none')
-      })
-
-    // counter in placement
+    })
     let q = 0;
     $(window).scroll(function () {
         let b = $(window).scrollTop()
@@ -64,29 +43,23 @@
                         duration: 5000,
                         easing: 'swing',
                         step: function (now) {
-                            $(this).text(Math.ceil(now));
+                            $(this).text(Math.ceil(now))
                         }
-                    });
+                    })
                 });
                 q++
             }
         }
     })
-
-
-    // Project and Testimonial carousel
     $(".project-carousel, .testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
+        autoplay: !0,
+        smartSpeed: 4000,
         margin: 25,
-        loop: true,
-        center: false,
-        dots: false,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
+        loop: !0,
+        center: !1,
+        dots: !1,
+        nav: !0,
+        navText: ['<i class="bi bi-chevron-left"></i>', '<i class="bi bi-chevron-right"></i>'],
         responsive: {
             0: {
                 items: 1
@@ -102,19 +75,15 @@
             }
         }
     });
-    // Project and Testimonial carousel
     $(".company-carousel").owlCarousel({
-        autoplay: true,
+        autoplay: !0,
         smartSpeed: 1000,
         margin: 25,
-        loop: true,
-        center: false,
-        dots: true,
-        nav: true,
-        navText: [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ],
+        loop: !0,
+        center: !1,
+        dots: !0,
+        nav: !0,
+        navText: ['<i class="bi bi-chevron-left"></i>', '<i class="bi bi-chevron-right"></i>'],
         responsive: {
             0: {
                 items: 2
@@ -127,8 +96,6 @@
             }
         }
     });
-
-
     $('[data-bgimg]').each(function () {
         $(this).css('background-image', 'url(' + $(this).data('bgimg') + ')')
     })
@@ -139,12 +106,8 @@
             duration: 3500,
             easing: 'swing',
             step: function (now) {
-                $(this).text(Math.ceil(now));
+                $(this).text(Math.ceil(now))
             }
-        });
-    });
-
-
-
-
-})(jQuery);
+        })
+    })
+})(jQuery)
