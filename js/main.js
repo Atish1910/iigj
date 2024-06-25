@@ -9,13 +9,17 @@
     };
     spinner();
     new WOW().init();
-    $(window).scroll(function () {
+   
+    
+     // Sticky Navbar
+     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
-            $('.sticky-top').addClass('shadow').css('top', '0px')
+            $('.sticky-top').addClass('shadow').css('top', '0px');
         } else {
-            $('.sticky-top').removeClass('shadow').css('top', '0px')
+            $('.sticky-top').removeClass('shadow').css('top', '-100px');
         }
     });
+    
     $('.form_servi').on('change', function () {
         let a = $(this).val()
         $('.form_deptart optgroup').addClass('d-none')

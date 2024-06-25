@@ -102,7 +102,7 @@
 
 
         <!-- ------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5 bg-grey" id="n_courses">
+        <section class="py-5 bg-grey" id="programmes">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
@@ -112,13 +112,13 @@
                 <div class="row justify-content-center">
                     <?php
                         $a = array("1","2","3","4","5");
-                        $b_01 = array("mt-5 mt-md-0","mt-5 ","mt-5 mt-md-0","mt-5","mt-5");
+                        $b_01 = array("mt-5 mt-lg-0","mt-5 ","mt-5 mt-lg-0","mt-5","mt-5");
                         $c = array("box-002","","box-002","","box-002");;
                         include 'city_course.php';
                         $e = array(  "Delhi", "Jaipur", "Mumbai", "Udupi", "Varanasi",);
                         for ($i=0; $i < count($a); $i++) {
                             ?>
-                    <div class="col-md-4 position-relative bg_height <?= $b_01[$i];?>"
+                    <div class="col-lg-4 col-md-6  position-relative bg_height <?= $b_01[$i];?>"
                         data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.png"  loading="lazy"  alt="">
 
                         <div class="box-001 <?= $c[$i];?>">
@@ -201,7 +201,7 @@
                     <div class="col-md-6">
                         <div class=" text-white">
                             <h3 class="mb-0 text-white fw-bold">FIND YOUR COURSE <br><br></h3>
-                            <p>Pursue the Futuristic course of your choice. Select your Discipline and Program from the
+                            <p>Pursue the Futuristic course of your choice. Select your Programme and Specialization from the
                                 list below:</p>
                         </div>
                         <div class="">
@@ -353,7 +353,7 @@
 
         
 
-        <section class="bg-blue mt-md-5">
+        <section class="bg-blue mt-md-5" id="placement">
             <div class="container py-5">
                 <div class="row mb-5">
                     <h3 class="text-center text-white fw-bold ">PLACEMENT HIGHLIGHTS</h3>
@@ -393,7 +393,7 @@
 
         <!-- ---------------------------------------------------------------------------- -->
         <!-- ---------------------------------------------------------------------------- -->
-        <section class="py-5 bg-white">
+        <section class="py-5 bg-white" id="recruters">
             <div class="container wow fadeInUp" data-wow-delay="0.1s">
                 
             <div class="row justify-content-center">
@@ -402,7 +402,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center company">
-                    <div class="col-md-10 shadow py-5">
+                    <div class="col-md-10 shadow">
                         <div class="row pb-5 pb-md-0 justify-content-center text-center company_001 company-carousel owl-carousel">
                             <?php
                             for ($i=1; $i < 44; $i++) {
@@ -422,7 +422,7 @@
 
         
 
-        <section class="bg-light py-5" id="n_corporate">
+        <section class="bg-light py-5" id="corporatetraining">
             <div class="container">
                 <div class="row">
 
@@ -488,7 +488,7 @@
 
 
         <!---our top ranked patanered end--->
-        <section class="py-5 bg-grey" id="n_placement">
+        <section class="py-5 bg-grey" id="testimonals">
             <div class="container wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row">
                     <div class="col-md-4">
@@ -521,7 +521,7 @@
 
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section id="n_about">
+        <section id="about">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
@@ -558,7 +558,7 @@
 
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
         <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <section id="n_location">
+        <section id="location">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">

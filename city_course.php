@@ -13,31 +13,31 @@ $g = array('<table class="table table-bordered">
                 <td>Diploma in Jewellery Manufacturing</td>
                 <td>12 Months</td>
                 <td>Learn to draw, design and manufacture your own unique jewellery collection.</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>10+2  & Jewellery Design Foundation</td>
             </tr>
             <tr>
                 <td>Diploma in Jewellery Design</td>
                 <td>12 Months</td>
                 <td>Learn all the technicals for jewellery designing from research to Gemmology to CAD and Manufacturing.</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>10+2  & Jewellery Design Foundation</td>
             </tr>
             <tr>
                 <td>Diploma in Gemmology</td>
                 <td>6 Months</td>
                 <td>Learn to evaluate diamonds on lines of the International Diamond Grading System and the famous 4 Cs - Cut, Clarity, Colour and Carat.</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>10+2</td>
             </tr>
             <tr>
                 <td>Diploma in CAD</td>
                 <td>6 Months</td>
                 <td>Become a CAD Designer with our comprehensive CAD Rhino/ Matrix course.</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>10+2</td>
             </tr>
             <tr>
                 <td>Certificate Courses</td>
                 <td>1 to 5 Months</td>
                 <td>Professional programmes offered in Design, CAD and Gemmology.</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>10+2</td>
             </tr>
         </tbody>
     </table>',

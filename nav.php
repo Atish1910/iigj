@@ -32,11 +32,13 @@
                  </div> -->
                  <div class="navbar-nav">
                      <a href="<?= LINK; ?>" class="nav-item nav-link">Home</a>
-                     <a href="#n_courses" class="nav-item nav-link">Courses </a>
-                     <a href="#n_placement" class="nav-item nav-link">Placement</a>
-                     <a href="#n_about" class="nav-item nav-link">About </a>
-                     <a href="#n_corporate" class="nav-item nav-link">Corporate Training </a>
-                     <a href="#n_location" class="nav-item nav-link">Location</a>
+                     <a href="#programmes" class="nav-item nav-link">Programmes</a>
+                     <a href="#placement" class="nav-item nav-link">Placement</a>
+                     <a href="#recruters" class="nav-item nav-link">Recruters</a>
+                     <a href="#corporatetraining" class="nav-item nav-link">Corporate Training</a>
+                     <a href="#testimonals " class="nav-item nav-link">Testimonals </a>
+                     <a href="#about" class="nav-item nav-link">About</a>
+                     <a href="#location" class="nav-item nav-link">Location</a>
                      <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3" data-bs-toggle="modal"
                          data-bs-target="#exampleModal">Apply Now</a>
                  </div>

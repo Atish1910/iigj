@@ -322,10 +322,9 @@ h6,
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 9px;
-    margin: 30px 10px;
+    margin: 20px 4px;
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     outline: none;
 }
@@ -1734,7 +1733,7 @@ iframe .widget_container {
 .company_01 img {
     height: 170px !important;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 8px;
     padding: 10px;
 }
@@ -1896,14 +1895,14 @@ iframe .widget_container {
     }
 
     .company_001 .owl-prev {
-        top: 44px;
+        top: 40%;
         bottom: unset;
         left: -23px;
     }
 
     .company_001 .owl-next {
         bottom: unset;
-        top: 44px;
+        top: 40%;
         right: -46px;
     }
 
