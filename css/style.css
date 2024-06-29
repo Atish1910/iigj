@@ -1422,7 +1422,7 @@ iframe .widget_container {
 }
 
 .bg_height_03 {
-    height: 250px;
+    height: 160px;
     background-size: cover;
     background-color: #0000008f;
     background-position: center;
@@ -1740,9 +1740,9 @@ iframe .widget_container {
 
 .venture_01 .head-text_03 {
     position: absolute;
-    bottom: 40px;
+    bottom: 10px;
     width: 41%;
-    left: 30px;
+    left: 10px;
 }
 
 .feature {

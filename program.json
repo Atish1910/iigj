@@ -1,6 +1,5 @@
 {
-  "degree": {
-
+  "under-graduation": {
     "b-des": {
       "head": "B.Des In Jewellery Design",
       "location": "Jaipur",
@@ -17,7 +16,7 @@
     }
 
   },
-  "post-diploma": {
+  "post-graduation": {
 
     "pg-diploma": {
       "head": "PG Diploma in Jewellery Management",
@@ -59,6 +58,40 @@
       "overview": "The course provides a comprehensive knowledge about diamonds in all their aspects. Thorough understanding of this course gives students the confidence to evaluate diamonds on lines of the International Diamond Grading System and the famous 4 C's - Cut, Clarity, Colour and Carat. <br><br> This course covers complete identification of gemstone with the help of instruments and 10X Loupe, students get idea for starting business related to gemstones and can set up own laboratory after completion of this course.<br> <br><ul><b>Career Opportunities in Gemmology</b>    <li>Diamond Grader</li>    <li>Business</li>    <li>Trading</li>    <li>Consultant</li>    <li>Gemmologist</li></ul><ul><b> Career Opportunities in Gem Identification</b>    <li>Gemmologist </li>    <li>Gemstone Assorter</li>    <li>Entrepreneur</li></ul>"
     }
 
+  },
+  "certificate":{
+    "b-des": {
+      "head": "B.Des In Jewellery Design",
+      "location": "Jaipur",
+      "duration": "1 Year",
+      "elebligity": "12th Pass",
+      "overview": "Bachelor’s in Design – Jewellery Design programme looks for spirited, focused, and career oriented students who are keen to carve a niche for themselves in this ever evolving and vibrant Gems and Jewellery industry. The industry has shown tremendous growth potential and welcomes aspiring professionals who values innovation and originality. This course is well suited for those who are dedicated and wants to work in this industry to make a serious career and is also keen to develop a wide range of skills and willing to grow with the industry. <br><br><ul><b>Career Opportunities</b> <li>Jewellery Designer</li> <li> Jewellery Merchandiser</li> <li> Design Coordinator</li> <li> Visual Merchandiser.</li> </ul> "
+    },
+    "ba-in-gem": {
+      "head": "B.A. In Gem & Jewellery Design",
+      "elebligity": "Higher Secondary Certificate (HSC/Std. 12) or an equivalent to 10+2 education examination from any stream from any statutory board of education in India.",
+      "location": "Mumbai",
+      "duration": "Duration of course: 3 Years.",
+      "overview": "The B.A. in Gems & Jewellery Design programme has been designed for creative, ambitious, enthusiastic and determined career-seeking students who are keen on building a career for themselves in the gems & jewellery industry. Offered by IIGJ Mumbai, in collaboration with Savitribai Phule Pune University (formerly University of Pune), the 3-year degree programme provides students with a 360-degree education in various aspects of jewellery that is completely aligned to gem & jewellery industry requirements. Taught by experienced, industry-trained faculty, the focus of the programme is to integrate knowledge of India’s famous gems & jewellery industry, with the right blend of theoretical and practical lessons. Internships and placements with reputed jewllery companies are a highlight of this programme. <br><br>The curriculum has been meticulously designed to develop a high level of skills in various branches of jewellery. Students are required to use expensive material such as gemstones, like diamonds, coloured stones and pearls, as well as precious metals. This is a self-supporting course and all students are required to pay full fees, including reservation category students. Bank loan facility will be provided on need basis OR Financial loans shall be facilitated through bank tie-ups with IIGJ. The programme is conducted at two different locations, SPPU, Pune and IIGJ, Mumbai. The batch intake is limited to 50 students. Reservations as per Government of Maharashtra’s existing rules are applicable."
+    }
+
+  },
+  "short-term":{
+    "b-des": {
+      "head": "B.Des In Jewellery Design",
+      "location": "Jaipur",
+      "duration": "1 Year",
+      "elebligity": "12th Pass",
+      "overview": "Bachelor’s in Design – Jewellery Design programme looks for spirited, focused, and career oriented students who are keen to carve a niche for themselves in this ever evolving and vibrant Gems and Jewellery industry. The industry has shown tremendous growth potential and welcomes aspiring professionals who values innovation and originality. This course is well suited for those who are dedicated and wants to work in this industry to make a serious career and is also keen to develop a wide range of skills and willing to grow with the industry. <br><br><ul><b>Career Opportunities</b> <li>Jewellery Designer</li> <li> Jewellery Merchandiser</li> <li> Design Coordinator</li> <li> Visual Merchandiser.</li> </ul> "
+    },
+    "ba-in-gem": {
+      "head": "B.A. In Gem & Jewellery Design",
+      "elebligity": "Higher Secondary Certificate (HSC/Std. 12) or an equivalent to 10+2 education examination from any stream from any statutory board of education in India.",
+      "location": "Mumbai",
+      "duration": "Duration of course: 3 Years.",
+      "overview": "The B.A. in Gems & Jewellery Design programme has been designed for creative, ambitious, enthusiastic and determined career-seeking students who are keen on building a career for themselves in the gems & jewellery industry. Offered by IIGJ Mumbai, in collaboration with Savitribai Phule Pune University (formerly University of Pune), the 3-year degree programme provides students with a 360-degree education in various aspects of jewellery that is completely aligned to gem & jewellery industry requirements. Taught by experienced, industry-trained faculty, the focus of the programme is to integrate knowledge of India’s famous gems & jewellery industry, with the right blend of theoretical and practical lessons. Internships and placements with reputed jewllery companies are a highlight of this programme. <br><br>The curriculum has been meticulously designed to develop a high level of skills in various branches of jewellery. Students are required to use expensive material such as gemstones, like diamonds, coloured stones and pearls, as well as precious metals. This is a self-supporting course and all students are required to pay full fees, including reservation category students. Bank loan facility will be provided on need basis OR Financial loans shall be facilitated through bank tie-ups with IIGJ. The programme is conducted at two different locations, SPPU, Pune and IIGJ, Mumbai. The batch intake is limited to 50 students. Reservations as per Government of Maharashtra’s existing rules are applicable."
+    }
+    
   }
 
 }

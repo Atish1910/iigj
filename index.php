@@ -65,7 +65,7 @@
                                     <div class="hrad-img">
                                         <img src="<?= LINK; ?>images/iigj/1.png" loading="lazy"  alt="">
                                         <div class="box text-center ">
-                                            <span class="h5 text-white fw-bold">DELHI | JAIPUR | UDUPI <br> MUMBAI | VARANASI</span>
+                                            <span class="h5 text-white fw-bold">DELHI | MUMBAI | JAIPUR <br> VARANASI | UDUPI</span>
                                         </div>
 
                                     </div>
@@ -115,7 +115,7 @@
                         $b_01 = array("mt-5 mt-lg-0","mt-5 ","mt-5 mt-lg-0","mt-5","mt-5");
                         $c = array("box-002","","box-002","","box-002");;
                         include 'city_course.php';
-                        $e = array(  "Delhi", "Jaipur", "Mumbai", "Udupi", "Varanasi",);
+                        $e = array(  "Delhi", "Mumbai", "Jaipur", "Varanasi", "Udupi",);
                         for ($i=0; $i < count($a); $i++) {
                             ?>
                     <div class="col-lg-4 col-md-6  position-relative bg_height <?= $b_01[$i];?>"
@@ -215,11 +215,11 @@
                                                     <select class="form-select dept_01 form_servi"
                                                         placeholder="graduation" name="n_graduation">
                                                         <option selected disabled>Select Programmes</option>
-                                                        <option value="degree">DEGREE PROGRAMMES</option>
-                                                        <option value="post-diploma">POST GRADUATE DIPLOMA PROGRAMMES
-                                                        </option>
+                                                        <option value="under-graduation">DEGREE PROGRAMMES</option>
+                                                        <option value="post-graduation">POST GRADUATE DIPLOMA PROGRAMMES</option>
                                                         <option value="diploma">DIPLOMA PROGRAMMES</option>
-                                                        <!-- <option value="certificate-courses">CERTIFICATE COURSES</option> -->
+                                                        <option value="certificate">CERTIFICATE COURSES</option>
+                                                        <option value="short-term">SHORT TERM</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -565,17 +565,17 @@
                         <h3 class="text-center fw-bold text-golden pb-3 ">OUR CAMPUSES</h3>
                     </div>
                 </div>
-                <div class="row  align-items-stretch justify-content-center ">
+                <div class="row  align-items-stretch justify-content-between ">
                     <?php
                     $a = array( "1", "2", "3","4","5");
                     $b = array(  "DELHI", "MUMBAI", "JAIPUR", "VARANASI", "UDUPI");
                     for ($i=0; $i < count($a); $i++) {
                 ?>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-2 mb-4">
                         <div class="text-white venture_01 position-relative  bg_height_03"
                             data-bgimg="<?= LINK; ?>images/iigj/campus/<?= $a[$i];?>.jpg"  loading="lazy"  alt="">
                             <div class="head-text_03 ">
-                                <span class="h4 text-white fw-bold">
+                                <span class="h6 text-white fw-bold">
                                     <?= $b[$i];?>
                             </div>
                         </div>

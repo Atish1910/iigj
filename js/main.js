@@ -56,13 +56,13 @@
         }
     })
     $(".project-carousel, .testimonial-carousel").owlCarousel({
-        autoplay: !0,
-        smartSpeed: 4000,
+        autoplay: true,
+        smartSpeed: 1000,
         margin: 25,
-        loop: !0,
-        center: !1,
-        dots: !1,
-        nav: !0,
+        loop: true,
+        center: false,
+        dots: false,
+        nav: true,
         navText: ['<i class="bi bi-chevron-left"></i>', '<i class="bi bi-chevron-right"></i>'],
         responsive: {
             0: {
