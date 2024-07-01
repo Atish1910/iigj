@@ -63,7 +63,7 @@ RewriteEngine on
 
 RewriteEngine On
 
-RewriteRule ^thankyou thankyou.php [NC,L]
+RewriteRule ^thankyou.php thankyou.php [NC,L]
 RewriteRule ^enquiry enquiry.php [NC,L]
 RewriteRule ^privacypolicy privacypolicy.php [NC,L]
 RewriteRule ^terms terms.php [NC,L]
