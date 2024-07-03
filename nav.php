@@ -19,7 +19,7 @@
      <div class="container">
          <nav class="navbar navbar-expand-lg  navbar-light p-lg-0">
              <a href="<?= LINK; ?>" class="navbar-brand">
-                 <img src="images/iigj/logo/1.jpg" class="pt-2" alt="">
+                 <img src="images/iigj/logo/1.jpg" class="" alt="">
              </a>
              <div class=""></div>
              <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
@@ -34,7 +34,7 @@
                      <a href="<?= LINK; ?>" class="nav-item nav-link">Home</a>
                      <a href="#programmes" class="nav-item nav-link">Programmes</a>
                      <a href="#placement" class="nav-item nav-link">Placement</a>
-                     <a href="#recruters" class="nav-item nav-link">Recruters</a>
+                     <a href="#recruiter" class="nav-item nav-link">Recruiter</a>
                      <a href="#corporatetraining" class="nav-item nav-link">Corporate Training</a>
                      <a href="#testimonals " class="nav-item nav-link">Testimonals </a>
                      <a href="#about" class="nav-item nav-link">About</a>

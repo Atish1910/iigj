@@ -2,42 +2,84 @@
 $g = array('<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Course Name</th>
+                <th>Programmes Name</th>
                 <th>Duration</th>
-                <th>Description</th>
+                <th>Specialization</th>
                 <th>Eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Diploma in Jewellery Manufacturing</td>
-                <td>12 Months</td>
-                <td>Learn to draw, design and manufacture your own unique jewellery collection.</td>
-                <td>10+2  & Jewellery Design Foundation</td>
-            </tr>
-            <tr>
+                <td>Diploma Programmes</td>
+                <td>13 months</td>
                 <td>Diploma in Jewellery Design</td>
-                <td>12 Months</td>
-                <td>Learn all the technicals for jewellery designing from research to Gemmology to CAD and Manufacturing.</td>
-                <td>10+2  & Jewellery Design Foundation</td>
+                <td>10+2 & Jewellery Design Foundation</td>
             </tr>
             <tr>
+                <td>Diploma Programmes</td>
+                <td>12 months</td>
+                <td>Diploma in Jewellery Manufacturing</td>
+                <td>10+2 & Jewellery Design Foundation</td>
+            </tr>
+            <tr>
+                <td>Diploma Programmes</td>
+                <td>6 months</td>
                 <td>Diploma in Gemmology</td>
-                <td>6 Months</td>
-                <td>Learn to evaluate diamonds on lines of the International Diamond Grading System and the famous 4 Cs - Cut, Clarity, Colour and Carat.</td>
-                <td>10+2</td>
+                <td>10+2 & Jewellery Design Foundation</td>
             </tr>
             <tr>
+                <td>Diploma Programmes</td>
+                <td>6 months</td>
                 <td>Diploma in CAD</td>
-                <td>6 Months</td>
-                <td>Become a CAD Designer with our comprehensive CAD Rhino/ Matrix course.</td>
+                <td>10+2 & Jewellery Design Foundation</td>
+            </tr>
+            <tr>
+                <td>Certificate Courses</td>
+                <td>60 Hrs</td>
+                <td>Professional Certificate in Diamond Assorting & Valuation</td>
                 <td>10+2</td>
             </tr>
             <tr>
                 <td>Certificate Courses</td>
-                <td>1 to 5 Months</td>
-                <td>Professional programmes offered in Design, CAD and Gemmology.</td>
+                <td>4 Days</td>
+                <td>Professional Certificate - All About Diamonds (Lab Classes)</td>
                 <td>10+2</td>
+            </tr>
+            <tr>
+                <td>Certificate Courses</td>
+                <td>4 Days</td>
+                <td>Professional Certificate - All About Navratnas (Lab Classes)</td>
+                <td>10+2</td>
+            </tr>
+            <tr>
+                <td>Certificate Courses</td>
+                <td>2 Days</td>
+                <td>Professional Certificate - Introduction in CAD</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>4 days</td>
+                <td>All About Diamonds - Lab Classes</td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>4 days</td>
+                <td>All About Navratna - Lab Classes</td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>5 days</td>
+                <td>Introduction in CAD (5 Days)</td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>6 days</td>
+                <td>Digital Brand Building & E-commerce Selling/ <br>Digital Brand Building & E-commerce Selling - Online</td>
+                <td>NA</td>
             </tr>
         </tbody>
     </table>',
@@ -45,36 +87,96 @@ $g = array('<table class="table table-bordered">
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Course Name</th>
+                <th>Programmes Name</th>
                 <th>Duration</th>
-                <th>Description</th>
+                <th>Specialization</th>
                 <th>Eligibility</th>
             </tr>
         </thead>
-        <tbody>
+       <tbody>
             <tr>
-                <td>B.DES IN JEWELLERY DESIGN</td>
-                <td>4 Years</td>
-                <td>This offers everything from jewellery design, gemmology, and computer-aided jewellery designing, management to manufacturing, and production techniques, stone setting to casting.</td>
-                <td>12th pass</td>
+                <td>Undergraduate Degree</td>
+                <td>3 years</td>
+                <td>B.A. in Gems & Jewellery Design <br> (Affiliated to Savitribai Phule Pune University)</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>DIPLOMA IN JEWELLERY MANUFACTURING AND PRODUCTION</td>
-                <td>12 Months</td>
-                <td>Learn professional manufacturing processes followed in the industry.</td>
-                <td>12th pass</td>
+                <td>Post Graduate Diploma</td>
+                <td>12 months</td>
+                <td>PG Diploma in Jewellery Management</td>
+                <td>Graduation in any stream</td>
             </tr>
             <tr>
-                <td>DIPLOMA IN GEM IDENTIFICATION</td>
-                <td>3 Months</td>
-                <td>Learn complete identification of gemstones with the help of gemmological tools and instruments.</td>
-                <td>12th pass</td>
+                <td>Certificate</td>
+                <td>150 Hrs</td>
+                <td>Professional Certificate in Jewellery Manufacturing (Basic)</td>
+                <td>10th Passed</td>
             </tr>
             <tr>
-                <td>CERTIFICATE COURSES</td>
-                <td>30 days - 5 Months</td>
-                <td>Professional programmes offered in CAD, Manufacturing and Gemmology.</td>
-                <td>12th pass</td>
+                <td>Certificate</td>
+                <td>250 Hrs</td>
+                <td>Professional Certificate in Jewellery Manufacturing (Advanced)</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>240 Hrs</td>
+                <td>Professional Certificate in CAD Rhinoceros for Jewellery - Offline</td>
+                <td>12th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>120 Hrs</td>
+                <td>Professional Certificate in CAD Rhinoceros for Jewellery - Online</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>150 Hrs</td>
+                <td>Professional Certificate in CAD Matrix for Jewellery</td>
+                <td>WORKING KNOWLEDGE OF RHINO SOFTWARE</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>150 Hrs</td>
+                <td>Professional Certificate in Diamond Grading & Gems</td>
+                <td>12th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>30 Hrs</td>
+                <td>Professional Certificate in Gem Identification & Grading</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>60 Hrs</td>
+                <td>Professional Certificate in Jewellery Merchandising</td>
+                <td>12th Passed, Graduates, Industry Professionals</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>90 HOURS</td>
+                <td>Professional Certificate in Advanced Gemology</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Certificate</td>
+                <td>24 Hrs</td>
+                <td>Professional Certificate in Pearls</td>
+                <td>10th Passed</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>2 Days</td>
+                <td>Gold Appraisal</td>
+                <td>NA</td>
+            </tr>
+            <tr>
+                <td>Short Term Program</td>
+                <td>3 days</td>
+                <td>Gemmology (3 days)</td>
+                <td>NA</td>
             </tr>
         </tbody>
     </table>',
@@ -82,114 +184,93 @@ $g = array('<table class="table table-bordered">
 <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Course Name</th>
+                <th>Programmes Name</th>
                 <th>Duration</th>
-                <th>Description</th>
+                <th>Specialization</th>
+                <th>Eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>B.A IN GEMS & JEWELLERY DESIGN</td>
-                <td>3 Years</td>
-                <td>Savitribai Phule Pune University (SPPU) in collaboration with Indian Institute of Gems & Jewellery (IIGJ) Mumbai offers a 3-Year Bachelor of Arts (B.A.) Degree in Gems & Jewellery Design.</td>
+                <td>Undergraduate Degree</td>
+                <td>4 years</td>
+                <td>B.Des in Jewellery Design <br> (Affiliated to Rajasthan ILD Skills University)</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>PG DIPLOMA IN JEWELLERY MANAGEMENT</td>
-                <td>12 Months</td>
-                <td>Learn how to design using manual & CAD techniques, manufacture and merchandise your own jewellery collection.</td>
+                <td>Post Graduate Diploma</td>
+                <td>12 months</td>
+                <td>PG Diploma in Jewellery Design & CAD</td>
+                <td>Graduation in any stream</td>
             </tr>
             <tr>
-                <td>CERTIFICATE COURSES</td>
-                <td>12 Hrs. - 540 Hrs</td>
-                <td>Short term courses in Jewellery Designing, Manufacturing, Gemmology, CAD and more!</td>
+                <td>Diploma</td>
+                <td>12 months</td>
+                <td>Diploma in Jewellery Manufacturing & Production</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>MANUAL & CORELDRAW JEWELLERY DESIGN</td>
-                <td>180 Hrs</td>
-                <td>Learn manual design and Corel Draw.</td>
+                <td>Diploma</td>
+                <td>6 months</td>
+                <td>Diploma in Computer Aided Design</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>ONLINE REAL TIME TRAINING PROGRAMME</td>
-                <td>120 Hrs</td>
-                <td>Learn Jewellery Designing through online real time training.</td>
+                <td>Diploma</td>
+                <td>3 months</td>
+                <td>Diploma in Gem Identification</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>PMATI COURSES</td>
-                <td>120 Hrs</td>
-                <td>Training and certification of precious metals assaying in gold.</td>
+                <td>Short Term Program</td>
+                <td>2 days</td>
+                <td>Foundation Course for Jewellery</td>
+                <td>NA</td>
             </tr>
         </tbody>
     </table>
     ',
+
+
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Course Name</th>
+                <th>Programmes Name</th>
                 <th>Duration</th>
-                <th>Description</th>
+                <th>Specialization</th>
+                <th>Eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>JEWELLERY DESIGN CAD – MATRIX</td>
-                <td>120 Hrs</td>
-                <td>Learn Computer Aided Design- Gemvision Matrix 9.0 to create accurate jewellery designs.</td>
+                <td>Diploma</td>
+                <td>15 months</td>
+                <td>diploma in jewellery design </td>
+                <td>CLASS 12</td>
             </tr>
             <tr>
-                <td>JEWELLERY DESIGN CAD – RHINO</td>
-                <td>120 Hrs</td>
-                <td>Learn Computer Aided Design Rhino software that helps in creating 2D drawings to 3D models.</td>
-            </tr>
-            <tr>
-                <td>JEWELLERY MAKING – BENCH WORK</td>
-                <td>8 Weeks</td>
-                <td>Learn complete jewellery making process with professional bench work set up.</td>
-            </tr>
-            <tr>
-                <td>JEWELLERY MANUFACTURING – CASTING</td>
-                <td>8 Weeks</td>
-                <td>The course is designed to teach the entire process of jewellery making from lost wax casting to mass production.</td>
-            </tr>
-            <tr>
-                <td>JEWELLERY DESIGN MANUAL</td>
-                <td>8 Weeks</td>
-                <td>A creative art that combines knowledge of conceptualizing design into jewellery.</td>
+                <td>Diploma</td>
+                <td>15 months</td>
+                <td>diploma in jewellery manufacturing</td>
+                <td>12TH PASSED (Minimum marks: 50% average) <br> Basic knowledge of jewellery design</td>
             </tr>
         </tbody>
     </table>',
+
+
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Course Name</th>
+                <th>Programmes Name</th>
                 <th>Duration</th>
-                <th>Description</th>
+                <th>Specialization</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>DIPLOMA IN JEWELLERY DESIGN</td>
-                <td>930 Hrs / 12 Months</td>
-                <td>Become a jewellery designer with our Diploma programme.</td>
-            </tr>
-            <tr>
-                <td>DIPLOMA IN JEWELLERY MANUFACTURING</td>
-                <td>12 Months / 990 Hrs</td>
-                <td>Covers all the aspects of jewellery making with comprehensive in-depth theory lectures and practical exercises.</td>
-            </tr>
-            <tr>
-                <td>CERTIFICATE COURSE IN CAD- RHINO</td>
-                <td>240 Hrs / 3.5 Months</td>
-                <td>Learn Computer Aided Design Rhino software that helps in creating 2D drawings to 3D models.</td>
-            </tr>
-            <tr>
-                <td>CERTIFICATE COURSE IN CAD MATRIX</td>
-                <td>150 Hrs / 2.5 Months</td>
-                <td>Learn Computer Aided Design Matrix software that helps in creating 2D drawings to 3D models along with rendering and animation.</td>
-            </tr>
-            <tr>
-                <td>BASIC JEWELLERY DESIGN</td>
-                <td>150 Hrs / 2.5 Months</td>
-                <td>Anyone who has creative ability and a keen sense of fashion and accessories is an ideal candidate for a career in jewellery designing.</td>
+                <td>Short Term Program</td>
+                <td>2 days</td>
+                <td>gold appraisal</td>
             </tr>
         </tbody>
     </table>');

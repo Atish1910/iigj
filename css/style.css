@@ -425,16 +425,19 @@ h6,
     top: 0;
     height: 100%;
     width: 100%;
-    background: black;
+    background: unset;
     z-index: 1;
 }
 
 #header-carousel .carousel-item .main-img {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: cover;
     object-position: left;
+}
+.p_5{
+    padding: 5rem;
 }
 
 .overlap_modal .modal {
@@ -844,11 +847,11 @@ h6,
 }
 
 .copyright {
-    color: #B0B9AE;
+    color: var(--bs-white);
 }
 
 .copyright {
-    background: #111111;
+    background: var(--blue);
 }
 
 .copyright a:hover {
@@ -860,7 +863,7 @@ h6,
 }
 
 .navbar-brand img {
-    height: 60px;
+    height: 68px;
 }
 
 .fetchButton {
@@ -1255,7 +1258,7 @@ iframe .widget_container {
 
 @media (max-width: 768px) {
     .navbar-brand img {
-        height: 80px;
+        height: 47px;
     }
 }
 
@@ -1400,7 +1403,7 @@ iframe .widget_container {
 }
 
 .bg_height {
-    height: 450px;
+    height: 300px;
     background-position: center;
     border-radius: 20px;
     background-blend-mode: multiply;
@@ -1731,8 +1734,8 @@ iframe .widget_container {
 }
 
 .company_01 img {
-    height: 170px !important;
-    width: 100%;
+    height: 100% !important;
+    width: 110px;
     object-fit: contain;
     border-radius: 8px;
     padding: 10px;
@@ -1808,7 +1811,16 @@ iframe .widget_container {
     background-color: var(--golden) !important;
     text-transform: capitalize !important;
 }
-
+.university_001{
+    position: absolute;
+    top: -4%;
+    right: 45%;
+    transform: rotate(323deg);
+    width: 60px;
+}
+.enqui_form_ai option{
+    text-transform: capitalize;
+}
 @media (min-width: 768px) {
     .head-text_01 sup::before {
         right: 15px;
@@ -1907,10 +1919,24 @@ iframe .widget_container {
     }
 
     #header-carousel .carousel-item:before {
-        background: rgba(0, 0, 0, 0.70);
+        background: rgba(0, 0, 0, 0.0);
     }
 
     .bg_height_02 {
         background-color: rgb(0 0 0/ 60%);
     }
+    #header-carousel .carousel-item .main-img {
+        height: 100%;
+        object-fit: fill;
+        object-position: left;
+    }
+    
+.p_5{
+    padding: unset;
+}
+
+.company_01 img {
+    width: 200px;
+}
+
 }

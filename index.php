@@ -44,13 +44,11 @@
         <div id="header-carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100 main-img d-none d-md-block" src="<?= LINK; ?>images/iigj/banners/1.jpg"
-                        alt="Image">
+                    <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/2.png" alt="Image">
                     <div class="carousel-caption">
                         <div class="container position-relative">
-                            <div class="row align-items-end  ">
-                                <div class="col-md-5 text-start">
-
+                            <div class="row align-items-end justify-content-end p_5">
+                                <!-- <div class="col-md-5 text-start">
                                     <h1 class="text-white head-text_02 "><span class="text-golden">PIONEERS IN
                                         </span><br>JEWELLERY <br> EDUCATION</h1>
                                     <p class=""> Indian Institute of Gems & Jewellery, an initiative of the Gem &
@@ -58,8 +56,7 @@
                                         the Ministry of Commerce & Industries in 1996 to create the next generation of
                                         jewellery professionals.</p>
                                     <div class="">
-                                        <h4 class="text-golden fw-bold">EDUCATION TRAINING SKILLING</h4>
-
+                                        <h4 class="text-white fw-bold mb-0">EDUCATION <span class="text-golden">|</span> TRAINING <span class="text-golden">|</span> SKILLING</h4>
                                     </div>
                                 </div>
                                 <div class="col-md-3 pe-md-3  border-end ">
@@ -71,10 +68,10 @@
                                         </div>
 
                                     </div>
-                                </div>
-                                <div class="col-md-4 d-none d-md-block pt-3 pt-md-0 h_abform" id="form_01">
-                                    <div class="rounded-3 over_hidden pt-3 bg-white">
-                                        <div class="">
+                                </div> -->
+                                <div class="col-md-4 d-none d-md-block h_abform">
+                                    <div class="rounded-3 over_hidden bg-white">
+                                        <div class=" pt-4">
                                             <h3 class=""> Admission Open 2024</h2>
                                                 <h6 class="">Apply Now</h6>
                                         </div>
@@ -108,17 +105,17 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-md-3 pb-0 ">PROGRAMMES OFFERS</h3>
+                        <h3 class="text-center fw-bold text-golden pb-md-3 pb-0 ">PROGRAMMES OFFERS BY CAMPUS</h3>
                     </div>
                 </div>
                 <div class="row justify-content-center">
                     <?php
-                        $a = array("1","2","3","4","5");
-                        $b_01 = array("mt-5 mt-lg-0","mt-5 ","mt-5 mt-lg-0","mt-5","mt-5");
-                        $c = array("box-002","","box-002","","box-002");;
-                        include 'city_course.php';
-                        $e = array(  "Delhi", "Mumbai", "Jaipur", "Varanasi", "Udupi",);
-                        for ($i=0; $i < count($a); $i++) {
+                                $a = array("1","2","3","4","5");
+                                $b_01 = array("mt-5 mt-lg-0","mt-5 ","mt-5 mt-lg-0","mt-5","mt-5");
+                                $c = array("box-002","","box-002","","box-002");;
+                                include 'city_course.php';
+                                $e = array(  "Delhi", "Mumbai", "Jaipur", "Varanasi", "Udupi",);
+                                for ($i=0; $i < count($a); $i++) {
                             ?>
                     <div class="col-lg-4 col-md-6  position-relative bg_height <?= $b_01[$i];?>"
                         data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.png" loading="lazy" alt="">
@@ -127,9 +124,7 @@
                             <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter"
                                 loading="lazy" alt="">
                             <h4 class="text-white mt-2"><?= $e[$i];?></h4>
-                            <p>IIGJ's Certificate Courses are offered in a variety of gem and jewellery topics to suit
-                                different requirements. These are of short duration and are useful for all who wish to
-                                learn something new in jewellery or to upgrade existing skills.</p>
+                            <p></p>
                             <!-- Button trigger modal -->
                             <button type="button" class="btn c_btn" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal<?= $a[$i];?>"> Read More </button>
@@ -186,8 +181,8 @@
                     </div>
 
                     <?php
-                    } 
-                ?>
+                                } 
+                            ?>
                 </div>
             </div>
         </section>
@@ -219,11 +214,12 @@
                                                     <select class="form-select dept_01 form_servi"
                                                         placeholder="graduation" name="n_graduation">
                                                         <option selected disabled>Select Programmes</option>
-                                                        <option value="under-graduation">UNDERGRADUATE DEGREE</option>
-                                                        <option value="post-graduation-diploma">POST GRADUATE DIPLOMA</option>
-                                                        <option value="diploma">DIPLOMA PROGRAMMES</option>
-                                                        <option value="certificate">CERTIFICATE COURSES</option>
-                                                        <option value="short-term-program">SHORT TERM PROGRAM</option>
+                                                        <option value="under-graduation">undergraduate degree</option>
+                                                        <option value="post-graduation-diploma">post graduate diploma
+                                                        </option>
+                                                        <option value="diploma">diploma programmes</option>
+                                                        <option value="certificate">certificate courses</option>
+                                                        <option value="short-term-program">short term program</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -236,14 +232,13 @@
                                                             foreach ($b as $k => $v) {
                                                                 // print_r($k);
                                                                 ?>
-                                                        <optgroup CLASS="text-capitalize" label="<?= $k;?>"
-                                                            class="d-none">
+                                                        <optgroup class="text-capitalize d-none" label="<?= $k;?>">
                                                             <?php 
                                                             foreach ($v as $k1 => $v1) {
                                                                 // print_r($k1);
 
                                                             ?>
-                                                            <option data-course="<?= $k;?>" value="<?= $k1;?>">
+                                                            <option data-course="<?= $k;?>" class="text-capitalize" value="<?= $k1;?>">
                                                                 <?= $v1['head']; ?></option>
                                                             <?php 
                                                             }
@@ -269,7 +264,7 @@
                                                             foreach ($v as $k1 => $v1) {
                                                                 // print_r($k1);
                                                         ?>
-                                                    <div class="modal-dialog course_data d-none modal-lg "
+                                                    <div class="modal-dialog course_data d-none modal-xl "
                                                         label="<?= $k1;?>">
                                                         <div class="modal-content">
                                                             <div class="modal-header bg-golden text-start">
@@ -279,7 +274,8 @@
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body text-start">
-                                                                <h3 class=""><?= $v1['head']; ?></h3>
+                                                                <h4 class="fw-bold text-blue text-uppercase"><?= $v1['head']; ?><br>
+                                                                </h4>
                                                                 <div class="">
                                                                     <p><b>Course Location :</b> <?= $v1['location']; ?>
                                                                     </p>
@@ -287,8 +283,9 @@
                                                                     </p>
                                                                     <p><b>Eligibility :</b> <?= $v1['eligibility']; ?>
                                                                     </p>
-                                                                    <p><b>Start Date :</b> <?= $v1['date']; ?></p>
-                                                                    <p><b>Course Overview :<br></b><?= $v1['overview']; ?></p>
+                                                                    <!-- <p><b>Start Date :</b> <?= $v1['date']; ?></p> -->
+                                                                    <p><b>Course Overview
+                                                                            :<br></b><?= $v1['overview']; ?></p>
                                                                 </div>
                                                                 <div class="text-center overlap_modal">
 
@@ -362,7 +359,7 @@
 
         <section class="bg-blue mt-md-5" id="placement">
             <div class="container py-5">
-                <div class="row mb-5">
+                <div class="row mb-3">
                     <h3 class="text-center text-white fw-bold ">PLACEMENT HIGHLIGHTS</h3>
                 </div>
                 <div class="row justify-content-center text-center">
@@ -378,8 +375,8 @@
                         <img src="images/iigj/highlights/<?= $e[$i];?>.png" class="filter" width="50px" loading="lazy"
                             alt="">
                         <div class=" pb-3">
-                            <p class="text-white fs-4"><span
-                                    class="display-4 mb-0 fw-bold text-white count"><?= $a[$i];?></span><?= $d[$i];?>
+                            <p class="text-white fs-4 mb-0"><span
+                                    class="display-5 mb-0 fw-bold text-white count"><?= $a[$i];?></span><?= $d[$i];?>
                             </p>
                             <small class="text-white"><?= $b[$i];?></small>
                         </div>
@@ -387,8 +384,8 @@
                     <?php
                 } 
                 ?>
-                    <div class="text-center pt-3 pb-0">
-                        <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3 ms-2 mt-3 " data-bs-toggle="modal"
+                    <div class="text-center">
+                        <a href="<?= LINK; ?>" class="btn c_btn py-2 px-3" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">Apply Now</a>
                     </div>
                 </div>
@@ -401,23 +398,22 @@
 
         <!-- ---------------------------------------------------------------------------- -->
         <!-- ---------------------------------------------------------------------------- -->
-        <section class="py-5 bg-white" id="recruters">
+        <section class="py-5 bg-white" id="recruiter">
             <div class="container wow fadeInUp" data-wow-delay="0.1s">
 
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-3 ">OUR RECRUTERS</h3>
+                        <h3 class="text-center fw-bold text-golden pb-3 ">GET PLACED WITH TOP BRANDS</h3>
                     </div>
                 </div>
                 <div class="row justify-content-center company">
-                    <div class="col-md-10 shadow">
-                        <div
-                            class="row pb-5 pb-md-0 justify-content-center text-center company_001 company-carousel owl-carousel">
+                    <div class="col-md-12 shadow">
+                        <div class="row pb-5 pb-md-0 justify-content-center text-center company_001">
                             <?php
-                            for ($i=1; $i < 44; $i++) {
+                            for ($i=0; $i < 13; $i++) {
                             ?>
-                            <div class="col-md-12 company_01">
-                                <img src="images/iigj/placement/logo<?= $i+1;?>.jpg" loading="lazy" alt="">
+                            <div class="col-md-3 col-4  company_01">
+                                <img src="images/iigj/placement/<?= $i+1;?>.jpg" loading="lazy" alt="">
                             </div>
 
                             <?php
@@ -446,7 +442,7 @@
                             emerged a compelling and ever-growing requirement for trained jewellery professionals in
                             various departments.</p>
 
-                        
+
 
                     </div>
                     <div class="col-md-6">
