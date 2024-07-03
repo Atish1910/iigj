@@ -362,12 +362,16 @@ h6,
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
-        padding: 10px 0;
+        padding: 0px 0;
     }
 
     .navbar .navbar-nav {
         margin-top: 15px;
         border-top: 1px solid #EEEEEE;
+    }
+    .navbar .navbar-nav .nav-link {
+        margin: 6px 4px;
+        font-size: 15px;
     }
 }
 
@@ -940,6 +944,19 @@ h6,
     font-weight: bold;
 }
 
+.c_btn_01 {
+    background-color: var(--blue);
+    color: var(--bs-white) !important;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+.c_btn_01:hover {
+    color: var(--blue) !important;
+    background-color: #f6f9ff !important;
+    border: solid 1px;
+    font-weight: bold;
+}
 .h_headn {
     color: var(--golden);
     letter-spacing: 1px;
@@ -1927,8 +1944,8 @@ iframe .widget_container {
     }
     #header-carousel .carousel-item .main-img {
         height: 100%;
-        object-fit: fill;
-        object-position: left;
+        object-fit: cover;
+        object-position: bottom;
     }
     
 .p_5{

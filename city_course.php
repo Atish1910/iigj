@@ -43,17 +43,17 @@ $g = array('<table class="table table-bordered">
                 <td>Certificate Courses</td>
                 <td>4 Days</td>
                 <td>Professional Certificate - All About Diamonds (Lab Classes)</td>
-                <td>10+2</td>
+                <td>12th Passed</td>
             </tr>
             <tr>
                 <td>Certificate Courses</td>
                 <td>4 Days</td>
                 <td>Professional Certificate - All About Navratnas (Lab Classes)</td>
-                <td>10+2</td>
+                <td>12th Passed</td>
             </tr>
             <tr>
                 <td>Certificate Courses</td>
-                <td>2 Days</td>
+                <td>5 Days</td>
                 <td>Professional Certificate - Introduction in CAD</td>
                 <td>10th Passed</td>
             </tr>
@@ -61,25 +61,25 @@ $g = array('<table class="table table-bordered">
                 <td>Short Term Program</td>
                 <td>4 days</td>
                 <td>All About Diamonds - Lab Classes</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
             <tr>
                 <td>Short Term Program</td>
                 <td>4 days</td>
                 <td>All About Navratna - Lab Classes</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
             <tr>
                 <td>Short Term Program</td>
                 <td>5 days</td>
                 <td>Introduction in CAD (5 Days)</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
             <tr>
                 <td>Short Term Program</td>
                 <td>6 days</td>
                 <td>Digital Brand Building & E-commerce Selling/ <br>Digital Brand Building & E-commerce Selling - Online</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
         </tbody>
     </table>',
@@ -114,7 +114,7 @@ $g = array('<table class="table table-bordered">
             </tr>
             <tr>
                 <td>Certificate</td>
-                <td>250 Hrs</td>
+                <td>540 Hrs</td>
                 <td>Professional Certificate in Jewellery Manufacturing (Advanced)</td>
                 <td>10th Passed</td>
             </tr>
@@ -170,13 +170,13 @@ $g = array('<table class="table table-bordered">
                 <td>Short Term Program</td>
                 <td>2 Days</td>
                 <td>Gold Appraisal</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
             <tr>
                 <td>Short Term Program</td>
                 <td>3 days</td>
                 <td>Gemmology (3 days)</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
         </tbody>
     </table>',
@@ -225,7 +225,7 @@ $g = array('<table class="table table-bordered">
                 <td>Short Term Program</td>
                 <td>2 days</td>
                 <td>Foundation Course for Jewellery</td>
-                <td>NA</td>
+                <td>N/A</td>
             </tr>
         </tbody>
     </table>
@@ -244,13 +244,13 @@ $g = array('<table class="table table-bordered">
         <tbody>
             <tr>
                 <td>Diploma</td>
-                <td>15 months</td>
+                <td>13 months</td>
                 <td>diploma in jewellery design </td>
-                <td>CLASS 12</td>
+                <td>12TH PASSED (Minimum: 50% average marks)</td>
             </tr>
             <tr>
                 <td>Diploma</td>
-                <td>15 months</td>
+                <td>12 months</td>
                 <td>diploma in jewellery manufacturing</td>
                 <td>12TH PASSED (Minimum marks: 50% average) <br> Basic knowledge of jewellery design</td>
             </tr>

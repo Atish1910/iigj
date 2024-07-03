@@ -44,7 +44,7 @@
         <div id="header-carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/2.png" alt="Image">
+                    <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/4.png" alt="Image">
                     <div class="carousel-caption">
                         <div class="container position-relative">
                             <div class="row align-items-end justify-content-end p_5">

@@ -21,7 +21,9 @@
              <a href="<?= LINK; ?>" class="navbar-brand">
                  <img src="images/iigj/logo/1.jpg" class="" alt="">
              </a>
-             <div class=""></div>
+             <div class="">
+             <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-md-none d-block" data-bs-toggle="modal" data-bs-target="#existinguser">Existing User</a>
+             </div>
              <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                  data-bs-target="#navbarCollapse">
                  <span class="navbar-toggler-icon"></span>
@@ -35,12 +37,12 @@
                      <a href="#programmes" class="nav-item nav-link">Programmes</a>
                      <a href="#placement" class="nav-item nav-link">Placement</a>
                      <a href="#recruiter" class="nav-item nav-link">Recruiter</a>
-                     <a href="#corporatetraining" class="nav-item nav-link">Corporate Training</a>
+                     <!-- <a href="#corporatetraining" class="nav-item nav-link">Corporate Training</a> -->
                      <a href="#testimonals " class="nav-item nav-link">Testimonals </a>
                      <a href="#about" class="nav-item nav-link">About</a>
-                     <a href="#location" class="nav-item nav-link">Location</a>
-                     <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3" data-bs-toggle="modal"
-                         data-bs-target="#exampleModal">Apply Now</a>
+                     <!-- <a href="#location" class="nav-item nav-link">Location</a> -->
+                     <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
+                     <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#existinguser">Existing User</a>
                  </div>
              </div>
          </nav>
