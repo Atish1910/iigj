@@ -2,84 +2,84 @@
 $g = array('<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Programmes Name</th>
-                <th>Duration</th>
-                <th>Specialization</th>
-                <th>Eligibility</th>
+                <th>program name</th>
+                <th>duration</th>
+                <th>specialization</th>
+                <th>eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Diploma Programmes</td>
+                <td>diploma program</td>
                 <td>15 months</td>
-                <td>Diploma in Jewellery Design</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>diploma in jewellery design</td>
+                <td>10+2 & jewellery design foundation</td>
             </tr>
             <tr>
-                <td>Diploma Programmes</td>
+                <td>diploma program</td>
                 <td>12 months</td>
-                <td>Diploma in Jewellery Manufacturing</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>diploma in jewellery manufacturing</td>
+                <td>10+2 & jewellery design foundation</td>
             </tr>
             <tr>
-                <td>Diploma Programmes</td>
+                <td>diploma program</td>
                 <td>6 months</td>
-                <td>Diploma in Gemmology</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>diploma in gemmology</td>
+                <td>10+2 & jewellery design foundation</td>
             </tr>
             <tr>
-                <td>Diploma Programmes</td>
+                <td>diploma program</td>
                 <td>6 months</td>
-                <td>Diploma in CAD</td>
-                <td>10+2 & Jewellery Design Foundation</td>
+                <td>diploma in cad</td>
+                <td>10+2 & jewellery design foundation</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>60 Hrs</td>
-                <td>Professional Certificate in Diamond Assorting & Valuation</td>
+                <td>certificate program</td>
+                <td>60 hrs</td>
+                <td>professional certificate in diamond assorting & valuation</td>
                 <td>10+2</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>4 Days</td>
-                <td>Professional Certificate - All About Diamonds (Lab Classes)</td>
-                <td>12th Passed</td>
-            </tr>
-            <tr>
-                <td>Certificate Programmes</td>
-                <td>4 Days</td>
-                <td>Professional Certificate - All About Navratnas (Lab Classes)</td>
-                <td>12th Passed</td>
-            </tr>
-            <tr>
-                <td>Certificate Programmes</td>
-                <td>5 Days</td>
-                <td>Professional Certificate - Introduction in CAD</td>
-                <td>10th Passed</td>
-            </tr>
-            <tr>
-                <td>Short Term Program</td>
+                <td>certificate program</td>
                 <td>4 days</td>
-                <td>All About Diamonds - Lab Classes</td>
-                <td>N/A</td>
+                <td>professional certificate - all about diamonds (lab classes)</td>
+                <td>12th passed</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
+                <td>certificate program</td>
                 <td>4 days</td>
-                <td>All About Navratna - Lab Classes</td>
-                <td>N/A</td>
+                <td>professional certificate - all about navratnas (lab classes)</td>
+                <td>12th passed</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
+                <td>certificate program</td>
                 <td>5 days</td>
-                <td>Introduction in CAD (5 Days)</td>
-                <td>N/A</td>
+                <td>professional certificate - introduction in cad</td>
+                <td>10th passed</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
+                <td>short term program</td>
+                <td>4 days</td>
+                <td>all about diamonds - lab classes</td>
+                <td>n/a</td>
+            </tr>
+            <tr>
+                <td>short term program</td>
+                <td>4 days</td>
+                <td>all about navratna - lab classes</td>
+                <td>n/a</td>
+            </tr>
+            <tr>
+                <td>short term program</td>
+                <td>5 days</td>
+                <td>introduction in cad (5 days)</td>
+                <td>n/a</td>
+            </tr>
+            <tr>
+                <td>short term program</td>
                 <td>6 days</td>
-                <td>Digital Brand Building & E-commerce Selling/ <br>Digital Brand Building & E-commerce Selling - Online</td>
-                <td>N/A</td>
+                <td>digital brand building & e-commerce selling/ <br>digital brand building & e-commerce selling - online</td>
+                <td>n/a</td>
             </tr>
         </tbody>
     </table>',
@@ -87,84 +87,84 @@ $g = array('<table class="table table-bordered">
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Programmes Name</th>
-                <th>Duration</th>
-                <th>Specialization</th>
-                <th>Eligibility</th>
+                <th>program name</th>
+                <th>duration</th>
+                <th>specialization</th>
+                <th>eligibility</th>
             </tr>
         </thead>
        <tbody>
             <tr>
-                <td>Undergraduate Degree</td>
+                <td>undergraduate degree</td>
                 <td>3 years</td>
-                <td>B.A. in Gems & Jewellery Design <br> (Affiliated to Savitribai Phule Pune University)</td>
+                <td>b.a. in gems & jewellery design <br> (affiliated to savitribai phule pune university)</td>
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>Post Graduate Diploma</td>
+                <td>post graduate diploma</td>
                 <td>12 months</td>
-                <td>PG Diploma in Jewellery Management</td>
-                <td>Graduation in any stream</td>
+                <td>pg diploma in jewellery management</td>
+                <td>graduation in any stream</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>150 Hrs</td>
-                <td>Professional Certificate in Jewellery Manufacturing (Basic)</td>
-                <td>10th Passed</td>
+                <td>certificate program</td>
+                <td>150 hrs</td>
+                <td>professional certificate in jewellery manufacturing (basic)</td>
+                <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>540 Hrs</td>
-                <td>Professional Certificate in Jewellery Manufacturing (Advanced)</td>
-                <td>10th Passed</td>
+                <td>certificate program</td>
+                <td>540 hrs</td>
+                <td>professional certificate in jewellery manufacturing (advanced)</td>
+                <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>240 Hrs</td>
-                <td>Professional Certificate in CAD Rhinoceros for Jewellery - Offline</td>
-                <td>12th Passed</td>
+                <td>certificate program</td>
+                <td>240 hrs</td>
+                <td>professional certificate in cad rhinoceros for jewellery - offline</td>
+                <td>12th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>120 Hrs</td>
-                <td>Professional Certificate in CAD Rhinoceros for Jewellery - Online</td>
-                <td>10th Passed</td>
+                <td>certificate program</td>
+                <td>120 hrs</td>
+                <td>professional certificate in cad rhinoceros for jewellery - online</td>
+                <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>150 Hrs</td>
-                <td>Professional Certificate in CAD Matrix for Jewellery</td>
-                <td>WORKING KNOWLEDGE OF RHINO SOFTWARE</td>
+                <td>certificate program</td>
+                <td>150 hrs</td>
+                <td>professional certificate in cad matrix for jewellery</td>
+                <td>working knowledge of rhino software</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>150 Hrs</td>
-                <td>Professional Certificate in Diamond Grading & Gems</td>
-                <td>12th Passed</td>
+                <td>certificate program</td>
+                <td>150 hrs</td>
+                <td>professional certificate in diamond grading & gems</td>
+                <td>12th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>30 Hrs</td>
-                <td>Professional Certificate in Gem Identification & Grading</td>
-                <td>10th Passed</td>
+                <td>certificate program</td>
+                <td>30 hrs</td>
+                <td>professional certificate in gem identification & grading</td>
+                <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
-                <td>60 Hrs</td>
-                <td>Professional Certificate in Jewellery Merchandising</td>
-                <td>12th Passed, Graduates, Industry Professionals</td>
+                <td>certificate program</td>
+                <td>60 hrs</td>
+                <td>professional certificate in jewellery merchandising</td>
+                <td>12th passed, graduates, industry professionals</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
-                <td>2 Days</td>
-                <td>Gold Appraisal</td>
-                <td>N/A</td>
+                <td>short term program</td>
+                <td>2 days</td>
+                <td>gold appraisal</td>
+                <td>n/a</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
+                <td>short term program</td>
                 <td>3 days</td>
-                <td>Gemmology (3 days)</td>
-                <td>N/A</td>
+                <td>gemmology (3 days)</td>
+                <td>n/a</td>
             </tr>
         </tbody>
     </table>',
@@ -172,72 +172,72 @@ $g = array('<table class="table table-bordered">
 <table class="table table-bordered">
         <thead>
             <tr>
-                <th>Programmes Name</th>
-                <th>Duration</th>
-                <th>Specialization</th>
-                <th>Eligibility</th>
+                <th>program name</th>
+                <th>duration</th>
+                <th>specialization</th>
+                <th>eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Undergraduate Degree</td>
+                <td>undergraduate degree</td>
                 <td>4 years</td>
-                <td>B.Des in Jewellery Design <br> (Affiliated to Rajasthan ILD Skills University)</td>
+                <td>b.des in jewellery design <br> (affiliated to rajasthan ild skills university)</td>
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>Post Graduate Diploma</td>
+                <td>post graduate diploma</td>
                 <td>12 months</td>
-                <td>PG Diploma in Jewellery Design & CAD</td>
-                <td>Graduation in any stream</td>
+                <td>pg diploma in jewellery design & cad</td>
+                <td>graduation in any stream</td>
             </tr>
             <tr>
-                <td>Diploma</td>
+                <td>diploma</td>
                 <td>12 months</td>
-                <td>Diploma in Jewellery Manufacturing & Production</td>
+                <td>diploma in jewellery manufacturing & production</td>
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>Diploma</td>
+                <td>diploma</td>
                 <td>6 months</td>
-                <td>Diploma in Computer Aided Design</td>
+                <td>diploma in computer aided design</td>
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>Diploma</td>
+                <td>diploma</td>
                 <td>3 months</td>
-                <td>Diploma in Gem Identification</td>
+                <td>diploma in gem identification</td>
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
 
 
 
              <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>540 hours</td>
-                <td>PROFESSIONAL CERTIFICATE IN CAD (ADVANCED)</td>
+                <td>professional certificate in cad (advanced)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>180 hours</td>
-                <td>PROFESSIONAL CERTIFICATE IN GEM IDENTIFICATION </td>
+                <td>professional certificate in gem identification </td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>240 hours</td>
-                <td>PROFESSIONAL CERTIFICATE IN JEWELLERY MANUFACTURING  </td>
+                <td>professional certificate in jewellery manufacturing  </td>
                 <td>10th passed</td>
             </tr>
 
 
 
             <tr>
-                <td>Short Term Program</td>
+                <td>short term program</td>
                 <td>2 days</td>
-                <td>Foundation Course for Jewellery</td>
-                <td>N/A</td>
+                <td>foundation course for jewellery</td>
+                <td>n/a</td>
             </tr>
         </tbody>
     </table>
@@ -247,48 +247,48 @@ $g = array('<table class="table table-bordered">
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Programmes Name</th>
-                <th>Duration</th>
-                <th>Specialization</th>
-                <th>Eligibility</th>
+                <th>program name</th>
+                <th>duration</th>
+                <th>specialization</th>
+                <th>eligibility</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Diploma</td>
+                <td>diploma</td>
                 <td>15 months</td>
                 <td>diploma in jewellery design </td>
-                <td>12TH PASSED (Minimum: 50% average marks)</td>
+                <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>Diploma</td>
+                <td>diploma</td>
                 <td>12 months</td>
                 <td>diploma in jewellery manufacturing</td>
-                <td>12TH PASSED (Minimum marks: 50% average) <br> Basic knowledge of jewellery design</td>
+                <td>12th passed (minimum marks: 50% average) <br> basic knowledge of jewellery design</td>
             </tr>
 
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>240 hours</td>
-                <td>CAD Rhinoceros for Jewellery</td>
+                <td>cad rhinoceros for jewellery</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>150 hours</td>
-                <td>CAD Matrix for Jewellery</td>
-                <td>Working knowledge of Rhino software</td>
+                <td>cad matrix for jewellery</td>
+                <td>working knowledge of rhino software</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>150 hours</td>
-                <td>Jewellery Design (Basic)</td>
+                <td>jewellery design (basic)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>150 hours</td>
-                <td>Jewellery Manufacturing (Basic)</td>
+                <td>jewellery manufacturing (basic)</td>
                 <td>10th passed</td>
             </tr>
         </tbody>
@@ -298,49 +298,49 @@ $g = array('<table class="table table-bordered">
 '<table class="table table-bordered">
         <thead>
             <tr>
-                <th>Programmes Name</th>
-                <th>Duration</th>
-                <th>Specialization</th>
-                <th>Eligibility</th>
+                <th>program name</th>
+                <th>duration</th>
+                <th>specialization</th>
+                <th>eligibility</th>
             </tr>
         </thead>
         <tbody>
             
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>120 hours</td>
-                <td>CAD Jewellery Design</td>
+                <td>cad jewellery design</td>
                 <td>12th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>40 hours</td>
-                <td>CAD Rendering</td>
+                <td>cad rendering</td>
                 <td>12th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>120 hours</td>
-                <td>Jewellery Making (Bench Work)</td>
+                <td>jewellery making (bench work)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>120 hours</td>
-                <td>Jewellery Manufacturing (Casting)</td>
+                <td>jewellery manufacturing (casting)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Certificate Programmes</td>
+                <td>certificate program</td>
                 <td>20 hours</td>
-                <td>Gem Identification (Navratna)</td>
+                <td>gem identification (navratna)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
-                <td>Short Term Program</td>
+                <td>short term program</td>
                 <td>2 days</td>
                 <td>gold appraisal</td>
-                <td>N/A</td>
+                <td>n/a</td>
             </tr>
         </tbody>
     </table>');

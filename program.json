@@ -1,16 +1,16 @@
 {
-  "under-graduation": {
+  "undergraduate-degree-program": {
     "b-des": {
       "head": "b.des in jewellery design (affiliated to rajasthan ild skills university) ",
       "location": "JAIPUR",
       "duration": "4 YEARS",
       "date": "JULY 2024",
-      "eligibility": "12TH PASSED (Minimum: 50% average marks)",
+      "eligibility": "12th passed (minimum: 50% average marks)",
       "overview": "<ul>    <li>Unlock your creative potential and embark on a journey into the captivating world of gems & jewellery with our Bachelor of Design (B.Des)</li>    <li> program. At IIGJ, Jaipur, we offer a comprehensive curriculum designed to nurture your artistic talents, hone your technical skills and prepare you for a dynamic career in the ever-evolving jewellery industry.</li></ul><ul><b>USP</b>    <li>Blend of theory and practical knowledge</li>    <li>Curriculum created and taught by industry professionals</li>    <li>State-of-the-art facilities</li>    <li>Immersive pedagogy</li>    <li>Industry visits</li>    <li>Participation in international trade fairs</li>    <li>Networking opportunities</li>    <li>Global reach</li>    <li>Internship, placement, and career guidance</li>    <li>Mentorship and incubation assistance</li></ul>"
     },
     "ba-in-gem": {
       "head": "b.a. in gems & jewellery design (affiliated to savitribai phule pune university)",
-      "eligibility": "12TH PASSED (Minimum: 50% average marks)",
+      "eligibility": "12th passed (minimum: 50% average marks)",
       "location": "MUMBAI",
       "date": "JULY 2024",
       "duration": " 3 YEARS.",
@@ -18,11 +18,11 @@
     }
 
   },
-  "post-graduation-diploma": {
+  "post-graduate-diploma-programs": {
 
     "jewellery-management": {
       "head": "pg diploma in jewellery management",
-      "eligibility": "GRADUATION IN ANY STREAM",
+      "eligibility": "graduation in any stream",
       "date": "2 BATCHES : JULY 2024 & SEPTEMBER 2024",
       "location": "MUMBAI",
       "duration": " 12 MONTHS.",
@@ -30,7 +30,7 @@
     },
     "jewellery-design": {
       "head": "pg diploma in jewellery design & cad",
-      "eligibility": "GRADUATION IN ANY STREAM",
+      "eligibility": "graduation in any stream",
       "date": "4 BATCHES : JUNE , AUGUST , OCTOBER  & DECEMBER",
       "location": "JAIPUR",
       "duration": " 12 MONTHS.",
@@ -38,11 +38,11 @@
     }
 
   },
-  "diploma": {
+  "diploma-programs": {
 
     "diploma-in-jewellery-design": {
       "head": "diploma in jewellery design",
-      "eligibility": "12TH PASSED (Minimum: 50% average marks)",
+      "eligibility": "12th passed (minimum: 50% average marks)",
       "date": "3 BATCHES : JUNE, AUGUST, OCTOBER",
       "location": "DELHI",
       "duration": "13 MONTHS",
@@ -50,7 +50,7 @@
     },
     "diploma-in-jewellery-manufacturing": {
       "head": "diploma in jewellery manufacturing",
-      "eligibility": "12TH PASSED (Minimum marks: 50% average) Basic knowledge of jewellery design",
+      "eligibility": "12th passed (minimum marks: 50% average) basic knowledge of jewellery design",
       "date": "1 BATCH :JULY",
       "location": "DELHI",
       "duration": "12 MONTHS",
@@ -58,7 +58,7 @@
     },
     "diploma-in-gemmology": {
       "head": "diploma in gemmology",
-      "eligibility": "12TH PASSED (Minimum marks: 50% average) Basic knowledge of jewellery design",
+      "eligibility": "12th passed (minimum marks: 50% average) basic knowledge of jewellery design",
       "date": "5 BATCHES : JUNE, AUGUST, SEPTEMBER, NOVEMBER, DECEMBER",
       "location": "DELHI",
       "duration": "6 MONTHS",
@@ -66,7 +66,7 @@
     },
     "diploma-in-cad": {
       "head": "diploma in cad",
-      "eligibility": "12TH PASSED (Minimum average marks: 50%)",
+      "eligibility": "12th passed (minimum average marks: 50%)",
       "date": "4 BATCHES : JUNE, AUGUST, OCTOBER, DECEMBER",
       "location": "DELHI",
       "duration": "6 MONTHS",
@@ -74,7 +74,7 @@
     },
     "diploma-in-jewellery-manufacturing-and-production": {
       "head": "diploma in jewellery manufacturing & production",
-      "eligibility": "CLASS 12",
+      "eligibility": "class 12",
       "date": "3 BATCHES : APRIL, JULY, OCTOBER",
       "location": "JAIPUR",
       "duration": "12 MONTHS",
@@ -82,7 +82,7 @@
     },
     "diploma-in-computer-aided-design": {
       "head": "diploma in computer aided design",
-      "eligibility": "CLASS 12",
+      "eligibility": "class 12",
       "date": "3 BATCHES : APRIL, JULY, OCTOBER",
       "location": "JAIPUR",
       "duration": "6 MONTHS",
@@ -90,7 +90,7 @@
     },
     "diploma-in-gem-identification": {
       "head": "diploma in gem identification",
-      "eligibility": "CLASS 12",
+      "eligibility": "class 12",
       "date": "3 BATCHES : APRIL, JULY, OCTOBER",
       "location": "JAIPUR",
       "duration": "3 MONTHS",
@@ -98,7 +98,7 @@
     },
     "diploma-in-jewellery-design-varanasi": {
       "head": "diploma in jewellery design",
-      "eligibility": "CLASS 12",
+      "eligibility": "class 12",
       "date": "2 BATCHES : APRIL, JULY",
       "location": "VARANASI",
       "duration": "15 MONTHS",
@@ -106,7 +106,7 @@
     },
     "diploma-in-jewellery-manufacturing-varanasi": {
       "head": "diploma in jewellery manufacturing",
-      "eligibility": "12TH PASSED (Minimum marks: 50% average) Basic knowledge of jewellery design",
+      "eligibility": "12th passed (minimum marks: 50% average) basic knowledge of jewellery design",
       "date": "2 BATCHES : APRIL, JULY",
       "location": "VARANASI",
       "duration": "15 MONTHS",
@@ -114,10 +114,10 @@
     }
 
   },
-  "certificate": {
+  "certificate-courses": {
     "professional-certificate-in-diamond-assorting-valuation": {
       "head": "professional certificate in diamond assorting & valuation",
-      "eligibility": "12th Passed",
+      "eligibility": "12th passed",
       "date": "3 BATCHES: APRIL, JULY, NOVEMBER",
       "location": "DELHI",
       "duration": "60 HOURS",
@@ -125,7 +125,7 @@
     },
     "professional-certificate-all-about-diamonds-lab-classes": {
       "head": "professional certificate - all about diamonds (lab classes)",
-      "eligibility": "12th Passed",
+      "eligibility": "12th passed",
       "date": "2 BATCHES: JULY, OCTOBER",
       "location": "DELHI",
       "duration": "4 DAYS",
@@ -133,7 +133,7 @@
     },
     "professional-certificate-all-about-navratnas-lab-classes": {
       "head": "professional certificate - all about navratnas (lab classes)",
-      "eligibility": "12th Passed",
+      "eligibility": "12th passed",
       "date": "2 BATCHES: AUGUST, DECEMBER",
       "location": "DELHI",
       "duration": "4 DAYS",
@@ -141,7 +141,7 @@
     },
     "professional-certificate-introduction-in-cad": {
       "head": "professional certificate - introduction in cad",
-      "eligibility": "10th Passed",
+      "eligibility": "10th passed",
       "date": "NOVEMBER",
       "location": "DELHI",
       "duration": "5 DAYS",
@@ -149,7 +149,7 @@
     },
     "professional-certificate-in-jewellery-manufacturing-basic-a": {
     "head": "professional certificate in jewellery manufacturing (basic)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "May, June",
     "location": "Mumbai",
     "duration": "150 HOURS",
@@ -157,7 +157,7 @@
   },
   "professional-certificate-in-jewellery-manufacturing-advanced": {
     "head": "professional certificate in jewellery manufacturing (advanced)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "August, December",
     "location": "Mumbai",
     "duration": "540 HOURS",
@@ -165,7 +165,7 @@
   },
   "professional-certificate-in-cad-rhinoceros-for-jewellery-offline": {
     "head": "professional certificate in cad rhinoceros for jewellery - offline",
-    "eligibility": "12th Passed",
+    "eligibility": "12th passed",
     "date": "February, March, May",
     "location": "Mumbai",
     "duration": "240 HOURS",
@@ -173,7 +173,7 @@
   },
   "professional-certificate-in-cad-rhinoceros-for-jewellery-online": {
     "head": "professional certificate in cad rhinoceros for jewellery - online",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "February, July",
     "location": "Mumbai",
     "duration": "120 HOURS",
@@ -181,7 +181,7 @@
   },
   "professional-certificate-in-diamond-grading-gems": {
     "head": "professional certificate in diamond grading & gems",
-    "eligibility": "12TH PASSED",
+    "eligibility": "12th passed",
     "date": "ENQUIRE FOR DATES",
     "location": "Mumbai",
     "duration": "150 HOURS",
@@ -189,7 +189,7 @@
   },
   "professional-certificate-in-gem-identification-grading": {
     "head": "professional certificate in gem identification & grading",
-    "eligibility": "10TH PASSED",
+    "eligibility": "10th passed",
     "date": "JANUARY, APRIL, JUNE, AUGUST, OCTOBER",
     "location": "Mumbai",
     "duration": "30 HOURS",
@@ -197,7 +197,7 @@
   },
   "professional-certificate-in-jewellery-merchandising": {
     "head": "professional certificate in jewellery merchandising",
-    "eligibility": "12TH PASSED, GRADUATES, INDUSTRY PROFESSIONALS",
+    "eligibility": "12th passed, graduates, industry professionals",
     "date": "JANUARY, JULY",
     "location": "Mumbai",
     "duration": "150 HOURS",
@@ -205,7 +205,7 @@
   },
     "professional-certificate-in-cad-advanced": {
       "head": "professional certificate in cad (advanced)",
-      "eligibility": "10th Passed",
+      "eligibility": "10th passed",
       "date": "3 BATCHES: JANUARY, MAY, SEPTEMBER",
       "location": "JAIPUR",
       "duration": "540 HOURS",
@@ -213,7 +213,7 @@
     },
     "professional-certificate-in-gem-identification": {
       "head": "professional certificate in gem identification",
-      "eligibility": "10th Passed",
+      "eligibility": "10th passed",
       "date": "4 BATCHES: JANUARY, APRIL, JULY, OCTOBER",
       "location": "JAIPUR",
       "duration": "180 HOURS",
@@ -221,7 +221,7 @@
     },
     "professional-certificate-in-jewellery-manufacturing": {
       "head": "professional certificate in jewellery manufacturing",
-      "eligibility": "10th Passed",
+      "eligibility": "10th passed",
       "date": "EVERY MONTH",
       "location": "JAIPUR",
       "duration": "240 HOURS",
@@ -229,7 +229,7 @@
     },
     "professional-certificate-in-cad-rhinoceros-for-jewellery": {
     "head": "professional certificate in cad rhinoceros for jewellery",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "3 BATCHES: JANUARY, MAY, AUGUST",
     "location": "VARANASI",
     "duration": "240 HOURS",
@@ -237,7 +237,7 @@
   },
   "professional-certificate-in-cad-matrix-for-jewellery": {
     "head": "professional certificate in cad matrix for jewellery",
-    "eligibility": "Working knowledge of Rhino software",
+    "eligibility": "working knowledge of rhino software",
     "date": "3 BATCHES: JANUARY, MAY, AUGUST",
     "location": "VARANASI",
     "duration": "150 HOURS",
@@ -245,7 +245,7 @@
   },
   "professional-certificate-in-jewellery-design-basic": {
     "head": "professional certificate in jewellery design (basic)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "3 BATCHES: MAY, AUGUST, NOVEMBER",
     "location": "VARANASI",
     "duration": "150 HOURS",
@@ -253,7 +253,7 @@
   },
   "professional-certificate-in-jewellery-manufacturing-basic": {
     "head": "professional certificate in jewellery manufacturing (basic)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "2 BATCHES: MAY, OCTOBER",
     "location": "VARANASI",
     "duration": "150 HOURS",
@@ -261,7 +261,7 @@
   },
   "professional-certificate-in-cad-jewellery-design": {
     "head": "professional certificate in cad jewellery design",
-    "eligibility": "12th Passed",
+    "eligibility": "12th passed",
     "date": "6 BATCHES: JANUARY, APRIL, MAY, JULY, SEPTEMBER, OCTOBER",
     "location": "UDUPI",
     "duration": "120 HOURS",
@@ -269,7 +269,7 @@
   },
   "professional-certificate-in-cad-rendering": {
     "head": "professional certificate in cad rendering",
-    "eligibility": "12th Passed",
+    "eligibility": "12th passed",
     "date": "AS PER REQUIREMENT",
     "location": "UDUPI",
     "duration": "40 HOURS",
@@ -277,7 +277,7 @@
   },
   "professional-certificate-in-jewellery-making-bench-work": {
     "head": "professional certificate in jewellery making (bench work)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "4 BATCHES: JANUARY, MAY, JULY, SEPTEMBER",
     "location": "UDUPI",
     "duration": "120 HOURS",
@@ -285,7 +285,7 @@
   },
   "professional-certificate-in-jewellery-manufacturing-casting": {
     "head": "professional certificate in jewellery manufacturing (casting)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "4 BATCHES: JANUARY, MAY, JULY, SEPTEMBER",
     "location": "UDUPI",
     "duration": "120 HOURS",
@@ -293,7 +293,7 @@
   },
   "professional-certificate-in-gem-identification-navratna": {
     "head": "professional certificate in gem identification (navratna)",
-    "eligibility": "10th Passed",
+    "eligibility": "10th passed",
     "date": "AS PER REQUIREMENT",
     "location": "UDUPI",
     "duration": "20 HOURS",
@@ -301,10 +301,10 @@
   }
 
   },
-  "short-term-program": {
+  "short-term-programs": {
     "gold-appraisal-2-days-udupi-mumbai": {
       "head": "gold appraisal",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "ENQUIRE FOR DATES",
       "location": "Udupi, Mumbai",
       "duration": "2 Days",
@@ -312,7 +312,7 @@
     },
     "gemmology-3-days-mumbai": {
       "head": "gemmology (3 days)",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "ENQUIRE FOR DATES",
       "location": "Mumbai",
       "duration": "3 Days",
@@ -320,7 +320,7 @@
     },
     "all-about-diamonds-lab-classes-4-days-delhi": {
       "head": "all about diamonds - lab classes",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "2 BATCHES: JULY, OCTOBER",
       "location": "Delhi",
       "duration": "4 Days",
@@ -328,7 +328,7 @@
     },
     "all-about-navratna-lab-classes-4-days-delhi": {
       "head": "all about navratna - lab classes",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "2 BATCHES: AUGUST, DECEMBER",
       "location": "Delhi",
       "duration": "4 Days",
@@ -336,7 +336,7 @@
     },
     "introduction-in-cad-5-days-delhi": {
       "head": "introduction in cad (5 days)",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "NOVEMBER",
       "location": "Delhi",
       "duration": "5 Days",
@@ -344,7 +344,7 @@
     },
     "digital-brand-building-ecommerce-selling-6-days-delhi": {
       "head": "digital brand building & e-commerce selling/digital brand building & e-commerce selling - online",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "ENQUIRE FOR DATES",
       "location": "Delhi",
       "duration": "6 Days",
@@ -352,7 +352,7 @@
     },
     "foundation-course-for-jewellery-2-days-jaipur": {
       "head": "foundation course for jewellery",
-      "eligibility": "N/A",
+      "eligibility": "n/a",
       "date": "ENQUIRE FOR DATES",
       "location": "Jaipur",
       "duration": "2 Days",

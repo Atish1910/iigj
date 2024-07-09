@@ -443,7 +443,11 @@ h6,
 .p_5{
     padding: 5rem;
 }
-
+.footer_logo img{
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+}
 .overlap_modal .modal {
     background-color: #0000007f;
     background-blend-mode: multiply;

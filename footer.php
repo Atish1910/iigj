@@ -8,8 +8,8 @@
             </div>
             <div class="row">
                 <div class="col-md-2">
-                    <div class="pt-3 text-center">
-                        <img src="images/iigj/logo/4.png" width="150px" class="" alt="">
+                    <div class="pt-3 text-center footer_logo">
+                        <img src="images/iigj/logo/4.png" class="" alt="">
                     </div>
                 </div>
                     <?php
@@ -40,8 +40,7 @@
             <div class="row">
                 <div class="col-md-12 text-start  text-center mb-3 mb-md-0">
 
-                    <p class="mb-0">© Copyright 2024 IIGJ. Designed and developed by <img src="images/iigj/logo/3.png"
-                            width="70px" alt=""></p>
+                    <p class="mb-0">© Copyright 2024 IIGJ.</p>
                 </div>
             </div>
         </div>
@@ -53,7 +52,7 @@
     <a href="#" class="btn btn-lg bg-blue text-white mb-3 mb-md-5  btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
 
-    <button type="button" class="btn c_btn rounded-pill px-4 right_button py-2" data-bs-toggle="modal"
+    <button type="button" class="btn c_btn_01 rounded-pill px-4 right_button py-2" data-bs-toggle="modal"
         data-bs-target="#exampleModal">Apply Now</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">

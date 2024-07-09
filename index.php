@@ -64,7 +64,7 @@
         <div id="header-carousel" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/3.png" alt="Image">
+                    <img class="w-100 main-img" src="<?= LINK; ?>images/iigj/banners/01.png" alt="Image">
                     <div class="carousel-caption">
                         <div class="container position-relative">
                             <div class="row align-items-end justify-content-end p_5">
@@ -91,9 +91,8 @@
                                 </div> -->
                                 <div class="col-md-4 d-none d-md-block h_abform">
                                     <div class="rounded-3 over_hidden bg-white">
-                                        <div class=" pt-4">
-                                            <h3 class=""> Admission Open 2024</h2>
-                                                <h6 class="">Apply Now</h6>
+                                        <div class=" pt-4 mb-0">
+                                                <h5 class="fw-bold text-blue mb-0">Apply Now</h5>
                                         </div>
                                         <?php include 'form_01.php';?>
                                     </div>
@@ -121,11 +120,11 @@
 
 
         <!-- ------------------------------------------------------------------------------------------------------------ -->
-        <section class="py-5 bg-grey" id="programmes">
+        <section class="py-5 bg-grey" id="programs">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 text-center">
-                        <h3 class="text-center fw-bold text-golden pb-md-3 pb-0 ">PROGRAMMES OFFERS BY CAMPUS</h3>
+                        <h3 class="text-center fw-bold text-golden pb-md-3 pb-0 ">PROGRAMS OFFERED BY IIGJ CAMPUSES</h3>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -161,7 +160,7 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body text-dark">
-                                            <div class="table-responsive center_tagline">
+                                            <div class="table-responsive center_tagline text-capitalize">
                                                 <?= $g[$i];?>
                                             </div>
                                             <div class="text-center overlap_modal">
@@ -219,9 +218,7 @@
                     <div class="col-md-6">
                         <div class=" text-white">
                             <h3 class="mb-0 text-white fw-bold">FIND YOUR COURSE <br><br></h3>
-                            <p>Pursue the Futuristic course of your choice. Select your Programme and Specialization
-                                from the
-                                list below:</p>
+                            <p>Pursue the course of your choice. Select your preferred programs and specialisation from the list below:</p>
                         </div>
                         <div class="">
                             <div class="form_01 my-md-3 w-100 ">
@@ -233,13 +230,12 @@
                                                 <div class="form-group">
                                                     <select class="form-select dept_01 form_servi"
                                                         placeholder="graduation" name="n_graduation">
-                                                        <option selected disabled>Select Programmes</option>
-                                                        <option value="under-graduation">undergraduate degree</option>
-                                                        <option value="post-graduation-diploma">post graduate diploma
-                                                        </option>
-                                                        <option value="diploma">diploma programmes</option>
-                                                        <option value="certificate">certificate courses</option>
-                                                        <option value="short-term-program">short term program</option>
+                                                        <option selected disabled>Select programs</option>
+                                                        <option value="undergraduate-degree-program">undergraduate degree program</option>
+                                                        <option value="post-graduate-diploma-programs"> post graduate diploma programs</option>
+                                                        <option value="diploma-programs">diploma programs</option>
+                                                        <option value="certificate-courses">certificate courses</option>
+                                                        <option value="short-term-programs">short term programs</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -290,12 +286,12 @@
                                                         <div class="modal-content">
                                                             <div class="modal-header bg-golden text-start">
                                                                 <h1 class="modal-title fs-5 text-uppercase  text-white"
-                                                                    id="exampleModalLabel_form"><?= $k;?></h1>
+                                                                    id="exampleModalLabel_form"><?= str_replace('-', ' ',($k)); ?></h1>
                                                                 <button type="button" class="btn-close"
                                                                     data-bs-dismiss="modal" aria-label="Close"></button>
                                                             </div>
                                                             <div class="modal-body text-start">
-                                                                <h4 class="fw-bold text-blue text-uppercase">
+                                                                <h4 class="fw-bold text-blue text-capitalize">
                                                                     <?= $v1['head']; ?><br>
                                                                 </h4>
                                                                 <div class="">
@@ -303,7 +299,7 @@
                                                                     </p>
                                                                     <p><b>Course Duration :</b> <?= $v1['duration']; ?>
                                                                     </p>
-                                                                    <p><b>Eligibility :</b> <?= $v1['eligibility']; ?>
+                                                                    <p  class="text-capitalize"><b>Eligibility :</b> <?= $v1['eligibility']; ?>
                                                                     </p>
                                                                     <!-- <p><b>Start Date :</b> <?= $v1['date']; ?></p> -->
                                                                     <p><b>Course Overview
@@ -356,15 +352,15 @@
 
                     </div>
                     <div class="col-md-6 text-white border-end pt-4 pt-md-0">
-                        <p>Indian Institute of Gems & Jewellery offers a variety of programmes/courses of varying
+                        <p>Indian Institute of Gems & Jewellery offers a variety of programs/courses of varying
                             durations from its 5 centres. Click on the type of programme/course that interests you and
                             follow the links to explore the details</p>
                         <ul class=" course_01 text-white fw-bold lh-lg mb-3">
-                            <li>DEGREE PROGRAMMES</li>
-                            <li>POST GRADUATE DIPLOMA PROGRAMMES</li>
-                            <li>DIPLOMA PROGRAMMES</li>
+                            <li>UNDERGRADUATE DEGREE PROGRAM</li>
+                            <li>POST GRADUATE DIPLOMA PROGRAMS</li>
+                            <li>DIPLOMA PROGRAMS</li>
                             <li>CERTIFICATE COURSES</li>
-                            <li>SHORT TERM PROGRAMMES</li>
+                            <li>SHORT TERM PROGRAMS</li>
                         </ul>
                     </div>
 
@@ -387,7 +383,7 @@
                 <div class="row justify-content-center text-center">
                     <?php
                     $a = array( "22000", "37", "100");
-                    $b = array( "Alumni Offers", "Years Of Legacy", "Placement Assistance");
+                    $b = array( "Alumni", "Years Of Legacy", "Placement Assistance");
                     $c = array( " border-end mb-4 mb-md-0", " border-end  mb-4 mb-md-0","");
                     $d = array( "+", "+", "%");
                     $e = array( "1", "2", "3");
@@ -449,74 +445,6 @@
 
 
 
-        <section class="bg-light py-5" id="corporatetraining">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <h3>Corporate Training</h3>
-                        <p>IIGJ offers outcome-focused training programmes for the gem & jewellery industry that are
-                            relevant to business needs, for improved performance/productivity of the organisation. <br>
-                            These programmes, such as Retail Sales Associate & Gold Appraisal Training, are essentially
-                            outlined to offer a diverse spectrum of training solutions to gem & jewellery businesses
-                            through existing sets of readily available as well as customised programmes. <br>Based on
-                            IIGJ’s dialogues with gem & jewellery businesses of different strengths and sizes, there has
-                            emerged a compelling and ever-growing requirement for trained jewellery professionals in
-                            various departments.</p>
-
-
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row benefits">
-                            <h4>Three types of Corporate Training are available:</h4>
-                            <?php
-                            $a = array("Off-the Shelf (Retail Sales Associate and Gold Appraisal)", "Customised (As per customer’s specific requirements)", "Hire-Train-Depute");
-                            for ($i=0; $i < count($a); $i++) {
-                            ?>
-                            <div class="col-md-12 img_01 pb-2">
-                                <div class="d-flex align-items-center">
-                                    <img src="images/iigj/benefits/arrow.jpg" width="18px" height="18px" loading="lazy"
-                                        alt="">
-                                    <div class="ps-md-3">
-                                        <p class="mb-0"><b><?= $a[$i];?></b></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php
-                            } 
-                            ?>
-
-                        </div>
-                        <div class="row benefits">
-                            <?php
-                            $a = array("Retail Sales Associate", "Gold Appraisal Training");
-                            $b = array(  "This 150-hour programme empowers the sales team in a jewellery company with required selling skills and product knowledge to strengthen customer management skills leading to improved sales performance.","This is a 2-day programme for corporates, such as banks, or groups of small business owners that covers modern techniques of appraising the value of gold jewellery for loans. Training sessions can be conducted in any location in India or at the Institute.");
-                            for ($i=0; $i < count($a); $i++) {
-                            ?>
-                            <div class="col-md-12 img_01 pb-3">
-                                <div class="d-flex align-items-center">
-                                    <img src="images/iigj/benefits/star.jpg" width="18px" height="18px" loading="lazy"
-                                        alt="">
-                                    <div class="ps-md-3">
-                                        <p class="mb-0"><b><?= $a[$i];?></b><br><?= $b[$i];?></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php
-                            } 
-                            ?>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------------------------------------------------ -->
-
-
 
         <!---our top ranked patanered end--->
         <section class="py-5 bg-grey" id="testimonals">
@@ -562,17 +490,10 @@
                         <h3 class="text-center fw-bold text-golden pb-3 ">ABOUT US</h3>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-md-6">
                         <h5 class="fw-bold ">GJEPC's Foray into Academics & Lab Testing Services</h5>
-                        <p>Since its inception in 1966, GJEPC has represented India’s gem and jewellery industry on
-                            numerous international platforms. It works with the Ministry of Commerce & Industries, Govt.
-                            of India, to formulate policies supporting the industry’s growth while organising numerous
-                            programmes to promote exports, such as the prestigious annual India International Jewellery
-                            Shows (IIJS) as well as other image-building exercises and trade meets. In its mission “To
-                            enable every individual associated with the Indian gems and jewellery industry to achieve
-                            their full potential” GJEPC is always engaged in activities and programmes that will further
-                            strengthen India’s base in jewellery design and manufacturing capabilities</p>
+                        <p>Indian Institute of Gems & Jewellery, an initiative of the Gem & Jewellery Export Promotion Council (GJEPC), was established in 2003 under the aegis of the Ministry of Commerce & Industries (Govt. of India). The objective is to create the next generation of gems & jewellery professionals. The USP of IIGJ campuses in Delhi, Mumbai,  Jaipur, Varanasi and Udupi are: state-of-the-art gems & jewellery training facilities, experienced & industry-trained faculty and industry-aligned, practical-oriented curriculums.</p>
                     </div>
                     <div class="col-md-6">
                         <iframe width="100%" height="315" class="rounded-3 "

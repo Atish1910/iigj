@@ -34,15 +34,13 @@
                  </div> -->
                  <div class="navbar-nav">
                      <a href="<?= LINK; ?>" class="nav-item nav-link">Home</a>
-                     <a href="#programmes" class="nav-item nav-link">Programmes</a>
+                     <a href="#programs" class="nav-item nav-link">Programs</a>
                      <a href="#placement" class="nav-item nav-link">Placement</a>
                      <a href="#recruiter" class="nav-item nav-link">Recruiter</a>
-                     <!-- <a href="#corporatetraining" class="nav-item nav-link">Corporate Training</a> -->
                      <a href="#testimonals " class="nav-item nav-link">Testimonals </a>
                      <a href="#about" class="nav-item nav-link">About</a>
-                     <!-- <a href="#location" class="nav-item nav-link">Location</a> -->
-                     <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
-                     <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#existinguser">Existing User</a>
+                     <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
+                     <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#existinguser">Existing User</a>
                  </div>
              </div>
          </nav>
