@@ -39,7 +39,7 @@
                      <a href="#recruiter" class="nav-item nav-link">Recruiter</a>
                      <a href="#testimonals " class="nav-item nav-link">Testimonals </a>
                      <a href="#about" class="nav-item nav-link">About</a>
-                     <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a>
+                     <!-- <a href="<?= LINK; ?>" class="btn c_btn_01 nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#exampleModal">Apply Now</a> -->
                      <a href="<?= LINK; ?>" class="btn c_btn nav-item nav-link px-3 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#existinguser">Existing User</a>
                  </div>
              </div>

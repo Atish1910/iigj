@@ -1521,6 +1521,16 @@ iframe .widget_container {
     background-color: rgb(0 0 0 / 100%);
 }
 
+
+.bg_height_04 {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 100%;
+}
+
+
 .course_01 a {
     color: white;
 }
@@ -1842,6 +1852,50 @@ iframe .widget_container {
 .enqui_form_ai option{
     text-transform: capitalize;
 }
+
+.iframe_h{
+    height: 640px;
+    width: 100%;
+    border: none;
+
+ }
+ .open_popup button{
+    position: absolute;
+    right: -22px;
+    z-index: 1;
+ }
+
+
+ .popup-carousel .owl-next {
+    height: 40px;
+    width: 40px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
+.popup-carousel .owl-prev {
+    height: 40px;
+    width: 40px;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.vh_section{
+    height: unset;
+}
 @media (min-width: 768px) {
     .head-text_01 sup::before {
         right: 15px;
@@ -1849,6 +1903,9 @@ iframe .widget_container {
         height: 74px;
     }
 
+    .vh_section{
+        height: 100vh;
+    }
     .head-text_01 sub::after {
         right: -22px;
         top: -10px;
@@ -1946,6 +2003,12 @@ iframe .widget_container {
     .bg_height_02 {
         background-color: rgb(0 0 0/ 60%);
     }
+    
+.bg_height_04 {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
     #header-carousel .carousel-item .main-img {
         height: 100%;
         object-fit: cover;
@@ -1960,4 +2023,14 @@ iframe .widget_container {
     width: 200px;
 }
 
+.iframe_h{
+    height: 70vh;
+
+ }
+}
+
+@media (min-width: 1800px) {
+    .iframe_h{
+       height: 75vh;
+    }
 }
