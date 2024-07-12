@@ -30,7 +30,7 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>diploma program</td>
                 <td>6 months</td>
-                <td>diploma in cad</td>
+                <td>diploma in CAD</td>
                 <td>10+2 & jewellery design foundation</td>
             </tr>
             <tr>
@@ -54,7 +54,7 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>certificate program</td>
                 <td>5 days</td>
-                <td>professional certificate - introduction in cad</td>
+                <td>professional certificate - introduction in CAD</td>
                 <td>10th passed</td>
             </tr>
             <tr>
@@ -72,7 +72,7 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>short term program</td>
                 <td>5 days</td>
-                <td>introduction in cad (5 days)</td>
+                <td>introduction in CAD (5 days)</td>
                 <td>n/a</td>
             </tr>
             <tr>
@@ -121,19 +121,19 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>certificate program</td>
                 <td>240 hrs</td>
-                <td>professional certificate in cad rhinoceros for jewellery - offline</td>
+                <td>professional certificate in CAD rhinoceros for jewellery - offline</td>
                 <td>12th passed</td>
             </tr>
             <tr>
                 <td>certificate program</td>
                 <td>120 hrs</td>
-                <td>professional certificate in cad rhinoceros for jewellery - online</td>
+                <td>professional certificate in CAD rhinoceros for jewellery - online</td>
                 <td>10th passed</td>
             </tr>
             <tr>
                 <td>certificate program</td>
                 <td>150 hrs</td>
-                <td>professional certificate in cad matrix for jewellery</td>
+                <td>professional certificate in CAD matrix for jewellery</td>
                 <td>working knowledge of rhino software</td>
             </tr>
             <tr>
@@ -188,7 +188,7 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>postgraduate diploma</td>
                 <td>12 months</td>
-                <td>pg diploma in jewellery design & cad</td>
+                <td>pg diploma in jewellery design & CAD</td>
                 <td>graduation in any stream</td>
             </tr>
             <tr>
@@ -215,7 +215,7 @@ $g = array('<table class="table table-bordered">
              <tr>
                 <td>certificate program</td>
                 <td>540 hours</td>
-                <td>professional certificate in cad (advanced)</td>
+                <td>professional certificate in CAD (advanced)</td>
                 <td>10th passed</td>
             </tr>
             <tr>
@@ -270,13 +270,13 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>certificate program</td>
                 <td>240 hours</td>
-                <td>cad rhinoceros for jewellery</td>
+                <td>CAD rhinoceros for jewellery</td>
                 <td>10th passed</td>
             </tr>
             <tr>
                 <td>certificate program</td>
                 <td>150 hours</td>
-                <td>cad matrix for jewellery</td>
+                <td>CAD matrix for jewellery</td>
                 <td>working knowledge of rhino software</td>
             </tr>
             <tr>
@@ -309,13 +309,13 @@ $g = array('<table class="table table-bordered">
             <tr>
                 <td>certificate program</td>
                 <td>120 hours</td>
-                <td>cad jewellery design</td>
+                <td>CAD jewellery design</td>
                 <td>12th passed</td>
             </tr>
             <tr>
                 <td>certificate program</td>
                 <td>40 hours</td>
-                <td>cad rendering</td>
+                <td>CAD rendering</td>
                 <td>12th passed</td>
             </tr>
             <tr>

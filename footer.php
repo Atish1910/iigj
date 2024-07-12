@@ -14,7 +14,7 @@
                 </div>
                     <?php
                     $a = array("DELHI", "MUMBAI", "JAIPUR", "VARANASI", "UDUPI");
-                    $b = array("F-Block, 1-7, Ground Floor, Flatted Factories Complex, Jhandewalan, Rani Jhansi Road, New Delhi-110055", "Bagmal Laxmichand Parikh Campus, Plot No. 111/2,13th Road, M.I.D.C., Andheri (East), <br> Mumbai - 400 093 ", "SP-111A, RK Derewala Tower, KGK Campus EPIP, SEZ Phase-1, Sitapura Industrial Area, Sitapura, Jaipur, <br> Rajasthan 302022", "5th Floor, Kuber Mall, Rathyatra Crossing Varanasi - 221010", "Canara Complex, 1St Floor, NH- 66, Karavali Bypass, Post Ambalpadi,<br> Udupi  576103, Karnataka.");
+                    $b = array("F-Block, 1-7, Ground Floor, Flatted Factories Complex, Jhandewalan, Rani Jhansi Road, New Delhi - 110055", "Bagmal Laxmichand Parikh Campus, Plot No. 111/2,13th Road, M.I.D.C., Andheri (East), <br> Mumbai - 400 093 ", "SP-111A, RK Derewala Tower, KGK Campus EPIP, SEZ Phase-1, Sitapura Industrial Area, Sitapura, <br> Jaipur,  Rajasthan - 302022", "5th Floor, Kuber Mall, Rathyatra Crossing Varanasi - 221010", "Canara Complex, 1St Floor, NH- 66, Karavali Bypass, Post Ambalpadi,<br> Udupi - 576103, Karnataka.");
                     for ($i=0; $i < count($a); $i++) {
                 ?>
                 <div class="col-md-2 wow slideInUp">

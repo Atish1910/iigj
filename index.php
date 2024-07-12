@@ -307,9 +307,7 @@
 
         </div>
         <div class="col-md-6 text-white border-end pt-4 pt-md-0">
-          <p>Indian Institute of Gems & Jewellery offers a variety of programs/courses of varying
-            durations from its 5 centres. Click on the type of prograinterinterests you and
-            follow the links to explore the details</p>
+          <p>Indian Institute of Gems & Jewellery offers a variety of programmes/courses of varying durations from its 5 centres. Click on the type of programme/course that interests you and follow the links to explore the details</p>
           <ul class=" course_01 text-white fw-bold lh-lg mb-3">
             <li>UNDERGRADUATE DEGREE PROGRAM</li>
             <li>POSTGRADUATE DIPLOMA PROGRAMS</li>
@@ -447,7 +445,7 @@
         <div class="col-md-6">
           <!-- <h5 class="fw-bold ">GJEPC's Foray into Academics & Lab Testing Services</h5> -->
           <p>Indian Institute of Gems & Jewellery, an initiative of the Gem & Jewellery Export Promotion Council
-            (GJEPC), was established in 2003 under the aegis of the Ministry of Commerce & Industries (Govt. of
+            (GJEPC), was established in 1986 under the aegis of the Ministry of Commerce & Industries (Govt. of
             India). The objective is to create the next generation of gems & jewellery professionals. The USP of IIGJ
             campuses in Delhi, Mumbai, Jaipur, Varanasi and Udupi are: state-of-the-art gems & jewellery training
             facilities, experienced & industry-trained faculty and industry-aligned, practical-oriented curriculums.
