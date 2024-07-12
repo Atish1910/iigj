@@ -12,8 +12,8 @@
   <meta charset="utf-8">
   <title>IIGJ Admission Open 2024</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta content="IIGJ ,Indian Institute of Gems & Jewellery ,Gems and Jewellery courses ,Jewellery design programs ,Jewellery education India ,Jewellery design degree ,Jewellery diploma programs ,Jewellery certificate courses ,Short term jewellery courses ,Jewellery training India ,IIGJ Delhi ,IIGJ Mumbai ,IIGJ Jaipur ,IIGJ Varanasi ,IIGJ Udupi ,Gems and Jewellery placement ,Jewellery industry training ,Gems and jewellery faculty ,Jewellery export promotion ,GJEPC initiative ,Jewellery career opportunities ,Jewellery making courses ,Professional jewellery courses ,Jewellery design colleges in India" name="keywords">
+  <meta content="Indian Institute of Gems & Jewellery, an initiative of the Gem & Jewellery Export Promotion Council (GJEPC), was established in 1986 under the aegis of the Ministry of Commerce & Industries (Govt. of India). The objective is to create the next generation of gems & jewellery professionals. The USP of IIGJ campuses in Delhi, Mumbai, Jaipur, Varanasi and Udupi are: state-of-the-art gems & jewellery training facilities, experienced & industry-trained faculty and industry-aligned, practical-oriented curriculums." name="description">
 
   <!-- Favicon -->
   <link href="<?= LINK; ?>images/iigj/logo/fevicon.png" rel="icon">

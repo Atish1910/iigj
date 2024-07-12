@@ -1,5 +1,5 @@
 <?php
   define('LINK', 'http://localhost/myprojects/iigj/');
-  // define('LINK', 'https://gladowl-chandigarh.netlify.app');
+  // define('LINK', 'https://iigj.org/admission_open_2024');
   
 ?>

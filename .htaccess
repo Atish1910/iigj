@@ -59,14 +59,11 @@ RewriteEngine on
 
 #RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
 #RewriteCond %{https} off  
-#RewriteRule ^(.*)$ https://gladowl-chandigarh.netlify.app/$1 [R=301,L]
+#RewriteRule ^(.*)$ https://iigj.org/admission_open_2024/$1 [R=301,L]
 
 RewriteEngine On
 
 RewriteRule ^thankyou.php thankyou.php [NC,L]
-RewriteRule ^enquiry enquiry.php [NC,L]
-RewriteRule ^privacypolicy privacypolicy.php [NC,L]
-RewriteRule ^terms terms.php [NC,L]
 
 
 RewriteCond %{HTTP_USER_AGENT} .*almaden.* [OR]
