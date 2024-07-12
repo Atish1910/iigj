@@ -449,12 +449,11 @@ h6,
     object-fit: contain;
 }
 .overlap_modal .modal {
-    background-color: #0000007f;
+    background-color: #000000b3;
     background-blend-mode: multiply;
-    background-image: url(../images/iigj/banners/4.png);
+    background-image: url(../images/iigj/banners/01.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
 
 .page-header {
@@ -789,7 +788,7 @@ h6,
 
 .testimonial-carousel .owl-nav {
     position: absolute;
-    bottom: -0;
+    bottom: -45px;
     right: 0;
     left: 0;
     display: flex;
@@ -1894,7 +1893,7 @@ iframe .widget_container {
 }
 
 .vh_section{
-    height: unset;
+    height: 260px;
 }
 @media (min-width: 768px) {
     .head-text_01 sup::before {

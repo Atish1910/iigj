@@ -64,7 +64,6 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8"></div>
-
         <div class="col-md-4 d-none d-md-block h_abform">
           <div class="rounded-3 over_hidden bg-white">
             <div class=" pt-4 mb-0 text-center">
@@ -111,7 +110,7 @@
         <div class="col-lg-4 col-md-6  position-relative bg_height <?= $b_01[$i];?>"
           data-bgimg="<?= LINK; ?>images/iigj/scholership/<?= $a[$i];?>.png" loading="lazy" alt="">
 
-          <div class="box-001 <?= $c[$i];?>">
+          <div class=" box-001 <?= $c[$i];?>">
             <img src="images/iigj/scholership/icons/<?= $a[$i];?>.png" width="34" class="filter" loading="lazy" alt="">
             <h4 class="text-white mt-2"><?= $e[$i];?></h4>
             <p></p>
@@ -199,7 +198,7 @@
                         <select class="form-select dept_01 form_servi" placeholder="graduation" name="n_graduation">
                           <option selected disabled>Select programs</option>
                           <option value="undergraduate-degree-program">undergraduate degree program</option>
-                          <option value="post-graduate-diploma-programs"> post graduate diploma programs</option>
+                          <option value="postgraduate-diploma-programs"> postgraduate diploma programs</option>
                           <option value="diploma-programs">diploma programs</option>
                           <option value="certificate-courses">certificate courses</option>
                           <option value="short-term-programs">short term programs</option>
@@ -313,7 +312,7 @@
             follow the links to explore the details</p>
           <ul class=" course_01 text-white fw-bold lh-lg mb-3">
             <li>UNDERGRADUATE DEGREE PROGRAM</li>
-            <li>POST GRADUATE DIPLOMA PROGRAMS</li>
+            <li>POSTGRADUATE DIPLOMA PROGRAMS</li>
             <li>DIPLOMA PROGRAMS</li>
             <li>CERTIFICATE COURSES</li>
             <li>SHORT TERM PROGRAMS</li>

@@ -101,7 +101,7 @@ $g = array('<table class="table table-bordered">
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>post graduate diploma</td>
+                <td>postgraduate diploma</td>
                 <td>12 months</td>
                 <td>pg diploma in jewellery management</td>
                 <td>graduation in any stream</td>
@@ -186,7 +186,7 @@ $g = array('<table class="table table-bordered">
                 <td>12th passed (minimum: 50% average marks)</td>
             </tr>
             <tr>
-                <td>post graduate diploma</td>
+                <td>postgraduate diploma</td>
                 <td>12 months</td>
                 <td>pg diploma in jewellery design & cad</td>
                 <td>graduation in any stream</td>
